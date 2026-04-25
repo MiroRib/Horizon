@@ -81,25 +81,81 @@
 
 ## 工作原理
 
-```
-              ┌──────────┐
-              │ Hacker   │
-┌─────────┐   │ News     │   ┌──────────┐   ┌──────────┐   ┌──────────┐
-│  RSS    │──▶│ Reddit   │──▶│ AI Score │──▶│ Enrich   │──▶│ Summary  │
-│ Telegram│   │ GitHub   │   │ & Filter │   │ & Search │   │ & Deploy │
-└─────────┘   └──────────┘   └──────────┘   └──────────┘   └──────────┘
-  Fetch from      Merge &        Score          Web search     Generate
-  all sources    deduplicate     0-10 each      background     Markdown &
-                                & filter        knowledge      deploy site
+```mermaid
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif",
+    "primaryTextColor": "#2d2a3e",
+    "primaryBorderColor": "#e0dbd3",
+    "lineColor": "#7c7891",
+    "tertiaryColor": "#faf8f5",
+    "clusterBkg": "#f3f0eb",
+    "clusterBorder": "#e0dbd3"
+  }
+}}%%
+flowchart LR
+    classDef config fill:#fbbf24,stroke:#d4a017,color:#2d2a3e,stroke-width:1.5px;
+    classDef source fill:#ede7fb,stroke:#6d4aaa,color:#2d2a3e,stroke-width:1.5px;
+    classDef process fill:#ffe8db,stroke:#e0652e,color:#2d2a3e,stroke-width:1.5px;
+    classDef output fill:#f9d7e5,stroke:#be185d,color:#2d2a3e,stroke-width:1.5px;
+
+    config["⚙️ Config JSON<br/>信息源、阈值、模型、语言、推送方式"]
+
+    subgraph sources["已配置的信息源"]
+        rss["📡 RSS"]
+        hn["📰 Hacker News"]
+        reddit["💬 Reddit"]
+        telegram["✈️ Telegram"]
+        github["🐙 GitHub"]
+    end
+
+    fetch["📥 抓取新闻内容"]
+    dedup["🧹 新闻去重"]
+    score["🤖 AI 打分与过滤"]
+    enrich["🔎 补充搜索背景与讨论"]
+    summary["📝 生成 Markdown 日报"]
+
+    subgraph outputs["输出形式"]
+        direction TB
+        site["🌐 GitHub Pages"]
+        email["📧 邮件"]
+        webhook["🔔 Webhook / 飞书"]
+        mcp["🧩 MCP / 本地文件"]
+    end
+
+    config --> fetch
+    rss --> fetch
+    hn --> fetch
+    reddit --> fetch
+    telegram --> fetch
+    github --> fetch
+
+    fetch --> dedup --> score --> enrich --> summary
+    config --> score
+    config --> summary
+    config --> outputs
+
+    summary --> site
+    summary --> email
+    summary --> webhook
+    summary --> mcp
+
+    linkStyle 0,10,11,12 stroke:#b9b2c9,stroke-width:1px,stroke-dasharray:4 4;
+
+    class config config
+    class rss,hn,reddit,telegram,github source
+    class fetch,dedup,score,enrich,summary process
+    class site,email,webhook,mcp output
 ```
 
-1. **抓取** — 并发拉取所有已配置信息源的最新内容
-2. **去重** — 合并来自不同平台的相同 URL 内容
-3. **打分** — AI 根据技术深度、新颖性和影响力对每条内容评分 0-10
-4. **过滤** — 仅保留超过设定阈值的内容（默认：6.0）
-5. **丰富** — 对高分内容搜索网络获取背景知识，收集社区讨论
-6. **总结** — 生成结构化的 Markdown 报告，包含摘要、标签和参考链接
-7. **部署** — 可选发布至 GitHub Pages，作为每日更新的静态站点
+1. **定义** — 用一个 JSON 配置好信息源、阈值、模型、语言和分发方式。
+2. **抓取** — 并发拉取所有已配置信息源的最新内容。
+3. **去重** — 合并来自不同平台、指向同一故事或 URL 的内容。
+4. **打分与过滤** — 用 AI 对内容排序，只保留超过阈值的条目。
+5. **丰富** — 为重要内容补充搜索得到的背景信息和社区讨论。
+6. **总结** — 生成结构化的 Markdown 日报，包含摘要、标签和参考链接。
+7. **分发** — 将结果发布到 GitHub Pages、邮件、飞书等 webhook、MCP 或本地文件。
 
 ## 快速开始
 

@@ -81,25 +81,81 @@ But Horizon is not just another summarizer. AI is great at reducing noise, but n
 
 ## How It Works
 
-```
-              ┌──────────┐
-              │ Hacker   │
-┌─────────┐   │ News     │   ┌──────────┐   ┌──────────┐   ┌──────────┐
-│  RSS    │──▶│ Reddit   │──▶│ AI Score │──▶│ Enrich   │──▶│ Summary  │
-│ Telegram│   │ GitHub   │   │ & Filter │   │ & Search │   │ & Deploy │
-└─────────┘   └──────────┘   └──────────┘   └──────────┘   └──────────┘
-  Fetch from      Merge &        Score          Web search     Generate
-  all sources    deduplicate     0-10 each      background     Markdown &
-                                & filter        knowledge      deploy site
+```mermaid
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "fontFamily": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif",
+    "primaryTextColor": "#2d2a3e",
+    "primaryBorderColor": "#e0dbd3",
+    "lineColor": "#7c7891",
+    "tertiaryColor": "#faf8f5",
+    "clusterBkg": "#f3f0eb",
+    "clusterBorder": "#e0dbd3"
+  }
+}}%%
+flowchart LR
+    classDef config fill:#fbbf24,stroke:#d4a017,color:#2d2a3e,stroke-width:1.5px;
+    classDef source fill:#ede7fb,stroke:#6d4aaa,color:#2d2a3e,stroke-width:1.5px;
+    classDef process fill:#ffe8db,stroke:#e0652e,color:#2d2a3e,stroke-width:1.5px;
+    classDef output fill:#f9d7e5,stroke:#be185d,color:#2d2a3e,stroke-width:1.5px;
+
+    config["⚙️ Config JSON<br/>sources, thresholds, models, languages, delivery"]
+
+    subgraph sources["Configured Sources"]
+        rss["📡 RSS"]
+        hn["📰 Hacker News"]
+        reddit["💬 Reddit"]
+        telegram["✈️ Telegram"]
+        github["🐙 GitHub"]
+    end
+
+    fetch["📥 Fetch Source Items"]
+    dedup["🧹 Deduplicate Stories"]
+    score["🤖 AI Score & Filter"]
+    enrich["🔎 Enrich with Search + Discussion"]
+    summary["📝 Generate Markdown Summary"]
+
+    subgraph outputs["Outputs"]
+        direction TB
+        site["🌐 GitHub Pages"]
+        email["📧 Email"]
+        webhook["🔔 Webhook / Feishu"]
+        mcp["🧩 MCP / Local Files"]
+    end
+
+    config --> fetch
+    rss --> fetch
+    hn --> fetch
+    reddit --> fetch
+    telegram --> fetch
+    github --> fetch
+
+    fetch --> dedup --> score --> enrich --> summary
+    config --> score
+    config --> summary
+    config --> outputs
+
+    summary --> site
+    summary --> email
+    summary --> webhook
+    summary --> mcp
+
+    linkStyle 0,10,11,12 stroke:#b9b2c9,stroke-width:1px,stroke-dasharray:4 4;
+
+    class config config
+    class rss,hn,reddit,telegram,github source
+    class fetch,dedup,score,enrich,summary process
+    class site,email,webhook,mcp output
 ```
 
-1. **Fetch** — Pull latest content from all configured sources concurrently
-2. **Deduplicate** — Merge items pointing to the same URL across different platforms
-3. **Score** — AI rates each item 0-10 based on technical depth, novelty, and impact
-4. **Filter** — Keep only items above your configured threshold (default: 6.0)
-5. **Enrich** — For high-scoring items, search the web for background context and collect community discussions
-6. **Summarize** — Generate a structured Markdown report with summaries, tags, and references
-7. **Deploy** — Optionally publish to GitHub Pages as a daily-updated static site
+1. **Define** — Configure sources, thresholds, models, languages, and delivery from one JSON config.
+2. **Fetch** — Pull latest content from all configured sources concurrently.
+3. **Deduplicate** — Merge items pointing to the same story or URL across platforms.
+4. **Score & Filter** — Use AI to rank items and keep only those above your threshold.
+5. **Enrich** — Search the web for background context and collect community discussion for important items.
+6. **Summarize** — Generate a structured Markdown briefing with summaries, tags, and references.
+7. **Deliver** — Publish the result to GitHub Pages, email, webhooks such as Feishu, MCP, or local files.
 
 ## Quick Start
 

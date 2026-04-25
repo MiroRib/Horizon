@@ -45,9 +45,18 @@
 <details>
 <summary><strong>终端输出</strong></summary>
 <br>
-<p align="center">
-  <img src="docs/assets/terminal_log.png" alt="终端输出" width="400" />
-</p>
+<table>
+<tr>
+<td width="50%">
+<p align="center"><strong>终端输出</strong></p>
+<img src="docs/assets/terminal_log.png" alt="终端输出" />
+</td>
+<td width="50%">
+<p align="center"><strong>飞书通知</strong></p>
+<img src="docs/assets/feishu_zh.png" alt="飞书通知" />
+</td>
+</tr>
+</table>
 </details>
 
 ## 为什么需要 Horizon？

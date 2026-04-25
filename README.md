@@ -45,9 +45,18 @@
 <details>
 <summary><strong>Terminal Output</strong></summary>
 <br>
-<p align="center">
-  <img src="docs/assets/terminal_log.png" alt="Terminal Output" width="400" />
-</p>
+<table>
+<tr>
+<td width="50%">
+<p align="center"><strong>Terminal Output</strong></p>
+<img src="docs/assets/terminal_log.png" alt="Terminal Output" />
+</td>
+<td width="50%">
+<p align="center"><strong>Feishu Notification</strong></p>
+<img src="docs/assets/feishu_en.png" alt="Feishu Notification" />
+</td>
+</tr>
+</table>
 </details>
 
 ## Why Horizon?

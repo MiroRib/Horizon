@@ -2,152 +2,223 @@
   "version": "1.0",
   "ai": {
     "provider": "openai",
-    "model": "deepseek-v4-flash",
-    "base_url": "https://api.deepseek.com",
-    "api_key_env": "OPENAI_API_KEY",
+    "model": "deepseek-chat",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key_env": "DEEPSEEK_API_KEY",
     "temperature": 0.3,
-    "max_tokens": 8192,
-    "languages": [
-      "zh",
-      "en"
-    ]
+    "max_tokens": 4096,
+    "throttle_sec": 1,
+    "languages": ["en", "zh"]
   },
   "sources": {
-    "github": [
-      {
-        "type": "user_events",
-        "username": "karpathy",
-        "enabled": true
-      },
-      {
-        "type": "repo_releases",
-        "owner": "vllm-project",
-        "repo": "vllm",
-        "enabled": true
-      },
-      {
-        "type": "repo_releases",
-        "owner": "sgl-project",
-        "repo": "sglang",
-        "enabled": true
-      },
-      {
-        "type": "repo_releases",
-        "owner": "triton-lang",
-        "repo": "triton",
-        "enabled": true
-      }
-    ],
     "hackernews": {
       "enabled": true,
       "fetch_top_stories": 30,
-      "min_score": 150
+      "min_score": 100
+    },
+    "reddit": {
+      "enabled": true,
+      "fetch_comments": 5,
+      "subreddits": [
+        { "subreddit": "MachineLearning", "sort": "hot", "fetch_limit": 15, "min_score": 50 },
+        { "subreddit": "LocalLLaMA", "sort": "hot", "fetch_limit": 15, "min_score": 30 },
+        { "subreddit": "semiconductor", "sort": "hot", "fetch_limit": 10, "min_score": 20 },
+        { "subreddit": "robotics", "sort": "hot", "fetch_limit": 10, "min_score": 20 },
+        { "subreddit": "energy", "sort": "hot", "fetch_limit": 15, "min_score": 20 },
+        { "subreddit": "oilandgasworkers", "sort": "hot", "fetch_limit": 10, "min_score": 10 },
+        { "subreddit": "nuclear", "sort": "hot", "fetch_limit": 10, "min_score": 10 },
+        { "subreddit": "economics", "sort": "hot", "fetch_limit": 15, "min_score": 30 },
+        { "subreddit": "geopolitics", "sort": "hot", "fetch_limit": 15, "min_score": 30 },
+        { "subreddit": "wallstreetbets", "sort": "hot", "fetch_limit": 10, "min_score": 100 },
+        { "subreddit": "gamedev", "sort": "hot", "fetch_limit": 15, "min_score": 30 },
+        { "subreddit": "Games", "sort": "hot", "fetch_limit": 15, "min_score": 50 },
+        { "subreddit": "pcgaming", "sort": "hot", "fetch_limit": 10, "min_score": 30 }
+      ]
     },
     "rss": [
       {
-        "name": "Simon Willison",
-        "url": "https://simonwillison.net/atom/everything/",
+        "name": "SemiAnalysis",
+        "url": "https://www.semianalysis.com/feed",
         "enabled": true,
-        "category": "ai-tools"
+        "category": "tech-semi"
       },
       {
-        "name": "GitHub Trending - Daily",
-        "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
+        "name": "The Verge",
+        "url": "https://www.theverge.com/rss/index.xml",
         "enabled": true,
-        "category": "github-trending"
+        "category": "tech-general"
       },
       {
-        "name": "LWN.net",
-        "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
+        "name": "Ars Technica",
+        "url": "https://feeds.arstechnica.com/arstechnica/index",
         "enabled": true,
-        "category": "linux-kernel"
+        "category": "tech-general"
+      },
+      {
+        "name": "TrendForce News",
+        "url": "https://www.trendforce.com/news/feed",
+        "enabled": true,
+        "category": "tech-semi"
+      },
+      {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/feed/",
+        "enabled": true,
+        "category": "tech-general"
+      },
+      {
+        "name": "S&P Global Energy - Oil",
+        "url": "https://www.spglobal.com/commodityinsights/en/rss/oil",
+        "enabled": true,
+        "category": "energy-oil"
+      },
+      {
+        "name": "S&P Global Energy - Electric Power",
+        "url": "https://www.spglobal.com/commodityinsights/en/rss/electric-power",
+        "enabled": true,
+        "category": "energy-power"
+      },
+      {
+        "name": "S&P Global Energy - Natural Gas",
+        "url": "https://www.spglobal.com/commodityinsights/en/rss/natural-gas",
+        "enabled": true,
+        "category": "energy-gas"
+      },
+      {
+        "name": "Utility Dive",
+        "url": "https://www.utilitydive.com/feeds/news/",
+        "enabled": true,
+        "category": "energy-power"
+      },
+      {
+        "name": "Latitude Media (Canary Media)",
+        "url": "https://www.canarymedia.com/feed",
+        "enabled": true,
+        "category": "energy-power"
+      },
+      {
+        "name": "Energy Intelligence",
+        "url": "https://www.energyintel.com/rss-feed.rss",
+        "enabled": true,
+        "category": "energy-oil"
+      },
+      {
+        "name": "Reuters Commodities",
+        "url": "https://www.reuters.com/arc/outboundfeeds/v3/all/section/commodities/?outputType=xml",
+        "enabled": true,
+        "category": "macro-commodity"
+      },
+      {
+        "name": "Reuters Markets",
+        "url": "https://www.reuters.com/arc/outboundfeeds/v3/all/section/markets/?outputType=xml",
+        "enabled": true,
+        "category": "macro-markets"
+      },
+      {
+        "name": "GamesIndustry.biz",
+        "url": "https://www.gamesindustry.biz/feed",
+        "enabled": true,
+        "category": "gaming-biz"
+      },
+      {
+        "name": "Game Developer (Gamasutra)",
+        "url": "https://www.gamedeveloper.com/rss.xml",
+        "enabled": true,
+        "category": "gaming-dev"
+      },
+      {
+        "name": "4Gamer.net",
+        "url": "https://www.4gamer.net/rss/index.xml",
+        "enabled": true,
+        "category": "gaming-jp"
+      },
+      {
+        "name": "Famitsu",
+        "url": "https://www.famitsu.com/feed/",
+        "enabled": true,
+        "category": "gaming-jp"
+      },
+      {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/rss/",
+        "enabled": true,
+        "category": "gaming-pc"
+      },
+      {
+        "name": "SEC EDGAR - APP (AppLovin)",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001498148&type=&dateb=&owner=include&count=10&search_text=&output=atom",
+        "enabled": true,
+        "category": "tracker"
+      },
+      {
+        "name": "SEC EDGAR - BE (Bloom Energy)",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001664703&type=&dateb=&owner=include&count=10&search_text=&output=atom",
+        "enabled": true,
+        "category": "tracker"
+      },
+      {
+        "name": "SEC EDGAR - GEV (GE Vernova)",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001974446&type=&dateb=&owner=include&count=10&search_text=&output=atom",
+        "enabled": true,
+        "category": "tracker"
       }
     ],
-    "reddit": {
-      "enabled": true,
-      "subreddits": [
-        {
-          "subreddit": "MachineLearning",
-          "enabled": true,
-          "sort": "hot",
-          "time_filter": "day",
-          "fetch_limit": 15,
-          "min_score": 60
-        },
-        {
-          "subreddit": "LocalLLaMA",
-          "enabled": true,
-          "sort": "hot",
-          "time_filter": "day",
-          "fetch_limit": 15,
-          "min_score": 60
-        }
-      ],
-      "users": [],
-      "fetch_comments": 10
-    },
-    "telegram": {
-      "enabled": true,
-      "channels": [
-        {
-          "channel": "zaihuapd",
-          "enabled": true,
-          "fetch_limit": 20
-        }
-      ]
-    },
-    "twitter": {
-      "enabled": true,
-      "users": [
-        "karpathy",
-        "roifex"
-      ],
-      "fetch_limit": 10,
-      "fetch_reply_text": false,
-      "max_replies_per_tweet": 3,
-      "max_tweets_to_expand": 10,
-      "reply_min_likes": 5
-    }
+    "github": [
+      {
+        "type": "repo_releases",
+        "owner": "openai",
+        "repo": "openai-python",
+        "enabled": true
+      },
+      {
+        "type": "repo_releases",
+        "owner": "anthropics",
+        "repo": "anthropic-sdk-python",
+        "enabled": true
+      },
+      {
+        "type": "repo_releases",
+        "owner": "deepseek-ai",
+        "repo": "DeepSeek-V3",
+        "enabled": true
+      }
+    ]
   },
+  "groups": [
+    {
+      "name": "Tech",
+      "categories": ["hackernews", "tech-semi", "tech-general"],
+      "scoring": { "enabled": true, "threshold": 6.0 }
+    },
+    {
+      "name": "Energy",
+      "categories": ["energy-oil", "energy-power", "energy-gas"],
+      "scoring": { "enabled": true, "threshold": 5.0 }
+    },
+    {
+      "name": "Macro",
+      "categories": ["macro-commodity", "macro-markets"],
+      "scoring": { "enabled": true, "threshold": 6.0 }
+    },
+    {
+      "name": "Gaming",
+      "categories": ["gaming-biz", "gaming-dev", "gaming-jp", "gaming-pc"],
+      "scoring": { "enabled": true, "threshold": 5.0 }
+    },
+    {
+      "name": "Tracker",
+      "categories": ["tracker"],
+      "scoring": { "enabled": false }
+    }
+  ],
   "filtering": {
-    "ai_score_threshold": 8.0,
+    "ai_score_threshold": 6.0,
     "time_window_hours": 24
   },
   "webhook": {
-    "enabled": true,
+    "enabled": false,
     "url_env": "HORIZON_WEBHOOK_URL",
-    "delivery": "summary_and_items",
-    "overview_position": "last",
-    "platform": "feishu",
-    "layout": "collapsible",
-    "fallback_layout": "markdown",
-    "languages": [
-      "zh"
-    ],
-    "request_body": {
-      "msg_type": "interactive",
-      "card": {
-        "schema": "2.0",
-        "config": {
-          "wide_screen_mode": true
-        },
-        "header": {
-          "title": {
-            "tag": "plain_text",
-            "content": "#{message_title}"
-          },
-          "template": "blue"
-        },
-        "body": {
-          "elements": [
-            {
-              "tag": "markdown",
-              "content": "#{summary}"
-            }
-          ]
-        }
-      }
-    },
-    "headers": ""
+    "platform": "generic",
+    "layout": "markdown"
   }
 }

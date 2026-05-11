@@ -5,307 +5,330 @@ date: 2026-05-11
 lang: en
 ---
 
-> From 72 items, 14 important content pieces were selected
+> From 115 items, 14 important content pieces were selected
 
 ---
 
-1. [Hardware Attestation as Monopoly Enabler](#item-1) ⭐️ 8.0/10
-2. [Fictional Incident Report Exposes Rust Supply Chain Risks](#item-2) ⭐️ 8.0/10
-3. [Joanna Rutkowska Returns with New Blog on Rationality vs Humanism](#item-3) ⭐️ 8.0/10
-4. [Maryland residents face $2B grid upgrade for out-of-state AI data centers](#item-4) ⭐️ 8.0/10
-5. [AI Coding Tools Fuel Task Paralysis, Joy Loss](#item-5) ⭐️ 8.0/10
-6. [Local AI Should Be the Norm for Privacy and Everyday Tasks](#item-6) ⭐️ 7.0/10
-7. [Developer Returns to Hand-Writing Code After AI Overreliance](#item-7) ⭐️ 7.0/10
-8. [Running Local LLMs on M4 Mac with 24GB RAM](#item-8) ⭐️ 7.0/10
-9. [Obsidian plugin abused to deploy remote access trojan](#item-9) ⭐️ 7.0/10
-10. [AI Coding Agents Cut Maintenance Costs](#item-10) ⭐️ 7.0/10
-11. [PS3 Emulator Devs Ask to Stop AI-Generated PRs](#item-11) ⭐️ 7.0/10
-12. [Think Linear Algebra: Free Interactive Textbook](#item-12) ⭐️ 7.0/10
-13. [Father's RNA May Shape Offspring Traits](#item-13) ⭐️ 7.0/10
-14. [Melting Glacier Triggers 500-Meter Tsunami in Tourist Area](#item-14) ⭐️ 7.0/10
+1. [Hardware Attestation as Monopoly Enabler](#item-1) ⭐️ 9.0/10
+2. [Local AI Will Become the Norm](#item-2) ⭐️ 8.0/10
+3. [Fictional CVE-2024-YIKES Satirizes Rust Supply Chain Risks](#item-3) ⭐️ 8.0/10
+4. [Joanna Rutkowska Returns with New Blog Post](#item-4) ⭐️ 8.0/10
+5. [Developer Abandons AI-Generated Code for Hand Writing](#item-5) ⭐️ 7.0/10
+6. [Running Local LLMs on M4 Mac with 24GB Memory](#item-6) ⭐️ 7.0/10
+7. [Obsidian plugin abused to deploy remote access trojan](#item-7) ⭐️ 7.0/10
+8. [AI Coding Agents Must Cut Maintenance Costs](#item-8) ⭐️ 7.0/10
+9. [Mythos AI Finds Only One Low-Severity Curl Vulnerability](#item-9) ⭐️ 7.0/10
+10. [Sperm Epigenetics: Father's Life Experiences May Shape Offspring](#item-10) ⭐️ 7.0/10
+11. [Melting Glacier Triggers 500-Meter Tsunami in Tourist Area](#item-11) ⭐️ 7.0/10
+12. [Microsoft's DirectStorage 1.4 Adds Zstandard Compression](#item-12) ⭐️ 7.0/10
+13. [James Burke's Perfectly Timed Single-Shot Rocket Scene](#item-13) ⭐️ 6.0/10
+14. [Roblox AI photorealism push faces developer skepticism](#item-14) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Hardware Attestation as Monopoly Enabler](https://grapheneos.social/@GrapheneOS/116550899908879585) ⭐️ 8.0/10
+## [Hardware Attestation as Monopoly Enabler](https://grapheneos.social/@GrapheneOS/116550899908879585) ⭐️ 9.0/10
 
-A critical analysis on GrapheneOS's social media highlights how hardware attestation technologies enable monopolistic control and threaten digital freedom, sparking community debate on privacy and trust implications. This discussion is significant because hardware attestation, if misused, could lock users into corporate-controlled ecosystems, undermining device ownership and digital rights. It affects all users of modern computing devices, especially those concerned about privacy and open platforms. The technology uses hardware-bound keys and certificates to verify device integrity, but critics argue it can be used to enforce digital rights management and exclude non-compliant devices. The community notes that current implementations lack zero-knowledge proofs, allowing device tracking via attestation packets.
+A viral discussion on GrapheneOS's social media criticizes hardware attestation systems as tools for vendor lock-in and surveillance, arguing the problem is social and legislative rather than technical. This highlights how hardware attestation, often promoted for security, can be used to enforce monopolistic control and erode user privacy, affecting the entire open ecosystem and user autonomy. The discussion notes that current attestation systems lack zero-knowledge proofs or blind signatures, allowing device linking via attestation packets, and that the push for TPMs and walled gardens has been ongoing since the 1990s.
 
 hackernews · ChuckMcM · May 10, 17:54 · [Discussion](https://news.ycombinator.com/item?id=48086190)
 
-**Background**: Hardware attestation is a process where a device proves its identity and integrity using hardware-backed keys, often via a Trusted Platform Module (TPM). Trusted Computing, promoted by the Trusted Computing Group, aims to enforce consistent behavior but has been controversial for potentially being used against device owners. Opponents like Richard Stallman call it 'treacherous computing' due to its ability to restrict user freedom.
+**Background**: Hardware attestation uses hardware-bound keys and certificates to verify device integrity. It is part of Trusted Computing, which enforces expected behavior via hardware, but critics like Richard Stallman call it 'treacherous computing' because it can lock users into vendor-controlled ecosystems.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://support.apple.com/en-kz/guide/security/sec97eb9e2f2/web">The attestation process uses hardware -bound keys and certificates.</a></li>
-<li><a href="https://developer.android.com/privacy-and-security/security-key-attestation">Verify hardware -backed key pairs with key attestation | Security</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Trusted_Computing">Trusted Computing</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Vendor_lock-in">Vendor lock-in</a></li>
+<li><a href="https://developer.android.com/privacy-and-security/security-key-attestation">Verify hardware -backed key pairs with key attestation | Security</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments express strong opposition to hardware attestation, with users like matheusmoreira warning it will lead to loss of computing freedom and digital ostracism. Others highlight privacy risks due to lack of zero-knowledge proofs, and userbinator draws parallels to Intel's abandoned CPU serial number plan. Overall sentiment is critical, viewing the technology as a tool for corporate control.
+**Discussion**: Commenters argue that technical workarounds are insufficient; the real solution is social and legislative pressure. They also point out that attestation packets enable tracking, and that the industry has been pushing this agenda for decades, with Windows 11's TPM requirement as a recent example.
 
-**Tags**: `#hardware attestation`, `#trusted computing`, `#digital rights`, `#privacy`, `#monopoly`
+**Tags**: `#hardware attestation`, `#monopoly`, `#privacy`, `#trusted computing`, `#surveillance`
 
 ---
 
 <a id="item-2"></a>
-## [Fictional Incident Report Exposes Rust Supply Chain Risks](https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html) ⭐️ 8.0/10
+## [Local AI Will Become the Norm](https://unix.foo/posts/local-ai-needs-to-be-norm/) ⭐️ 8.0/10
 
-A fictional but realistic incident report titled 'CVE-2024-YIKES' details a supply-chain attack on Rust's cargo ecosystem, where compromised credentials of a minor crate maintainer led to malicious code injection through transitive dependencies. This report highlights critical vulnerabilities in open-source supply chains, particularly the risk of transitive dependencies and weak credential security, which could affect millions of Rust users and the broader software industry. The attack exploited a crate called 'vulpine-lz4' with only 12 GitHub stars but was a transitive dependency of cargo itself, and the report lists specific crates like flate2, tar, curl-sys, and libgit2-sys as potential compromise targets.
-
-hackernews · miniBill · May 10, 17:43 · [Discussion](https://news.ycombinator.com/item?id=48086082)
-
-**Background**: Supply-chain attacks in open-source ecosystems have become increasingly common, with threat actors weaponizing popular packages to deliver malware. Rust's cargo package manager relies on transitive dependencies, meaning a vulnerability in any dependency can affect all downstream users. Tools like RustSec exist to audit dependencies for known vulnerabilities.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://microsoft.github.io/RustTraining/engineering-book/ch06-dependency-management-and-supply-chain-s.html">6. Dependency Management and Supply Chain Security - Rust ...</a></li>
-<li><a href="https://rustsec.org/">About RustSec › RustSec Advisory Database</a></li>
-<li><a href="https://markaicode.com/rust-crate-supply-chain-security/">Why 90% of Rust Crates Have Supply Chain Risks—and How to ...</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The community praised the report as a realistic and engaging fictional scenario, with users like lynndotpy noting it was convincing enough to cause concern. athrowaway3z provided a technical list of crates that could be targeted, while others highlighted the humor in the report's details, such as a fake YubiKey purchase.
-
-**Tags**: `#supply-chain security`, `#Rust`, `#CVE`, `#open source`, `#incident response`
-
----
-
-<a id="item-3"></a>
-## [Joanna Rutkowska Returns with New Blog on Rationality vs Humanism](https://tracesofhumanity.org/hello-world/) ⭐️ 8.0/10
-
-Joanna Rutkowska, a renowned security researcher, has launched a new blog titled 'Traces Of Humanity' where she will explore the tension between rationality and humanism, marking her return to public writing after a period of absence. Rutkowska's return is significant for the security community because her past work on virtualization security, such as the 'Blue Pill' attacks, fundamentally challenged assumptions about hardware virtualization as a security panacea. Her philosophical direction may influence how security researchers think about the human and ethical dimensions of their work. The blog's first post announces a struggle between opposing forces: Rationality vs Humanism, Pragmatism vs Beauty, Formalism vs Intuition, Freedom vs Love, and Individualism vs Egalitarianism. Rutkowska has not explicitly stated why she left the computer security industry, but the blog suggests a shift toward broader philosophical questions.
-
-hackernews · alex77456 · May 10, 17:15 · [Discussion](https://news.ycombinator.com/item?id=48085782)
-
-**Background**: Joanna Rutkowska is a highly influential security researcher best known for her work on virtualization security, including the 'Blue Pill' rootkit concept that demonstrated how hardware virtualization could be subverted. She founded Invisible Things Lab and has been a prominent voice in the security community. Her new blog signals a departure from purely technical topics toward philosophical exploration.
-
-**Discussion**: The community comments show a mix of admiration and confusion. Some users provide context about Rutkowska's past impact, while others question her departure from security and express skepticism about the blog's philosophical direction, with one commenter calling it 'rambling about anything.'
-
-**Tags**: `#security`, `#virtualization`, `#Joanna Rutkowska`, `#blog`, `#philosophy`
-
----
-
-<a id="item-4"></a>
-## [Maryland residents face $2B grid upgrade for out-of-state AI data centers](https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises) ⭐️ 8.0/10
-
-Maryland citizens are being billed $2 billion for grid upgrades needed to serve out-of-state AI data centers, prompting the state to file a complaint with federal energy regulators. This case highlights a growing conflict between AI-driven energy demand and regulatory fairness, as residents in one state may subsidize infrastructure for data centers located elsewhere, raising questions about cost allocation and consumer protection. The $2 billion cost is attributed to transmission upgrades by PJM, the regional grid operator, and Maryland argues that the allocation violates a pledge to protect ratepayers. Similar disputes are emerging in other states like Texas and Nevada.
-
-hackernews · lemonberry · May 10, 21:16 · [Discussion](https://news.ycombinator.com/item?id=48088151)
-
-**Background**: Data centers, especially those powering AI, consume enormous amounts of electricity, with U.S. data center energy use expected to more than double by 2030. Grid upgrades to connect these facilities can be costly, and how those costs are allocated between data center operators and general ratepayers is a contentious regulatory issue.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://nzero.com/blog/who-pays-for-new-grid-infrastructure-when-data-centers-expand/">Who Pays for New Grid Infrastructure When Data Centers Expand?</a></li>
-<li><a href="https://www.governor.ny.gov/news/governor-hochul-announces-psc-proceeding-her-plan-ensure-data-centers-pay-their-fair-share">Governor Hochul Announces PSC Proceeding on Her Plan to Ensure Data Centers Pay Their Fair Share for Energy Grid Upgrades | Governor Kathy Hochul | New York State</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters express frustration that large corporations can shift infrastructure costs to residents, with examples from Nevada and Texas showing similar patterns. Some note the complexity of grid planning, while others question why utilities charge fixed infrastructure fees rather than usage-based fees.
-
-**Tags**: `#AI`, `#energy`, `#regulation`, `#data centers`, `#infrastructure`
-
----
-
-<a id="item-5"></a>
-## [AI Coding Tools Fuel Task Paralysis, Joy Loss](https://g5t.de/articles/20260510-task-paralysis-and-ai/index.html) ⭐️ 8.0/10
-
-A personal essay describes how AI coding tools like Claude Code can worsen task paralysis and diminish the intrinsic joy of programming, with community comments echoing similar experiences. This highlights a growing concern about AI's negative impact on developer motivation and mental health, challenging the narrative that AI always boosts productivity. The author, who suspects undiagnosed ADHD, notes that AI tools initially helped overcome inertia but later led to addiction and reduced deep engagement with technical challenges.
-
-hackernews · MrGilbert · May 10, 06:20 · [Discussion](https://news.ycombinator.com/item?id=48081469)
-
-**Background**: Task paralysis is a common symptom of ADHD where individuals struggle to start tasks due to overwhelming choices or fear of failure. AI coding tools automate parts of the development process, which can reduce friction but also remove the rewarding struggle of problem-solving.
-
-**Discussion**: Commenters widely relate to the experience, with some reporting that AI has killed their joy for programming by shifting their role from builder to agent manager. Others express concern about addiction and the difficulty of stopping AI use in a professional setting.
-
-**Tags**: `#AI`, `#developer experience`, `#mental health`, `#productivity`, `#programming`
-
----
-
-<a id="item-6"></a>
-## [Local AI Should Be the Norm for Privacy and Everyday Tasks](https://unix.foo/posts/local-ai-needs-to-be-norm/) ⭐️ 7.0/10
-
-A high-scoring article argues that local AI should become the norm, emphasizing privacy and everyday utility, while the community discussion highlights a likely hybrid future combining local and cloud AI. This debate shapes the future of AI deployment, balancing user privacy with performance needs, and influences how both consumers and companies adopt AI tools. Community members note that local AI already supports tasks like text-to-speech, RAG, and image generation on consumer devices, but high-end models like Opus 4.5 still require cloud servers. The progression from data centers to high-VRAM laptops suggests local AI is becoming more capable.
+A high-scoring blog post argues that local AI will become the norm, citing current consumer-device capabilities and the need for better GUI and OS integration. The post highlights that hardware progression is already enabling local LLM execution on devices like MacBook Pro and Strix Halo. This shift could democratize AI access, reduce reliance on cloud services, and enhance privacy and offline usability. It also signals a major change in how AI is integrated into everyday computing, potentially impacting both consumers and enterprises. The post notes a progression from large data centers to a few servers with H100s, and now to 128 GB VRAM on a MacBook Pro or Strix Halo. It predicts a pattern where expensive remote LLMs handle planning while local slower-but-faster-than-human LLMs handle execution.
 
 hackernews · cylo · May 10, 17:19 · [Discussion](https://news.ycombinator.com/item?id=48085821)
 
-**Background**: Local AI runs models directly on a user's device, ensuring data privacy and offline availability, while cloud AI relies on remote servers for heavy computation. The trade-off involves model quality, speed, and hardware cost. Open-source models like LLaMA and Mistral enable local deployment, but cutting-edge performance often requires expensive cloud GPUs.
+**Background**: Local AI refers to running AI models directly on a user's device rather than on remote cloud servers. This approach offers benefits like lower latency, offline operation, and better privacy. Advances in hardware, such as high-VRAM laptops and efficient on-device inference frameworks, are making local AI increasingly feasible.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://grokipedia.com/page/Local_AI_vs_cloud_AI">Local AI vs. cloud AI</a></li>
-<li><a href="https://acecloud.ai/blog/local-llms-deployment-and-benchmark/">How To Run LLMs Locally - Deployment And Benchmark</a></li>
-<li><a href="https://agathon.ai/insights/your-private-llm-deploying-llms-locally-and-offline-using-ollama">Your private LLM : deploying LLMs locally and offline using... | Agathon</a></li>
+<li><a href="https://www.microcenter.com/site/mc-news/article/where-local-ai-beats-the-cloud.aspx">Where Local AI Beats the Cloud (and Where it Doesn't) - Micro Center</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Edge_computing">Edge computing</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community is optimistic about local AI's future but pragmatic about current limitations. Users like tzm and pronik envision a hybrid model where simple tasks run locally and complex ones go to the cloud. Others, like adamtaylor_13, insist on cloud AI for high-quality results until local hardware catches up.
+**Discussion**: Commenters are generally optimistic about local AI's future, with one listing many practical use cases already possible on consumer devices. However, some express skepticism about achieving cloud-level performance locally soon, and others emphasize the need for better GUI and OS integration before widespread adoption.
 
-**Tags**: `#local AI`, `#privacy`, `#LLM deployment`, `#AI infrastructure`, `#community discussion`
+**Tags**: `#local AI`, `#LLM`, `#edge computing`, `#AI integration`, `#privacy`
+
+---
+
+<a id="item-3"></a>
+## [Fictional CVE-2024-YIKES Satirizes Rust Supply Chain Risks](https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html) ⭐️ 8.0/10
+
+A fictional incident report, CVE-2024-YIKES, was published detailing a sophisticated supply chain attack on the Rust cargo ecosystem, exposing vulnerabilities in transitive dependencies and CI/CD pipelines. This satirical piece highlights real and pressing security issues in open source ecosystems, particularly the risks of agentic development and the difficulty of securing transitive dependencies, resonating strongly with the developer community. The attack exploited a misconfigured XML parser for XXE, exfiltrated credentials, and compromised crates like vulpine-lz4, a transitive dependency of cargo itself, with only 12 GitHub stars.
+
+hackernews · miniBill · May 10, 17:43 · [Discussion](https://news.ycombinator.com/item?id=48086082)
+
+**Background**: Cargo is Rust's package manager and build system, relying on crates.io for package distribution. Supply chain attacks target dependencies to inject malware, often through compromised maintainer accounts or CI/CD pipelines. The fictional CVE-2024-YIKES mimics real-world incidents like the xz backdoor, using satire to educate.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://sesamedisk.com/cve-2024-yikes-supply-chain-attack/">CVE - 2024 - YIKES : A Supply Chain Attack Exposed and... - Sesame Disk</a></li>
+<li><a href="https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html">Incident Report: CVE - 2024 - YIKES | Andrew Nesbitt</a></li>
+<li><a href="https://zenn.dev/cscloud_blog/articles/cf17e39e33faae">【注意喚起】「Incident Report: CVE - 2024 - YIKES ...</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters praised the satire as brilliant and thought-provoking, with some noting it felt alarmingly realistic. Technical discussions included lists of crates that could be targeted to compromise cargo builds, and concerns about agentic development introducing new security risks.
+
+**Tags**: `#supply chain security`, `#open source`, `#Rust`, `#satire`, `#CVE`
+
+---
+
+<a id="item-4"></a>
+## [Joanna Rutkowska Returns with New Blog Post](https://tracesofhumanity.org/hello-world/) ⭐️ 8.0/10
+
+Joanna Rutkowska, the renowned security researcher and creator of Qubes OS, has published a new blog post on her website Traces of Humanity after a long hiatus, marking her return to public writing. Rutkowska's return is significant for the security community because her past work on Blue Pill attacks and Qubes OS has been highly influential, and her current perspectives on security challenges are eagerly anticipated. The blog post is titled 'Hello World!' and appears on her site tracesofhumanity.org. The community discussion highlights her past contributions and the continued relevance of Qubes OS in an era of AI-driven threats.
+
+hackernews · alex77456 · May 10, 17:15 · [Discussion](https://news.ycombinator.com/item?id=48085782)
+
+**Background**: Joanna Rutkowska is a Polish computer security researcher known for her work on stealth malware and low-level security. She founded the Qubes OS project, a security-oriented desktop operating system that uses Xen-based virtualization to isolate applications into secure compartments called qubes. Her earlier research, such as the 'Blue Pill' attacks, demonstrated vulnerabilities in hardware virtualization.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Joanna_Rutkowska">Joanna Rutkowska - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Qubes_OS">Qubes OS</a></li>
+<li><a href="https://invisiblethingslab.com/">Invisible Things Lab | Invisible Things Lab brings the security of Qubes...</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The community expressed excitement and nostalgia, with users praising her past work and noting the increased relevance of Qubes OS given modern threats from LLMs. Some users asked for context about her departure from the industry, while others simply welcomed her back.
+
+**Tags**: `#security`, `#Qubes OS`, `#virtualization`, `#Joanna Rutkowska`, `#infosec`
+
+---
+
+<a id="item-5"></a>
+## [Developer Abandons AI-Generated Code for Hand Writing](https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/) ⭐️ 7.0/10
+
+A developer published a blog post explaining their decision to stop using AI-generated code due to long-term maintainability issues and the erosion of invariants in the codebase. This reflection highlights a growing concern among developers that AI-generated code can degrade code quality over time, potentially leading to higher technical debt and reduced system reliability. The author notes that AI-generated code often violates implicit invariants and architectural constraints, making the codebase harder to maintain and evolve. The post has garnered 397 points and 190 comments on Hacker News, indicating strong community resonance.
+
+hackernews · dropbox_miner · May 11, 01:23 · [Discussion](https://news.ycombinator.com/item?id=48090029)
+
+**Background**: AI code generation tools like GitHub Copilot and ChatGPT can produce code quickly, but they lack understanding of the broader system context and design invariants. Invariants are assumptions that hold true throughout the system, such as architectural patterns or data structure choices, which are critical for long-term maintainability.
+
+**Discussion**: Commenters largely agree with the author's experience, sharing similar stories of initial productivity gains followed by increasing failure rates and codebase degradation. Some suggest rules for using AI agents, such as only generating code one can confidently write manually and fully understanding generated code before integrating.
+
+**Tags**: `#AI code generation`, `#software engineering`, `#code quality`, `#developer experience`
+
+---
+
+<a id="item-6"></a>
+## [Running Local LLMs on M4 Mac with 24GB Memory](https://jola.dev/posts/running-local-models-on-m4) ⭐️ 7.0/10
+
+A practical guide details how to run local large language models (LLMs) on an M4 Mac with 24GB memory, covering model selection, performance benchmarks, and limitations. This guide helps users understand the realistic capabilities of local LLMs on consumer hardware, enabling privacy-preserving AI tasks without cloud dependency. The author tested models like Gemma 4 31B and Qwen 3.5 9B, noting that 24GB memory limits larger models to quantized versions or smaller architectures.
+
+hackernews · shintoist · May 10, 23:09 · [Discussion](https://news.ycombinator.com/item?id=48089091)
+
+**Background**: Apple Silicon Macs use unified memory, allowing the CPU and GPU to share the same pool of RAM, which is beneficial for running LLMs locally. Tools like MLX and Ollama provide optimized inference on these devices.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Apple_M4">Apple M4 - Wikipedia</a></li>
+<li><a href="https://www.linkedin.com/pulse/running-llms-locally-your-mac-deep-dive-mlx-m4-max-travis-lelle-gp6ce">Running LLMs Locally on Your Mac: A Deep Dive into MLX...</a></li>
+<li><a href="https://www.sitepoint.com/mac-m3-max-vs-rtx-4090-local-llm-benchmark/">Mac M3 Max vs RTX 4090: Local LLM Performance ... | SitePoint</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters shared real-world experiences: some found Gemma 4 31B a new baseline for local models, while others noted that 9B models suffice for simple tasks but struggle with complex coding. There was agreement that local models are not yet on par with frontier models but are valuable for privacy-sensitive office work.
+
+**Tags**: `#local LLMs`, `#Apple Silicon`, `#model benchmarking`, `#machine learning`
 
 ---
 
 <a id="item-7"></a>
-## [Developer Returns to Hand-Writing Code After AI Overreliance](https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/) ⭐️ 7.0/10
-
-A developer announced they are returning to writing code by hand after seven months of relying on AI coding agents, citing the need for deeper understanding and design control. This highlights a growing debate about the trade-offs of AI-assisted coding, emphasizing that while AI boosts productivity, it can lead to cognitive debt and loss of architectural insight. The developer now performs all design work by hand—defining interfaces, message types, and ownership rules—before generating any code, even if AI still writes the final code.
-
-hackernews · dropbox_miner · May 11, 01:23 · [Discussion](https://news.ycombinator.com/item?id=48090029)
-
-**Background**: AI coding agents like GitHub Copilot and Claude can generate large amounts of code quickly, but they may produce code the developer doesn't fully understand, leading to 'cognitive debt'—a term for the mental cost of maintaining code you didn't write.
-
-**Discussion**: Commenters noted a discrepancy between the title and the actual practice, as the developer still uses AI for code generation but emphasizes upfront design. Others debated the concept of 'infinite line budget' versus finite complexity budget, agreeing that design remains the hard part.
-
-**Tags**: `#AI-assisted coding`, `#software engineering`, `#developer experience`, `#code quality`
-
----
-
-<a id="item-8"></a>
-## [Running Local LLMs on M4 Mac with 24GB RAM](https://jola.dev/posts/running-local-models-on-m4) ⭐️ 7.0/10
-
-A practical guide details how to run local language models on an M4 Mac with 24GB of unified memory, including setup tips and model recommendations such as Qwen 3.5 9B and Gemma 4 31B. This guide helps users leverage Apple Silicon's unified memory for local LLM inference, offering a privacy-preserving and cost-effective alternative to cloud-based models, especially for developers and hobbyists. The M4's unified memory architecture allows running models like Qwen 3.5 9B efficiently, but larger models such as Gemma 4 31B require more than 24GB RAM. Community benchmarks show that memory bandwidth is more critical than raw GPU FLOPS for LLM inference.
-
-hackernews · shintoist · May 10, 23:09 · [Discussion](https://news.ycombinator.com/item?id=48089091)
-
-**Background**: Apple Silicon Macs use a unified memory architecture where CPU and GPU share the same memory pool, eliminating data transfer bottlenecks. This makes them surprisingly capable for running large language models locally, especially when using optimized frameworks like MLX or llama.cpp with Metal backend.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.archy.net/why-my-mac-mini-m4-outperforms-dual-rtx-3090s-for-llm-inference/">Why My Mac Mini M 4 Outperforms Dual RTX 3090s for LLM Inference</a></li>
-<li><a href="https://www.youngju.dev/blog/culture/2026-03-18-apple-silicon-llm-inference-deep-dive.en">Running LLMs on Apple Silicon: Inside M4/M5 Architecture for ...</a></li>
-<li><a href="https://mljourney.com/mac-m1-vs-m2-vs-m3-vs-m4-for-running-llms-real-tests/">Mac M1 vs M2 vs M3 vs M4 for Running LLMs – Real Tests</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters share mixed experiences: some find local models like Gemma 4 31B surprisingly good for a local setup, while others note that smaller models (e.g., 9B) are only suitable for simple tasks like autocomplete or fixing typos. There is agreement that memory bandwidth is key, and that larger models require 64GB+ RAM.
-
-**Tags**: `#local LLMs`, `#Apple Silicon`, `#machine learning`, `#practical guide`
-
----
-
-<a id="item-9"></a>
 ## [Obsidian plugin abused to deploy remote access trojan](https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/) ⭐️ 7.0/10
 
-A social engineering campaign abused the Obsidian note-taking app's plugin system to deploy a remote access trojan called PhantomPulse, using the Shell Commands and Hider plugins to execute malicious code. This highlights the risks in plugin ecosystems, especially for productivity tools like Obsidian that store sensitive local data, and has prompted the CEO to announce upcoming security updates. The attack requires users to ignore multiple safety warnings and manually enable the 'Installed community plugins' sync feature, making it a social engineering exploit rather than a technical vulnerability.
+A social engineering campaign abused an Obsidian plugin to deploy a remote access trojan called Phantom Pulse RAT, but the attack requires users to ignore multiple safety warnings. This highlights security risks in widely-used note-taking tools like Obsidian, though the attack relies on user behavior rather than a technical vulnerability, prompting discussions about plugin permission models. The attack is a proof of concept with no confirmed victims, and Obsidian's CEO stated that a major plugin security update is coming soon to address concerns.
 
 hackernews · cmbailey · May 10, 22:02 · [Discussion](https://news.ycombinator.com/item?id=48088576)
 
-**Background**: Obsidian is a popular local-first note-taking app that supports community plugins with broad permissions. Remote access trojans (RATs) are malware that give attackers remote control over infected systems. The attack exploited the intended functionality of legitimate plugins rather than a software flaw.
+**Background**: Obsidian is a popular note-taking app that supports community plugins, which can access local files and network. Remote access trojans (RATs) allow attackers to covertly control a victim's computer. The attack exploits social engineering, tricking users into bypassing built-in safety prompts.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://obsidian.md/help/plugin-security">Plugin security - Obsidian Help</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Remote_access_trojan">Remote access trojan</a></li>
 <li><a href="https://forum.obsidian.md/t/security-of-the-plugins/7544">Security of the plugins - Meta - Obsidian Forum</a></li>
-<li><a href="https://tempmail.ninja/blog/phantompulse-trojan-obsidian-malware">PHANTOMPULSE Trojan Weaponizes Obsidian to... | TempMail Ninja</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The Obsidian CEO acknowledged the issue and promised a major security update, while community members debated whether the headline was misleading since the attack relies on social engineering. Some users expressed concern about plugin permissions and called for better sandboxing.
+**Discussion**: The community discussion includes the CEO's response promising a security update, and users expressing confidence in Obsidian while noting the attack is social engineering, not a vulnerability. Some users call for better plugin permissions and sandboxing.
 
-**Tags**: `#security`, `#obsidian`, `#supply chain`, `#social engineering`, `#plugin`
+**Tags**: `#security`, `#obsidian`, `#social engineering`, `#plugin`, `#malware`
+
+---
+
+<a id="item-8"></a>
+## [AI Coding Agents Must Cut Maintenance Costs](https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs) ⭐️ 7.0/10
+
+James Shore argues that AI coding agents should prioritize reducing software maintenance costs over generating new code, challenging the current focus on feature velocity. This perspective could shift how AI tools are evaluated and developed, emphasizing long-term code health over short-term productivity gains, which affects developers, project managers, and AI vendors. The article sparked debate on Hacker News with 176 points and 42 comments, where commenters shared real-world experiences of AI reducing maintenance costs and questioned the linearity of maintenance scaling.
+
+hackernews · cratermoon · May 10, 23:39 · [Discussion](https://news.ycombinator.com/item?id=48089289)
+
+**Background**: Software maintenance costs often exceed initial development costs, yet many AI coding agents focus on generating new features. Non-functional requirements like maintainability are frequently deprioritized, leading to technical debt.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Non-functional_requirement">Non-functional requirement - Wikipedia</a></li>
+<li><a href="https://galorath.com/blog/software-maintenance-costs/">Software Maintenance Cost</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters generally agreed with the premise, with some noting AI has already reduced maintenance in legacy projects. Others criticized the article for lacking evidence and being overconfident.
+
+**Tags**: `#AI coding`, `#software maintenance`, `#non-functional requirements`, `#developer productivity`
+
+---
+
+<a id="item-9"></a>
+## [Mythos AI Finds Only One Low-Severity Curl Vulnerability](https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/) ⭐️ 7.0/10
+
+Anthropic's AI model Mythos, after being hyped as dangerously effective at finding security flaws, identified only one low-severity vulnerability in the widely-used curl tool, as reported by curl's author Daniel Stenberg. This outcome highlights the gap between marketing hype and actual effectiveness of AI in code analysis, reminding the security community that even advanced AI tools struggle to find new issues in well-audited codebases like curl. The single confirmed vulnerability is a low-severity issue planned for publication as a CVE with curl release 8.21.0 in late June 2026. Mythos previously claimed to have found 271 vulnerabilities in Firefox with almost no false positives.
+
+hackernews · TangerineDream · May 11, 06:39 · [Discussion](https://news.ycombinator.com/item?id=48091737)
+
+**Background**: curl is a ubiquitous command-line tool and library for transferring data using various network protocols, used by billions of devices. It has been extensively audited over decades, making it a challenging target for vulnerability discovery. Mythos is Anthropic's latest AI model touted for its code analysis capabilities.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/">Mythos finds a curl vulnerability | daniel.haxx.se</a></li>
+<li><a href="https://curl.se/docs/vulnerabilities.html">curl - Vulnerability Table</a></li>
+<li><a href="https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pTdWNPTEVSRXBBbEhvVTNIdWh5Z0FQAQ?hl=en-NG&gl=NG&ceid=NG:en">Google News - Anthropic's Mythos AI finds 271 vulnerabilities in...</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community comments express skepticism about Mythos's marketing hype, with one user noting that curl's thorough auditing makes it a tough test case. Another user remarks that the hype still helped secure more funding for security, while others caution that most software is not as well-audited as curl.
+
+**Tags**: `#curl`, `#vulnerability`, `#AI`, `#code analysis`, `#security`
 
 ---
 
 <a id="item-10"></a>
-## [AI Coding Agents Cut Maintenance Costs](https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs) ⭐️ 7.0/10
+## [Sperm Epigenetics: Father's Life Experiences May Shape Offspring](https://arstechnica.com/science/2026/05/do-you-take-after-your-dads-rna/) ⭐️ 7.0/10
 
-Practitioners report that AI coding agents can reduce maintenance costs by helping refactor, modernize, and eliminate legacy code, as discussed in a blog post by James Shore. This matters because software maintenance is a major cost driver, and AI agents offer a practical way to tackle technical debt and improve developer productivity. The blog post emphasizes that AI should be used not just to write new code but to actively reduce maintenance burdens, with community members sharing real-world successes in modernizing old projects.
+New evidence suggests that sperm carry epigenetic marks reflecting a father's life experiences, such as diet and stress, which can influence traits in offspring. This challenges traditional views of inheritance, suggesting that acquired traits can be passed down, with implications for medicine, evolution, and understanding disease risk. Epigenetic marks include DNA methylation, histone modifications, and small non-coding RNAs (sncRNAs) in sperm, which may partially evade reprogramming after fertilization.
 
-hackernews · cratermoon · May 10, 23:39 · [Discussion](https://news.ycombinator.com/item?id=48089289)
+rss · Ars Technica · May 10, 11:15
 
-**Background**: Technical debt refers to the future cost of shortcuts taken during development, often leading to high maintenance overhead. AI coding agents are systems that autonomously perform coding tasks like refactoring and editing, helping to reduce such debt.
+**Background**: Epigenetics refers to heritable changes in gene expression that do not alter the DNA sequence. In mammals, most epigenetic marks are erased after fertilization, but some may persist and influence development. Paternal epigenetic inheritance has been studied in plants and animals, but evidence in humans is growing.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Technical_debt">Technical debt - Wikipedia</a></li>
-<li><a href="https://grokipedia.com/page/Coding_agent">Coding agent</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11740528/">How do lifestyle and environmental factors influence the sperm ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Transgenerational_epigenetic_inheritance">Transgenerational epigenetic inheritance - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community members generally agree that AI reduces maintenance costs, with keithnz noting success in modernizing multi-decade projects and gitaarik regularly using Claude for refactoring. Some caution that context matters and that maintainability should be prioritized as a non-functional requirement.
-
-**Tags**: `#AI coding agents`, `#software maintenance`, `#technical debt`, `#developer productivity`, `#refactoring`
+**Tags**: `#epigenetics`, `#paternal inheritance`, `#biology`, `#genetics`
 
 ---
 
 <a id="item-11"></a>
-## [PS3 Emulator Devs Ask to Stop AI-Generated PRs](https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656) ⭐️ 7.0/10
+## [Melting Glacier Triggers 500-Meter Tsunami in Tourist Area](https://arstechnica.com/science/2026/05/how-a-melting-glacier-led-to-a-500-meter-high-tsunami/) ⭐️ 7.0/10
 
-Developers of the PS3 emulator RPCS3 have publicly requested that contributors stop submitting AI-generated pull requests, which waste maintainer time and effort. This highlights a growing problem in open source maintenance where low-quality AI-generated PRs overwhelm maintainers, potentially leading to burnout and reduced project health. The PS3 is a complex platform with poorly documented tooling, making AI-generated code often nonsensical. The community has discussed solutions like invitation-only contributions or requiring developers to take full responsibility for their PRs.
+A melting glacier triggered a massive landslide that generated a 500-meter-high tsunami in a major tourist area, occurring early in the morning when no one was present. This event highlights the growing risks of climate change-induced natural disasters, with implications for hazard assessment and engineering in vulnerable regions. The tsunami reached 500 meters in height, making it one of the tallest ever recorded, and occurred in a populated tourist area, though no casualties were reported due to the timing.
 
-hackernews · stalfosknight · May 10, 23:36 · [Discussion](https://news.ycombinator.com/item?id=48089263)
+rss · Ars Technica · May 10, 11:00
 
-**Background**: A pull request (PR) is a way for contributors to propose code changes to an open source project. Maintainers review and merge PRs, which requires significant effort. AI tools like ChatGPT can generate code, but often produce low-quality or incorrect contributions that burden maintainers.
+**Background**: Glacial melting can destabilize surrounding slopes, leading to landslides that displace large volumes of water and generate tsunamis. Such events are becoming more frequent as global temperatures rise.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://thenewstack.io/ai-generated-code-crisis/">Open source maintainers are drowning in AI-generated pull ...</a></li>
-<li><a href="https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/">Agent pull requests are everywhere. Here’s how to review them.</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters noted that the problem is behavioral, not tool-based, and that AI has worsened existing spam issues. Some suggested returning to invitation-only contribution models, while others praised the Linux kernel's 'Assisted-by' tag approach for acknowledging AI assistance.
-
-**Tags**: `#open source`, `#AI`, `#software engineering`, `#community norms`, `#code review`
+**Tags**: `#climate change`, `#natural disaster`, `#geology`, `#tsunami`, `#glacier`
 
 ---
 
 <a id="item-12"></a>
-## [Think Linear Algebra: Free Interactive Textbook](https://allendowney.github.io/ThinkLinearAlgebra/index.html) ⭐️ 7.0/10
+## [Microsoft's DirectStorage 1.4 Adds Zstandard Compression](https://www.4gamer.net/games/033/G003329/20260508010/) ⭐️ 7.0/10
 
-Allen Downey released a free, interactive linear algebra textbook called Think Linear Algebra, built entirely with Jupyter notebooks and emphasizing practical applications and computational thinking. This textbook makes linear algebra more accessible and engaging for learners by combining code, visualizations, and real-world examples, potentially improving how the subject is taught in data science and engineering contexts. The book covers topics from matrix multiplication to singular value decomposition (SVD), with all content freely available online. Community members suggested adding chapters on PCA and CCA for deeper statistical applications.
+At GDC 2026, Microsoft announced DirectStorage 1.4, which adds native support for Zstandard (Zstd) compression for game assets on both CPU and GPU decompression paths. A public preview was released on March 13, 2026, alongside the initial preview of the Game Asset Conditioning Library (GACL). DirectStorage 1.4 improves compression ratios and loading speeds, enabling developers to reduce game file sizes and shorten load times without sacrificing performance. This update is significant for PC gaming as it leverages modern NVMe SSDs more efficiently, benefiting both developers and players. The update also fixes TDR issues on older GPUs by recompiling GPU decompression shaders with DXC version 1.8.2405 and making them HLSL 2021 compliant. DirectStorage 1.4 is available as a public preview on NuGet, and the GACL helps developers condition assets for optimal streaming.
 
-hackernews · tamnd · May 10, 09:40 · [Discussion](https://news.ycombinator.com/item?id=48082396)
+rss · 4Gamer.net · May 11, 08:00
 
-**Background**: Linear algebra is a foundational branch of mathematics essential for machine learning, computer graphics, and scientific computing. Traditional textbooks often focus on abstract theory, while this notebook-based approach emphasizes hands-on computation and intuition.
-
-**Discussion**: The community reacted positively, with users appreciating Downey's other free textbooks and suggesting additions like PCA/CCA chapters. Some noted the unconventional order of topics (e.g., matrix multiplication before vector addition), but overall sentiment was supportive.
-
-**Tags**: `#linear algebra`, `#education`, `#jupyter notebook`, `#open source`, `#mathematics`
-
----
-
-<a id="item-13"></a>
-## [Father's RNA May Shape Offspring Traits](https://arstechnica.com/science/2026/05/do-you-take-after-your-dads-rna/) ⭐️ 7.0/10
-
-A recent article in Knowable Magazine reviews growing evidence that sperm carries epigenetic marks, including bits of RNA, that reflect a father's life experiences and can influence traits in offspring. This challenges the traditional view that only DNA sequence is inherited, suggesting that paternal experiences such as diet or stress could be passed to children, with implications for evolutionary biology and medicine. Rodent studies have been central to this research, showing that small RNAs in sperm can mediate epigenetic inheritance, though the extent and mechanisms in humans remain under investigation.
-
-rss · Ars Technica · May 10, 11:15
-
-**Background**: Epigenetics refers to heritable changes in gene activity that do not involve alterations to the DNA sequence. Sperm carry not only DNA but also epigenetic marks like RNA and chemical tags that can be influenced by environmental factors. This field of paternal epigenetic inheritance explores how a father's life experiences might be transmitted to offspring through these marks.
+**Background**: DirectStorage is an API from Microsoft that allows games to load assets from NVMe SSDs with lower CPU overhead and higher bandwidth. It was originally introduced for Xbox and later brought to Windows. The technology is crucial for modern games that require fast streaming of large textures and assets to reduce loading times and improve immersion.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://knowablemagazine.org/content/article/living-world/2026/epigenetic-effects-of-sperm-on-offspring">Sperm may pass on life experience of dad via epigenetic ...</a></li>
-<li><a href="https://www.nature.com/articles/s41467-023-37820-2">Emerging evidence that the mammalian sperm epigenome ... - Nature</a></li>
-<li><a href="https://www.nature.com/articles/s41586-024-07472-3">Epigenetic inheritance of diet-induced and sperm-borne ...</a></li>
+<li><a href="https://devblogs.microsoft.com/directx/directstorage-1-4-release-adds-support-for-zstandard/">DirectStorage 1.4 release adds support for Zstandard - DirectX Developer Blog</a></li>
+<li><a href="https://www.tomshardware.com/video-games/pc-gaming/microsoft-debuts-directstorage-1-4-at-gdc-2026-with-zstandard-compression-and-gacl-update-promises-developers-improved-compression-ratios-faster-loading-and-more">Microsoft debuts DirectStorage 1.4 at GDC 2026, with Zstandard compression and GACL — update promises developers improved compression ratios, faster loading, and more | Tom's Hardware</a></li>
+<li><a href="https://learn.microsoft.com/en-us/gaming/gdk/docs/features/console/storage/directstorage/directstorage-overview?view=gdk-2510">DirectStorage Overview - Microsoft Game Development Kit | Microsoft Learn</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#epigenetics`, `#paternal inheritance`, `#genetics`, `#developmental biology`
+**Tags**: `#DirectStorage`, `#storage acceleration`, `#gaming`, `#Microsoft`, `#GDC`
+
+---
+
+<a id="item-13"></a>
+## [James Burke's Perfectly Timed Single-Shot Rocket Scene](https://www.openculture.com/2024/10/the-greatest-shot-in-television.html) ⭐️ 6.0/10
+
+A behind-the-scenes look reveals how James Burke executed a perfectly timed single-shot scene during a rocket launch for his 1978 documentary series Connections. This feat highlights the precision and skill required in pre-digital television production, and serves as a nostalgic reminder of the golden age of documentary filmmaking. The scene required Burke to start his narration exactly 13 seconds before launch, and he nailed it on the first and only take. A cut occurs shortly before the launch, but the final segment was a single continuous shot.
+
+hackernews · susam · May 11, 02:43 · [Discussion](https://news.ycombinator.com/item?id=48090521)
+
+**Background**: Connections is a BBC documentary series that explores the history of science and technology through interconnected stories. Single-shot scenes are rare in television due to the difficulty of coordinating action, camera, and narration without errors.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://daddyelk.com/things-i-like-connections-with-james-burke/">Things I Like: Connections with James Burke - DaddyElk Productions</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Long_take">Long take - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters express admiration for Burke's work and note the golden age of documentaries in the late 1970s. Some point out the cut before the launch, but overall the sentiment is nostalgic and appreciative.
+
+**Tags**: `#television`, `#documentary`, `#James Burke`, `#production`, `#history`
 
 ---
 
 <a id="item-14"></a>
-## [Melting Glacier Triggers 500-Meter Tsunami in Tourist Area](https://arstechnica.com/science/2026/05/how-a-melting-glacier-led-to-a-500-meter-high-tsunami/) ⭐️ 7.0/10
+## [Roblox AI photorealism push faces developer skepticism](https://www.pcgamer.com/software/ai/roblox-wants-ai-to-make-its-games-photorealistic-but-the-devs-making-those-games-arent-sold-on-the-idea-i-dont-think-that-your-average-player-right-now-wants-to-do-that/) ⭐️ 6.0/10
 
-A melting glacier caused a massive landslide that generated a tsunami reaching 500 meters in height in a popular tourist area. The event occurred early in the morning, so no casualties were reported. This unprecedented tsunami height highlights the extreme risks posed by climate change-driven glacial melting, with potential implications for disaster preparedness in mountainous coastal regions. It underscores the need for monitoring glacial stability and early warning systems. The tsunami reached a height of 500 meters, making it one of the tallest ever recorded. The landslide was triggered by a melting glacier, and the area is a major tourist destination, though the early morning timing prevented any loss of life.
+Roblox announced Roblox Reality, an AI-powered upscaling tool to generate photorealistic visuals, but developers like those behind the popular game '99 Nights in the Forest' argue that players prefer the current stylized aesthetic. This highlights a tension between platform ambitions and developer community preferences, potentially affecting the direction of game creation on Roblox and the role of AI in game development. Roblox Reality uses a hybrid architecture combining rendered video and 3D spatial data to deliver 2K resolution at 60 Hz, but developers worry that photorealism may alienate the core audience of younger players who enjoy the blocky, stylized look.
 
-rss · Ars Technica · May 10, 11:00
+rss · PC Gamer · May 11, 01:27
 
-**Background**: Glacial melting due to rising global temperatures can destabilize surrounding slopes, leading to landslides that displace large volumes of water and generate tsunamis. Such events are rare but increasingly studied as climate change accelerates. The 500-meter height is exceptional; typical tsunamis from landslides are much smaller.
+**Background**: Roblox is a user-generated content platform where millions of games are created by amateur developers. The platform's signature aesthetic is low-poly and stylized, which has been a key part of its appeal. Roblox Reality aims to democratize photorealistic game creation using AI, but many developers believe the current look is integral to the platform's identity.
 
-**Tags**: `#climate change`, `#natural disaster`, `#glacier`, `#tsunami`, `#geoscience`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.talkandroid.com/524719-is-this-the-beginning-of-photorealistic-gaming-on-roblox-ai-upscaler-promises-next-level-graphics/">Is This the Beginning of Photorealistic Gaming on Roblox? AI Upscaler Promises Next-Level Graphics - Talk Android</a></li>
+<li><a href="https://about.roblox.com/newsroom/2026/04/roblox-reality-hybrid-architecture-democratizing-photorealistic-multiplayer-gaming">Introducing the Roblox Hybrid Architecture: Democratizing Photorealistic, Multiplayer Gaming | Roblox</a></li>
+<li><a href="https://www.invenglobal.com/articles/21460/anyone-can-create-photorealistic-multiplayer-games-roblox-unveils-new-ai-technology">"Anyone Can Create Photorealistic Multiplayer Games": Roblox Unveils New AI Technology - Inven Global</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI`, `#game development`, `#Roblox`, `#photorealism`
 
 ---

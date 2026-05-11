@@ -1,9 +1,6 @@
 name: Daily Horizon Summary
 
 on:
-  push:
-    paths:
-      - '.github/workflows/daily-summary.yml'
   schedule:
     # Every day at UTC 22:00 (Beijing 06:00 AM next day)
     - cron: '0 22 * * *'

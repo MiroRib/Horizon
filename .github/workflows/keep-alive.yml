@@ -2,8 +2,8 @@ name: Keep Alive
 
 on:
   schedule:
-    # Run every 14 days to prevent GitHub from disabling scheduled workflows
-    - cron: '0 0 1,15 * *'
+    # Run every Sunday at UTC 00:00 to keep workflows active
+    - cron: '0 0 * * 0'
 
 jobs:
   keep-alive:
@@ -16,5 +16,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit --allow-empty -m "chore: keep-alive [skip ci]"
+          # Touch the workflow file to trigger daily-summary via push event
+          echo "# Last keep-alive: $(date -u)" > .github/.keep-alive
+          git add .github/.keep-alive
+          git commit -m "chore: weekly keep-alive $(date -u +'%Y-%m-%d')"
           git push

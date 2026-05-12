@@ -4,6 +4,9 @@ on:
   schedule:
     # Every day at UTC 22:00 (Beijing 06:00 AM next day)
     - cron: '0 22 * * *'
+  push:
+    paths:
+      - '.github/workflows/daily-summary.yml'
   workflow_dispatch:
 
 jobs:

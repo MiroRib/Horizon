@@ -5,586 +5,327 @@ date: 2026-05-13
 lang: zh
 ---
 
-> From 178 items, 30 important content pieces were selected
+> From 184 items, 35 important content pieces were selected
 
 ---
 
-1. [CERT 发布六个严重的 dnsmasq 漏洞 CVE](#item-1) ⭐️ 9.0/10
-2. [Elevator：无需启发式方法的确定性静态二进制翻译](#item-2) ⭐️ 8.0/10
-3. [分支恢复 Bambu Lab 打印机的完整 BambuNetwork 支持](#item-3) ⭐️ 8.0/10
-4. [Needle：从 Gemini 蒸馏出的 2600 万参数工具调用模型](#item-4) ⭐️ 8.0/10
-5. [DuckDB 发布 Quack：面向扩展的客户端-服务器协议](#item-5) ⭐️ 8.0/10
-6. [Scrcpy v4.0 新增动态虚拟显示调整功能](#item-6) ⭐️ 8.0/10
-7. [Obsidian 推出新插件社区网站与自动化审核系统](#item-7) ⭐️ 8.0/10
-8. [SpaceX 发布配备 Raptor 3 升级的 Starship V3](#item-8) ⭐️ 8.0/10
-9. [双胞胎兄弟被解雇后删除 96 个政府数据库](#item-9) ⭐️ 8.0/10
-10. [青少年因 ChatGPT 药物建议死亡，诉讼指控](#item-10) ⭐️ 8.0/10
-11. [资深开发者为何难以传达专业知识](#item-11) ⭐️ 7.0/10
-12. [利用大气散射渲染逼真的天空和行星](#item-12) ⭐️ 7.0/10
-13. [请愿书敦促《纽约时报》《大西洋月刊》《今日美国》解除对 Wayback Machine 的屏蔽](#item-13) ⭐️ 7.0/10
-14. [亚马逊员工为展示 AI 使用而进行“Tokenmaxxing”](#item-14) ⭐️ 7.0/10
-15. [MIT 将世界模型列为 AI 关键趋势](#item-15) ⭐️ 7.0/10
-16. [视频编解码器困扰游戏开发者，尚无解决方案](#item-16) ⭐️ 7.0/10
-17. [铁拳制作人原田胜弘在 SNK 旗下成立 VS Studio](#item-17) ⭐️ 7.0/10
-18. [虚假面试传播密码窃取木马](#item-18) ⭐️ 7.0/10
-19. [谷歌 DeepMind 用 AI 重新构想鼠标指针](#item-19) ⭐️ 6.0/10
-20. [Android Auto 获得通用屏幕适配和 AI 功能](#item-20) ⭐️ 6.0/10
-21. [谷歌预告 Googlebook 笔记本系列，将取代 Chromebook](#item-21) ⭐️ 6.0/10
-22. [家庭微型数据中心提案加速 AI 计算](#item-22) ⭐️ 6.0/10
-23. [安卓将在 2026 年迎来重大 AI 改造](#item-23) ⭐️ 6.0/10
-24. [诺贝尔经济学奖得主的 AI 观点与维护创新](#item-24) ⭐️ 6.0/10
-25. [Constellation Energy 在 PJM 队列中新增 5 GW 容量，数据中心不确定性犹存](#item-25) ⭐️ 6.0/10
-26. [亚马逊签署新型屋顶热泵协议](#item-26) ⭐️ 6.0/10
-27. [EIA 因中东战争调整石油展望](#item-27) ⭐️ 6.0/10
-28. [世嘉因 Rovio 亏损降低服务型游戏优先级](#item-28) ⭐️ 6.0/10
-29. [微软以色列总经理因 Azure 道德指控离职](#item-29) ⭐️ 6.0/10
-30. [内存危机中涌现逼真假 DDR5 模块](#item-30) ⭐️ 6.0/10
+1. [LLM 让个人软件生态成为可能](#item-1) ⭐️ 8.0/10
+2. [ProPublica 揭露健康保险算法拒赔内幕](#item-2) ⭐️ 8.0/10
+3. [引力透镜揭示含有首批超新星元素的早期星系](#item-3) ⭐️ 8.0/10
+4. [AI 聊天机器人泄露真实电话号码，引发隐私担忧](#item-4) ⭐️ 8.0/10
+5. [Fervo Energy IPO 标志下一代地热里程碑](#item-5) ⭐️ 8.0/10
+6. [MacBook Neo 深度解析：基准测试、晶圆经济学与 8GB 内存赌注](#item-6) ⭐️ 7.0/10
+7. [美国在 AI 商业化上领先但面临风险](#item-7) ⭐️ 7.0/10
+8. [开发者从 GitHub 迁移到自托管的 Forgejo](#item-8) ⭐️ 7.0/10
+9. [将数字栈迁移至欧洲的个人经历](#item-9) ⭐️ 7.0/10
+10. [牙齿蛋白质连接直立人、丹尼索瓦人和现代人](#item-10) ⭐️ 7.0/10
+11. [美军兵棋推演系列以轨道核爆模拟开场](#item-11) ⭐️ 7.0/10
+12. [NEMA：美国电力消费到 2050 年将增长 55%](#item-12) ⭐️ 7.0/10
+13. [亚马逊押注采用 MOF 除湿的新型屋顶热泵](#item-13) ⭐️ 7.0/10
+14. [AI 教科书作者警告：AI 竞赛可能导致人类灭绝](#item-14) ⭐️ 7.0/10
+15. [微软 10 亿美元肯尼亚数据中心遭遇电网瓶颈](#item-15) ⭐️ 7.0/10
+16. [.us 域名下免费地区子域名指南](#item-16) ⭐️ 6.0/10
+17. [普林斯顿大学结束 133 年无人监考传统](#item-17) ⭐️ 6.0/10
+18. [AMD 将 3D V-Cache 引入 Ryzen PRO 9000 工作站](#item-18) ⭐️ 6.0/10
+19. [Meta 推出加密隐身 AI 聊天功能](#item-19) ⭐️ 6.0/10
+20. [翼展堪比喷气客机的太阳能无人机创下飞行纪录后坠毁](#item-20) ⭐️ 6.0/10
+21. [FCC 批准 EchoStar 频谱出售激怒小型运营商](#item-21) ⭐️ 6.0/10
+22. [普林斯顿大学 AI 作弊泛滥，荣誉准则失效](#item-22) ⭐️ 6.0/10
+23. [奥运举重中杠铃鞭梢效应的物理学](#item-23) ⭐️ 6.0/10
+24. [尼安德特人 5.9 万年前钻牙治疗蛀牙](#item-24) ⭐️ 6.0/10
+25. [奥特曼因不诚实指控出庭受审](#item-25) ⭐️ 6.0/10
+26. [Anthropic 指责反乌托邦科幻小说导致 AI 表现邪恶](#item-26) ⭐️ 6.0/10
+27. [Varda 与制药公司签约，推动太空药物制造](#item-27) ⭐️ 6.0/10
+28. [FERC 主席：PJM 可能‘大得无法运作’](#item-28) ⭐️ 6.0/10
+29. [公用事业面临数据中心增长的限制](#item-29) ⭐️ 6.0/10
+30. [基荷太阳能从梦想走向现实](#item-30) ⭐️ 6.0/10
+31. [微软以色列总经理因 Azure 伦理指控离职](#item-31) ⭐️ 6.0/10
+32. [日本海上保安厅发布 Minecraft 海底地形世界](#item-32) ⭐️ 6.0/10
+33. [黑客劫持 Microsoft Teams 进行社会工程攻击](#item-33) ⭐️ 6.0/10
+34. [教学软件公司与黑客谈判，违抗 FBI 建议](#item-34) ⭐️ 6.0/10
+35. [Ken Levine：艺术指导胜过尖端图形技术](#item-35) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [CERT 发布六个严重的 dnsmasq 漏洞 CVE](https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html) ⭐️ 9.0/10
+## [LLM 让个人软件生态成为可能](https://sockpuppet.org/blog/2026/05/12/emacsification/) ⭐️ 8.0/10
 
-CERT 发布了六个针对广泛使用的 DNS/DHCP 服务器 dnsmasq 的严重安全漏洞 CVE。这些漏洞是通过 AI 辅助安全审计发现的，引发了关于内存安全的讨论。 这些漏洞影响无数设备，包括家用路由器和物联网设备，构成严重的安全隐患。讨论凸显了从 C 等内存不安全语言迁移到 Rust 等内存安全语言的紧迫性。 这六个 CVE 涵盖了各种内存安全问题，如缓冲区溢出和悬空指针。漏洞存在于用 C 编写且资源需求低的 dnsmasq 中。
+一篇论文认为，大型语言模型（LLM）使软件生产变得如此简单，以至于个人可以创建自己个性化的、类似 Emacs 的软件生态系统，这一趋势被称为“Emacsification”。 这种转变可能使软件创作民主化，让非程序员也能构建定制工具，并可能从根本上改变软件的开发和消费方式，摆脱一刀切的应用程序。 这个概念借鉴了 Emacs 的类比，Emacs 是一个高度可定制的文本编辑器，用户通常维护着大量的个人配置文件。文章认为，借助 LLM，构建定制解决方案现在比安装现有软件更容易。
 
-hackernews · chizhik-pyzhik · May 12, 18:12 · [社区讨论](https://news.ycombinator.com/item?id=48112042)
+hackernews · rdslw · May 13, 07:06 · [社区讨论](https://news.ycombinator.com/item?id=48118727)
 
-**背景**: dnsmasq 是一个轻量级 DNS 转发器和 DHCP 服务器，常用于小型网络、家用路由器和物联网设备。内存安全指防止缓冲区溢出等 bug；C 和 C++是内存不安全的，而 Rust 和 Java 是内存安全的。CVE（通用漏洞与暴露）为公开已知的安全漏洞提供标准化参考。
+**背景**: Emacs 是一款传奇的文本编辑器，以其极高的可扩展性而闻名，允许用户通过 Emacs Lisp 自定义几乎每个方面。“Emacsification”这个比喻意味着软件像 Emacs 一样，正在变成一个个人化的、可塑的环境，而不是一个固定的产品。LLM 通过从自然语言提示生成代码，降低了编程的门槛。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Dnsmasq">Dnsmasq</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Memory_safety">Memory safety</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures">Common Vulnerabilities and Exposures - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GNU_Emacs">GNU Emacs - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Software_categories">Software categories - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者讨论了 AI 在安全审计中的作用以及内存安全语言的必要性。有人指出 AI 能发现缓冲区溢出，但可能无法发现协议级缺陷如 Kaminsky 攻击。还有人批评 Debian 使用过时的 dnsmasq 版本，并询问 OpenWRT 的响应。
+**社区讨论**: 评论者大多同意这一论点，有人指出个人软件是家庭计算的原始愿景。另一位用户（dang）强烈赞同这一观点，称软件生产现在如此简单，以至于一切都变成了“.emacs 文件”。然而，也有人不同意，他们提到对等宽字体的偏好或个人 Emacs 配置的脆弱性。
 
-**标签**: `#security`, `#dnsmasq`, `#CVE`, `#memory safety`, `#open source`
+**标签**: `#LLMs`, `#personal software`, `#software engineering`, `#Emacs`, `#AI-assisted development`
 
 ---
 
 <a id="item-2"></a>
-## [Elevator：无需启发式方法的确定性静态二进制翻译](https://arxiv.org/abs/2605.08419) ⭐️ 8.0/10
+## [ProPublica 揭露健康保险算法拒赔内幕](https://www.propublica.org/article/evicore-health-insurance-denials-cigna-unitedhealthcare-aetna-prior-authorizations) ⭐️ 8.0/10
 
-研究人员推出了 Elevator，这是首个完全静态的二进制翻译器，通过预先计算每个字节的所有可行解释，无需启发式方法、调试信息或源代码，即可确定性地将整个 x86-64 可执行文件翻译为 AArch64。 这种方法使得在监管行业（如航空、医疗设备）中能够进行认证，这些行业无法接受基于 JIT 的翻译，因为输出二进制必须可签名且确定。其性能也达到或优于 QEMU 用户态 JIT 模拟。 Elevator 生成自包含的二进制文件，可信代码库中无运行时组件，但由于枚举所有可行翻译，.text 段可能增大至 50 倍。目前尚不支持多线程和异常处理。
+ProPublica 的一项调查显示，Cigna、UnitedHealthcare 和 Aetna 等健康保险公司利用算法和非医生审核员系统性地拒绝赔付，常常绕过医疗必要性审查。 这种做法导致大量合法索赔被拒，增加患者痛苦和费用，同时引发对算法偏见和医疗决策缺乏透明度的伦理担忧。 调查发现，算法会标记需要审查的请求，但只有医生才能做出最终拒绝决定；然而，非医生审核员通常处理初步筛查，公司还设置如限制传真页数等障碍来避免批准。
 
-hackernews · matt_d · May 13, 04:25 · [社区讨论](https://news.ycombinator.com/item?id=48117810)
+hackernews · ceejayoz · May 13, 19:01 · [社区讨论](https://news.ycombinator.com/item?id=48126000)
 
-**背景**: 二进制翻译将可执行代码从一种指令集架构（ISA）转换为另一种。传统静态二进制翻译依赖启发式方法来区分代码和数据，这可能引入非确定性。JIT（动态）翻译是确定性的，但引入了运行时组件，在安全关键系统中难以认证。
+**背景**: 美国健康保险公司通常要求治疗前获得预先授权，并越来越多地使用 AI 算法自动化这一流程。这些算法可减少 50-75%的人工工作，但批评者认为它们旨在拒绝索赔。2022 年针对 Carelon（前身为 AIM）的诉讼指控其采用如将传真机设置为仅接收 5-10 页等技巧来避免批准。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2605.08419">[2605.08419] Deterministic Fully-Static Whole-Binary Translation without Heuristics</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Static_binary_translation">Static binary translation</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Binary_translation">Binary translation - Wikipedia</a></li>
+<li><a href="https://precisiondentalanalytics.com/blog/the-algorithmic-denial-machine/">The Algorithmic Denial Machine: How... | Precision Dental Analytics</a></li>
+<li><a href="https://notes.suhaib.in/docs/tech/news/ai-vs-your-doctor-why-insurers-are-denying-claims-with-algorithms-what-patients-providers-must-do-in-2026/">How AI Denies Insurance Claims in 2026—and What You Can Do...</a></li>
+<li><a href="https://www.cbsnews.com/news/unitedhealth-lawsuit-ai-deny-claims-medicare-advantage-health-insurance-denials/">UnitedHealth uses faulty AI to deny elderly patients... - CBS News</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者强调认证角度是一个重大突破，尽管有人担心 50 倍的代码膨胀会导致缓存性能问题。其他人则认为这种权衡对于确定性翻译是可以接受的，并赞扬了未来支持多线程和异常处理的潜力。
+**社区讨论**: 评论中的医生分享了与“同行评审”的挫败感，他们需要与非医生审核员沟通，并指出尽管人均支出很高，但结果不佳。一些人对比了传统 Medicare 和 Medicare Advantage，认为后者也存在类似的拒赔问题。
 
-**标签**: `#binary translation`, `#static analysis`, `#certification`, `#systems research`, `#determinism`
+**标签**: `#healthcare`, `#ethics`, `#insurance`, `#algorithmic-bias`, `#investigative-journalism`
 
 ---
 
 <a id="item-3"></a>
-## [分支恢复 Bambu Lab 打印机的完整 BambuNetwork 支持](https://github.com/FULU-Foundation/OrcaSlicer-bambulab) ⭐️ 8.0/10
+## [引力透镜揭示含有首批超新星元素的早期星系](https://arstechnica.com/science/2026/05/gravitational-lens-shows-a-galaxy-just-800-million-years-post-big-bang/) ⭐️ 8.0/10
 
-一个名为 OrcaSlicer-bambulab 的 OrcaSlicer GitHub 分支已被创建，旨在恢复 Bambu Lab 打印机的完整 BambuNetwork 支持，允许无需云认证限制的互联网打印。 该分支直接对抗 Bambu Lab 有争议的固件更新——该更新要求本地网络打印也需云认证，回应了社区的强烈反对，并维护了用户对其设备的控制权。 该分支基于 Bambu Lab 更改之前的 OrcaSlicer 仓库状态，通过 BambuNetwork 实现完整的互联网访问和打印功能，而不仅限于局域网模式。
+天文学家利用引力透镜效应，探测到一个存在于大爆炸后仅 8 亿年的星系，并发现其中含有宇宙首批超新星产生的元素。 这一发现为首批恒星和超新星对早期化学增丰提供了直接证据，为理解早期宇宙中的星系形成和元素演化提供了关键线索。 该星系通过引力透镜效应被观测到，透镜效应放大了遥远天体，从而能够探测到早期超新星的化学特征。发现的元素包括比氢和氦更重的元素，表明它们来自第一代恒星中的核合成。
 
-hackernews · Murfalo · May 12, 21:55 · [社区讨论](https://news.ycombinator.com/item?id=48115127)
+rss · Ars Technica · May 13, 15:53
 
-**背景**: Bambu Lab 是一家以封闭生态系统著称的 3D 打印机制造商。2025 年初，该公司宣布了一项固件更新，要求即使本地网络打印也需云认证，引发了 3D 打印社区的广泛批评。OrcaSlicer 是一款用于准备 3D 打印的开源切片软件。
+**背景**: 引力透镜效应是指大质量天体（如星系团）弯曲来自更遥远天体的光线，起到天然望远镜的作用。首批恒星和超新星被认为产生了重元素，这些元素为后来的恒星和星系提供了种子。本次观测直接将早期星系与那些原始爆炸联系起来。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/unS0uL/OrcaSlicer-bambulab">GitHub - unS0uL/OrcaSlicer-bambulab: OrcaSlicer with restored BambuNetwork support for Bambu Lab printers, with full internet access and printing just like before. · GitHub</a></li>
-<li><a href="https://github.com/dafik/OrcaSlicer-bambulab">GitHub - dafik/OrcaSlicer-bambulab: OrcaSlicer with restored BambuNetwork support for Bambu Lab printers, with full internet access and printing just like before. · GitHub</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Bambu_Lab">Bambu Lab - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gravitational_lensing">Gravitational lensing</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Supernova">Supernova - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Supernova_nucleosynthesis">Supernova nucleosynthesis - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区普遍支持该分支，用户表达了对 Bambu Lab 云认证要求的不信任。一些人将 Bambu 的做法与 Ubiquiti 等提供更用户可控远程访问的供应商进行不利比较。其他人因争议而重新考虑购买 Bambu 打印机。
-
-**标签**: `#3D printing`, `#open source`, `#firmware`, `#privacy`, `#community backlash`
+**标签**: `#astrophysics`, `#cosmology`, `#gravitational lensing`, `#early universe`, `#supernovae`
 
 ---
 
 <a id="item-4"></a>
-## [Needle：从 Gemini 蒸馏出的 2600 万参数工具调用模型](https://github.com/cactus-compute/needle) ⭐️ 8.0/10
+## [AI 聊天机器人泄露真实电话号码，引发隐私担忧](https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/) ⭐️ 8.0/10
 
-Cactus 开源了 Needle，一个从 Gemini 蒸馏出的 2600 万参数函数调用模型，仅使用注意力层，没有前馈网络。在消费级设备上达到 6000 tok/s 预填充和 1200 tok/s 解码速度。 Needle 挑战了大型模型对于智能体任务必要的假设，表明一个极小的模型在单次工具调用中可以超越大得多的模型。这使得在手机、手表和眼镜上运行设备端 AI 智能体成为可能。 该模型在 16 个 TPU v6e 上预训练了 200B token，耗时 27 小时，然后在 2B token 的合成函数调用数据上后训练了 45 分钟。在单次函数调用基准测试中，它击败了 FunctionGemma-270M、Qwen-0.6B、Granite-350M 和 LFM2.5-350M。
+谷歌的 AI 聊天机器人 Gemini 在回复中泄露了用户的真实电话号码，导致用户收到陌生人的骚扰电话。受影响的用户表示，没有简单的方法可以退出或阻止这种泄露。 此问题影响数百万用户，凸显了广泛部署的 AI 系统中存在的严重隐私缺陷。如果没有明确的退出机制，个人数据泄露可能会削弱用户对 AI 助手的信任，并引发监管审查。 泄露的信息似乎来自谷歌的知识图谱或其他索引来源，而非用户与 Gemini 的直接交互。谷歌尚未提供全面的修复方案，建议用户手动请求从搜索结果中移除。
 
-hackernews · HenryNdubuaku · May 12, 18:03 · [社区讨论](https://news.ycombinator.com/item?id=48111896)
+rss · MIT Technology Review · May 13, 18:09
 
-**背景**: 工具调用（或函数调用）允许 LLM 与外部 API 和工具交互，实现智能体行为。模型蒸馏将知识从大型“教师”模型转移到小型“学生”模型。传统 Transformer 同时使用注意力和前馈网络（FFN），但 Needle 认为对于工具调用这类基于检索的任务，FFN 参数是浪费的。
+**背景**: Google Gemini 是谷歌开发的生成式 AI 聊天机器人和虚拟助手，于 2023 年以 Bard 名称推出，后更名为 Gemini。它与 ChatGPT 和 Meta AI 竞争，用户增长迅猛。该问题的根源在于 Gemini 访问并呈现了公开可用或被谷歌索引的个人联系信息，而缺乏足够的隐私保护措施。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://medium.com/@yasir_siddique/tool-calling-for-llms-a-detailed-tutorial-a2b4d78633e2">Tool Calling for LLMs: A Detailed Tutorial | by Yasir Siddique | Medium</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Knowledge_distillation">Knowledge distillation - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)">Transformer (deep learning architecture)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Google_Gemini">Google Gemini - Wikipedia</a></li>
+<li><a href="https://www.businessinsider.com/google-gemini-usage-surging-rivals-chatgpt-meta-dominating-2025-4">Google 's Gemini Usage Is Surging, but Rivals Still... - Business Insider</a></li>
+<li><a href="https://evrimagaci.org/gpt/dutch-watchdog-warns-on-ai-chatbot-data-leaks-521883">Dutch Watchdog Warns On AI Chatbot Data Leaks - Grand Pinnacle...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者对模型在复杂工具使用中的判别能力表示兴趣，并担心 Google 可能对蒸馏行为进行反击。一些人提出了实际应用，如自然语言命令行解析，其他人则请求提供在线演示。
+**社区讨论**: 在 Reddit 上，用户表达了沮丧和担忧，许多人通过分享类似经历证实了该问题。一些人批评谷歌缺乏透明度且响应缓慢，而另一些人则讨论了 AI 隐私的更广泛影响。
 
-**标签**: `#tool calling`, `#model distillation`, `#edge AI`, `#open source`, `#NLP`
+**标签**: `#AI`, `#privacy`, `#Google`, `#chatbots`, `#security`
 
 ---
 
 <a id="item-5"></a>
-## [DuckDB 发布 Quack：面向扩展的客户端-服务器协议](https://duckdb.org/2026/05/12/quack-remote-protocol) ⭐️ 8.0/10
+## [Fervo Energy IPO 标志下一代地热里程碑](https://www.canarymedia.com/articles/geothermal/fervo-energy-ipo-milestone) ⭐️ 8.0/10
 
-DuckDB 宣布了 Quack，一种新的客户端-服务器协议，支持远程连接和并发写入，允许多个 DuckDB 实例相互通信并实现水平扩展。 Quack 解决了 DuckDB 的关键限制——其嵌入式单进程特性——通过支持并发访问和水平扩展，为可观测性数据或内部应用等场景开辟了新的用例。 Quack 是一种基于成熟技术构建的远程过程调用（RPC）协议，设计上易于设置。它允许多个并发写入者，但写入在服务器端是串行化的。
+下一代地热初创公司 Fervo Energy 今日上市，募资约 19 亿美元，估值达 77 亿美元，成为首家上市的下一代地热公司。 此次 IPO 验证了下一代地热能的商业可行性，可能开启新一轮投资和部署，这种清洁能源能以最小土地占用提供基荷电力。 Fervo 采用增强型地热系统（EGS）技术，通过向干热岩注水形成人工储层，从而在没有天然水热资源的地方实现地热发电。
 
-hackernews · aduffy · May 12, 17:54 · [社区讨论](https://news.ycombinator.com/item?id=48111765)
+rss · Latitude Media (Canary Media) · May 13, 15:30
 
-**背景**: DuckDB 是一种嵌入式、进程内的 OLAP 数据库，传统上缺乏客户端-服务器模型，这意味着它在宿主进程内运行，无法处理并发远程连接。Quack 通过引入一个独立的服务器进程改变了这一点，DuckDB 客户端可以通过 quack: 协议连接到该服务器，从而实现水平扩展和并发写入。
+**背景**: 传统地热发电依赖天然热水储层，地理分布受限。下一代地热技术（包括 EGS）通过钻井和水力压裂几乎可在任何地方获取地热，大幅扩展了地热能的潜力。美国能源部估计，到 2050 年 EGS 可提供超过 100 GW 的清洁电力。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://duckdb.org/2026/05/12/quack-remote-protocol">Quack: The DuckDB Client-Server Protocol – DuckDB</a></li>
-<li><a href="https://duckdb.org/quack/">Quack Remote Protocol – DuckDB</a></li>
-<li><a href="https://en.wikipedia.org/wiki/DuckDB">DuckDB - Wikipedia</a></li>
+<li><a href="https://www.wri.org/insights/next-generation-geothermal-energy-explained">How Geothermal Can Help Unlock 100% Clean Power</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Enhanced_geothermal_system">Enhanced geothermal system - Wikipedia</a></li>
+<li><a href="https://www.energy.gov/hgeo/geothermal/enhanced-geothermal-systems">Enhanced Geothermal Systems | Department of Energy</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区对 Quack 感到兴奋，用户指出它解决了实际问题，如传感器数据管道的并发访问和内部应用的水平扩展。一些评论者质疑“并发写入者”的定义，怀疑写入在服务器端是串行化的，而另一些人则对 DuckDB 不断演变的定位表示不确定。
-
-**标签**: `#DuckDB`, `#database`, `#client-server protocol`, `#scalability`, `#open source`
+**标签**: `#geothermal`, `#renewable energy`, `#IPO`, `#climate tech`, `#energy innovation`
 
 ---
 
 <a id="item-6"></a>
-## [Scrcpy v4.0 新增动态虚拟显示调整功能](https://github.com/Genymobile/scrcpy/releases/tag/v4.0) ⭐️ 8.0/10
+## [MacBook Neo 深度解析：基准测试、晶圆经济学与 8GB 内存赌注](https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/) ⭐️ 7.0/10
 
-Scrcpy v4.0 引入了灵活的虚拟显示功能，可随客户端窗口动态调整大小，无需重启显示即可更改分辨率或宽高比。 此更新显著提升了屏幕镜像和远程控制的用户体验，使 scrcpy 更适合桌面式使用，并与 Samsung DeX 等解决方案竞争。 该功能通过 --flex-display（或 -x）标志启用。它解决了长期以来的动态分辨率缩放功能请求，此前只能通过重新创建虚拟显示来实现。
+一篇关于 MacBook Neo 的详细技术分析揭示了其性能基准测试、晶圆成本经济学以及固定 8GB 内存配置的权衡。 该分析帮助硬件爱好者理解苹果廉价笔记本电脑的价值主张，尤其是 8GB 内存和有限 I/O 等成本节约措施，这可能影响购买决策。 MacBook Neo 仅配备一个 USB 3 端口（10Gb/s）和一个 USB 2 端口，缺少 Thunderbolt，且没有内存升级选项，两种配置均固定为 8GB。
 
-hackernews · xnx · May 12, 20:50 · [社区讨论](https://news.ycombinator.com/item?id=48114356)
+hackernews · tosh · May 13, 18:30 · [社区讨论](https://news.ycombinator.com/item?id=48125617)
 
-**背景**: Scrcpy 是一款免费开源工具，可通过 USB 或 TCP/IP 从桌面计算机镜像并控制 Android 设备。它被开发者和爱好者广泛用于调试、演示和远程协助。在 v4.0 之前，更改虚拟显示分辨率需要重启显示，这对动态工作流来说很不方便。
+**背景**: 晶圆经济学是指半导体制造的成本分析，其中每片晶圆上的功能芯片数量（良率）决定了每颗芯片的成本。像 M1 这样的 Apple Silicon 芯片是在晶圆上制造的，了解这些成本有助于解释 MacBook Neo 的定价。8GB 内存限制是为了将基础价格保持在 599 美元而做出的权衡，但可能会影响重度用户的多任务处理性能。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Scrcpy">scrcpy - Wikipedia</a></li>
-<li><a href="https://github.com/Genymobile/scrcpy/issues/5651">Dynamic resolution scaling of virtual displays. · Issue #5651 · Genymobile/scrcpy</a></li>
+<li><a href="https://9to5mac.com/2026/03/04/the-599-macbook-neo-fine-print-ram-limits-usb-c-trade-offs-and-touch-id-tiers/">The $599 MacBook Neo fine print: RAM limits, USB-C trade-offs, and Touch ID tiers - 9to5Mac</a></li>
+<li><a href="https://anysilicon.com/wafer-cost/">Understanding Wafer Cost - AnySilicon</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区参与度很高，用户分享了创造性的用例，例如将手机用作 WiFi 桥接器。一些用户报告了三星设备上的手势导航问题，而另一些用户则称赞该工具对非技术用户的无缝操作。
+**社区讨论**: 评论者普遍称赞 MacBook Neo 的价值，一些人指出 8GB 内存足以满足网页开发和日常任务。然而，对 I/O 限制（例如只有一个 USB 3 端口，没有 Thunderbolt）和不可升级内存的担忧是反复出现的主题。一位用户分享了使用 8GB M1 Air 的积极体验，暗示 Neo 可能同样能满足大多数用户。
 
-**标签**: `#scrcpy`, `#android`, `#screen-mirroring`, `#open-source`, `#tools`
+**标签**: `#MacBook`, `#hardware`, `#benchmarks`, `#Apple Silicon`, `#wafer economics`
 
 ---
 
 <a id="item-7"></a>
-## [Obsidian 推出新插件社区网站与自动化审核系统](https://obsidian.md/blog/future-of-plugins/) ⭐️ 8.0/10
+## [美国在 AI 商业化上领先但面临风险](https://avkcode.github.io/blog/us-winning-ai-race.html) ⭐️ 7.0/10
 
-Obsidian 宣布推出新的社区网站和自动化审核系统，以应对插件提交量的激增，取代了此前成为瓶颈的手动审核流程。 这一变化缓解了开发者的挫败感和团队倦怠，加快了插件审批速度，并可持续地扩展生态系统。它也表明 Obsidian 致力于维护开放的插件平台，同时解决安全问题。 新系统包括代码质量和安全性的自动化检查，但未引入权限系统或沙箱机制；插件仍然可以完全访问文件系统和网络。社区网站提供了开发者仪表板，并通过 GitHub 简化了提交流程。
+一篇高评分新闻分析认为，美国目前在 AI 商业化方面领先，拥有 Anthropic、OpenAI 和谷歌等杰出公司，但警告政治不稳定和中国模型的竞争可能削弱这一优势。 这很重要，因为 AI 商业化决定了经济和战略优势，而讨论表明领导地位并非必然——美国政策不稳定和中国快速追赶可能改变格局。 该文章评分为 7.0/10，参与度高（142 分，386 条评论），社区评论质疑美国公司是否真正获胜，考虑到盈利问题以及竞争对手能以更低成本提炼进展。
 
-hackernews · xz18r · May 12, 15:45 · [社区讨论](https://news.ycombinator.com/item?id=48109970)
+hackernews · akrylov · May 13, 13:53 · [社区讨论](https://news.ycombinator.com/item?id=48121929)
 
-**背景**: Obsidian 是一款流行的笔记应用，支持社区开发的插件。随着用户群的增长，插件提交量压垮了小型团队的手动审核流程，导致长时间延迟和开发者不满。新的自动化系统旨在扩大审核能力，同时不牺牲安全性。
+**背景**: 中美之间的 AI 竞赛常被描述为地缘政治竞争，商业化——将研究转化为盈利产品——被视为关键战场。美国公司如 OpenAI 和谷歌发布了先进模型，但中国公司也取得了快速进展，有时通过提炼美国模型。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://obsidian.md/blog/future-of-plugins/">The future of Obsidian plugins - Obsidian</a></li>
-<li><a href="https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin">Build a plugin - Developer Documentation</a></li>
-<li><a href="https://forum.obsidian.md/t/recurrent-why-does-it-take-so-long-to-review-plugins-whats-the-usual-time-it-takes-to-review-a-new-plugin-how-long-does-it-take-to-review-a-plugin/107899/42">Recurrent: Why does it take so long to review plugins? What's the usual time it takes to review a new plugin? How long does it take to review a plugin? - #42 by DRRO - Developers: Plugin & API - Obsidian Forum</a></li>
+**社区讨论**: 评论者意见不一：有人认为美国之所以赢，只是因为西方禁止使用中国模型；另一些人警告，如果竞争对手能以低成本追赶，早期领先并不能保证长期胜利。还有人担心美国政治不稳定会削弱信任和可靠性。
 
-</ul>
-</details>
-
-**社区讨论**: 社区评论褒贬不一：CEO kepano 对发布表示兴奋并邀请反馈，用户 dtkav 称赞缓解了瓶颈。但 varun_ch 和 troad 批评缺乏权限系统或沙箱机制，认为仅靠自动化检查无法防止恶意插件。
-
-**标签**: `#Obsidian`, `#plugins`, `#developer tools`, `#automation`, `#security`
+**标签**: `#AI`, `#geopolitics`, `#commercialization`, `#US-China`, `#technology race`
 
 ---
 
 <a id="item-8"></a>
-## [SpaceX 发布配备 Raptor 3 升级的 Starship V3](https://www.spacex.com/updates#starship-v3) ⭐️ 8.0/10
+## [开发者从 GitHub 迁移到自托管的 Forgejo](https://jorijn.com/en/blog/leaving-github-for-forgejo/) ⭐️ 7.0/10
 
-SpaceX 宣布了 Starship V3，这是 Starship 系列的首次重大升级，采用了集成传感器和辅助系统的 Raptor 3 发动机，并简化了生产流程。 此次升级显著提升了推力和生产效率，推进了 SpaceX 快速复用和火星殖民的目标，同时引发了关于将 AI 整合到太空操作的讨论。 Raptor 3 发动机是首批生产型迭代发动机，内部集成了大量传感器和辅助系统，超重型助推器成功完成了 33 台发动机的静态点火测试。
+一位开发者记录了他们从 GitHub 迁移到自托管 Forgejo 实例的过程，详细说明了迁移步骤和权衡。 这个故事凸显了开发者对去中心化、自托管替代方案（如 Forgejo）日益增长的兴趣，尤其是那些担心供应商锁定和企业控制的开发者。 作者指出，虽然 Forgejo 缺少 GitHub 的一些功能（如 Actions 和大型社交图谱），但它提供了完全的控制权和隐私保护。支持跨实例协作的联邦功能仍在开发中。
 
-hackernews · fprog · May 13, 01:29 · [社区讨论](https://news.ycombinator.com/item?id=48116781)
+hackernews · jorijn · May 13, 12:54 · [社区讨论](https://news.ycombinator.com/item?id=48121266)
 
-**背景**: Starship 是 SpaceX 设计的完全可重复使用超重型运载火箭，用于月球、火星及其他任务。Raptor 发动机采用全流量分级燃烧循环，提高了效率和可靠性。V3 升级吸收了此前试飞的经验教训。
+**背景**: Forgejo 是一个用 Go 编写的自托管轻量级软件锻造平台，于 2022 年从 Gitea 分叉而来。它提供 Git 托管、问题跟踪、代码审查和 CI/CD 功能，采用 GPLv3 许可证。GitHub 由微软拥有，是占主导地位的集中式 Git 托管平台。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/SpaceX_Raptor">SpaceX Raptor - Wikipedia</a></li>
-<li><a href="https://www.indiatoday.in/science/story/spacex-starship-super-heavy-v3-static-fire-33-raptor-engines-test-2908557-2026-05-08">SpaceX Starship Super Heavy fires 33 Raptor engines ... - India Today</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Forgejo">Forgejo</a></li>
+<li><a href="https://forgejo.org/">Forgejo – Beyond coding. We forge .</a></li>
+<li><a href="https://gogs.io/">Introduction - Gogs: A painless self - hosted Git service</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区评论褒贬不一：有人称赞 Raptor 3 的工程简洁性，也有人批评 Elon Musk 关于太空 AI 的愿景不切实际，并担心 SpaceX 被 Grok 等 AI 项目‘污染’。
+**社区讨论**: 评论者强调了联邦功能对于真正去中心化的重要性，一些人向 Forgejo 和 Codeberg 捐款以加速其开发。其他人指出，自托管也有助于避免 AI 抓取，而 GitSocial 等工具可以跨锻造平台保留社交图谱。
 
-**标签**: `#SpaceX`, `#Starship`, `#Raptor engine`, `#space technology`, `#engineering`
+**标签**: `#git`, `#self-hosting`, `#decentralization`, `#open-source`, `#forgejo`
 
 ---
 
 <a id="item-9"></a>
-## [双胞胎兄弟被解雇后删除 96 个政府数据库](https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job/) ⭐️ 8.0/10
+## [将数字栈迁移至欧洲的个人经历](https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/) ⭐️ 7.0/10
 
-双胞胎兄弟在被解雇后，因离职前未撤销其凭证，删除了 96 个政府数据库。 此事件凸显了在解雇员工前撤销访问凭证的关键重要性，尤其是对于拥有数据库访问权限的 IT 岗位。它强烈提醒组织必须严格执行离职流程，以防止数据丢失和安全漏洞。 兄弟俩在被解雇后不久就能访问并删除数据库，表明他们的系统访问权限仍然有效。删除 96 个数据库的规模表明他们拥有广泛的权限，很可能是数据库管理员。
+一位开发者记录了自己将数字服务从美国提供商迁移到欧洲替代方案的个人经历，分享了具体步骤和提供商对比。该文章引发了社区关于欧盟数据主权和迁移挑战的广泛讨论。 这反映了一个日益增长的趋势：在美国不可预测性和欧盟监管变化的背景下，个人和企业开始优先考虑数据主权。讨论突出了实际权衡和不断发展的欧洲云生态系统。 作者将电子邮件、存储和分析等服务迁移到欧洲提供商，但保留了 Cloudflare 用于 CDN/DDoS 防护。社区成员分享了替代方案，例如用 Bunny CDN 替换 Cloudflare，并指出迁移的痛苦但总体满意。
 
-rss · Ars Technica · May 12, 19:12
+hackernews · monokai_nl · May 13, 11:42 · [社区讨论](https://news.ycombinator.com/item?id=48120629)
 
-**背景**: 在许多组织中，IT 员工拥有管理关键系统的高级权限。当员工被解雇时，标准安全实践要求立即撤销所有访问凭证。未能做到这一点可能导致恶意或意外的数据破坏，正如本案例所示。
+**背景**: 数据主权是指数据受其收集或处理所在国法律约束的概念。欧盟的 GDPR 和拟议的“技术主权一揽子计划”旨在减少对非欧盟云提供商的依赖，尤其是敏感政府数据。云迁移涉及将数据和应用程序从一个环境移动到另一个环境，通常需要仔细规划和提供商评估。
 
-**标签**: `#security`, `#access management`, `#IT policy`, `#data breach`
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Data_sovereignty">Data sovereignty - Wikipedia</a></li>
+<li><a href="https://www.cnbc.com/2026/05/07/eu-commission-cloud-sensitive-data.html">EU weighs restricting use of U.S. cloud platforms to process sensitive government data, sources tell CNBC</a></li>
+<li><a href="https://european-alternatives.eu/category/cloud-computing-platforms">European cloud computing platforms | European Alternatives</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 社区评论显示出强烈的参与度，许多人分享了自己的迁移经历和提供商推荐。一些人对欧盟的数字政策表示怀疑，提及 VPN 禁令等潜在限制，而另一些人则强调多元化的重要性，并赞扬了 Bunny CDN 等欧洲替代方案。
+
+**标签**: `#EU digital sovereignty`, `#cloud migration`, `#privacy`, `#infrastructure`
 
 ---
 
 <a id="item-10"></a>
-## [青少年因 ChatGPT 药物建议死亡，诉讼指控](https://arstechnica.com/tech-policy/2026/05/will-i-be-ok-teen-died-after-chatgpt-pushed-deadly-mix-of-drugs-lawsuit-says/) ⭐️ 8.0/10
+## [牙齿蛋白质连接直立人、丹尼索瓦人和现代人](https://arstechnica.com/science/2026/05/protein-in-homo-erectus-teeth-suggests-denisovans-gave-us-some-of-their-dna/) ⭐️ 7.0/10
 
-一项诉讼指控一名青少年在遵循 ChatGPT 关于混合药物的建议后死亡，聊天记录显示该青少年信任 AI 帮助他安全地尝试药物。 此案凸显了 AI 聊天机器人提供未经审核的医疗建议的现实危险，引发了对 AI 安全护栏和法律责任的紧迫讨论。 这些互动发生在已不可用的早期版本 ChatGPT 上，OpenAI 表示 ChatGPT 不能替代医疗护理。
+在直立人中发现的一种独特的牙齿蛋白质也出现在丹尼索瓦人和现代人中，表明这些物种之间存在先前未知的遗传联系。 这一发现为古人类之间复杂的杂交历史提供了新证据，有助于厘清直立人、丹尼索瓦人和现代人之间的进化关系。 该研究分析了直立人化石的牙釉质蛋白质，并与丹尼索瓦人和现代人的蛋白质进行比较，发现了一种尼安德特人中没有的共享变体。
 
-rss · Ars Technica · May 12, 19:00
+rss · Ars Technica · May 13, 20:27
 
-**背景**: 像 ChatGPT 这样的 AI 聊天机器人基于互联网数据训练的大型语言模型生成回复，但它们缺乏真正的理解能力，可能产生有害建议。这一事件凸显了在健康等敏感领域需要强有力的安全措施。
+**背景**: 古遗传学利用古代 DNA 和蛋白质研究进化历史。丹尼索瓦人是一个主要从 DNA 证据中得知的已灭绝古人类群体，而直立人是一种更早的物种，生活在非洲和亚洲。共享蛋白质的发现表明这些群体之间存在基因流动。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lMZ2NDSEVSRTNHdk5pX3RodkRDZ0FQAQ?hl=en-GH&gl=GH&ceid=GH:en">OpenAI sued for wrongful death after ChatGPT drug advice - Overview</a></li>
-<li><a href="https://www.cnet.com/tech/services-and-software/openai-chatgpt-drug-advice-lawsuit-teen-death/">Lawsuit Claims ChatGPT Gave Drug -Taking Advice That Led... - CNET</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Denisovan">Denisovan</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Homo_erectus">Homo erectus</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Paleogenetics">Paleogenetics</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI safety`, `#ethics`, `#ChatGPT`, `#legal`, `#health`
+**标签**: `#paleogenetics`, `#human evolution`, `#Denisovans`, `#Homo erectus`, `#ancient DNA`
 
 ---
 
 <a id="item-11"></a>
-## [资深开发者为何难以传达专业知识](https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise) ⭐️ 7.0/10
+## [美军兵棋推演系列以轨道核爆模拟开场](https://arstechnica.com/space/2026/05/a-new-us-military-wargame-series-began-by-simulating-a-nuclear-weapon-in-orbit/) ⭐️ 7.0/10
 
-Nair.sh 上的一篇文章探讨了资深开发者为何难以表达自己的专业知识，将其归因于内化知识和沟通差距。 这一点很重要，因为专业知识沟通不畅会导致知识孤岛、团队效率降低，并错失软件工程团队中的指导机会。 文章指出，资深开发者通常依赖难以用语言表达的内部“世界模型”，沟通失败并非因为缺乏知识，而是因为隐性知识转移的困难。
+美国太空司令部启动了名为“阿波罗洞察”的新保密兵棋推演系列，首次推演模拟了低地球轨道上的核武器爆炸。 此次兵棋推演凸显了核爆炸对卫星基础设施的灾难性威胁，可能使关键军事和民用网络瘫痪长达一年。 此次推演邀请了商业公司与军方共同参与，该系列兵棋推演旨在为未来的太空威胁做好准备。
 
-hackernews · nilirl · May 12, 15:08 · [社区讨论](https://news.ycombinator.com/item?id=48109460)
+rss · Ars Technica · May 13, 18:04
 
-**背景**: 在软件工程中，专业知识常常变得隐性——即深度内化且难以解释的知识。这种现象被称为“专业知识悖论”，即专家尽管有深刻理解，却可能难以教导他人。
+**背景**: 低地球轨道上的核爆炸会产生高辐射环境，摧毁或瘫痪卫星，并产生碎片和电磁效应。此类事件可能使低地球轨道大片区域在数月或数年内无法使用，从而中断通信、监视和导航服务。
 
-**社区讨论**: 评论者就原因展开辩论：有人认为资深开发者的内部世界模型使沟通变得困难，而另一些人则指出初级开发者通常对指导兴趣不大。少数人指出，对资深开发者一概而论并无帮助，因为具体情况差异很大。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://arstechnica.com/space/2026/05/a-new-us-military-wargame-series-began-by-simulating-a-nuclear-weapon-in-orbit/">A new US military wargame series began by... - Ars Technica</a></li>
+<li><a href="https://xeber.world/en/article/a-new-us-military-wargame-series-began-by-simulating-a-nuclear-weapon-in-orbit-b2364e">US Space Command Launches Apollo Insight Wargames to Simulate...</a></li>
 
-**标签**: `#software engineering`, `#communication`, `#senior developers`, `#expertise`
+</ul>
+</details>
+
+**标签**: `#space security`, `#military wargame`, `#nuclear weapons`, `#satellites`, `#low-Earth orbit`
 
 ---
 
 <a id="item-12"></a>
-## [利用大气散射渲染逼真的天空和行星](https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/) ⭐️ 7.0/10
+## [NEMA：美国电力消费到 2050 年将增长 55%](https://www.utilitydive.com/news/us-annual-electricity-consumption-data-centers-nema/820112/) ⭐️ 7.0/10
 
-Maxime Heckel 发布了一篇详细的博客文章，包含交互式演示和代码，解释了如何使用大气散射技术渲染逼真的天空、日落和行星。 这项工作使高级计算机图形技术对 Web 开发者和爱好者更加可及，从而在浏览器和游戏中实现更沉浸的视觉体验。 文章涵盖了瑞利散射和米氏散射、天空穹顶渲染以及行星大气模拟，并提供了交互式 WebGL 演示和源代码。
+美国电气制造商协会（NEMA）预测，受未来十年数据中心能源使用量激增 300%的推动，美国年度电力消费到 2050 年将增长 55%。 这一预测凸显了数据中心（尤其是为 AI 提供动力的数据中心）将给美国电网带来的巨大压力，对能源基础设施规划、科技行业扩张和气候目标具有重大影响。 NEMA 代表电气设备制造商，其预测与其他报告一致，例如 IEA 预计全球数据中心能源消费到 2030 年将翻倍，主要归因于 AI。
 
-hackernews · ibobev · May 12, 13:26 · [社区讨论](https://news.ycombinator.com/item?id=48107997)
+rss · Utility Dive · May 13, 13:51
 
-**背景**: 大气散射是导致天空呈现蓝色、日落变红的物理过程。在计算机图形学中，它通过瑞利散射（针对小颗粒）和米氏散射（针对较大颗粒）等数学模型进行模拟。实时渲染这些效果需要高效的着色器实现。
+**背景**: 数据中心是容纳计算机系统及相关组件的设施，消耗大量电力用于计算和冷却。AI 和云计算的快速发展正在推动数据中心能源需求激增，引发了对电网容量和碳排放的担忧。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://developer.nvidia.com/gpugems/gpugems2/part-ii-shading-lighting-and-shadows/chapter-16-accurate-atmospheric-scattering">Chapter 16. Accurate Atmospheric Scattering | NVIDIA Developer</a></li>
-<li><a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@10.5/manual/Atmospheric-Scattering.html">Atmospheric Scattering | High Definition RP | 10.5.1</a></li>
-<li><a href="https://www.cg.tuwien.ac.at/research/publications/2019/kerbl_2019_planet_poster/">Real-time Rendering of Procedural Planets at Arbitrary Altitudes | TU Wien – Research Unit of Computer Graphics</a></li>
+<li><a href="https://en.wikipedia.org/wiki/NEMA">NEMA</a></li>
+<li><a href="https://www.datacenterdynamics.com/en/news/iea-data-center-energy-consumption-set-to-double-by-2030-to-945twh/">IEA: Data center energy consumption set to double by 2030 to...</a></li>
+<li><a href="https://carboncredits.com/us-data-centers-power-requirement-will-double-by-2030/">US Data Center Power Use Will Double by 2030 Because of AI</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者称赞了这篇文章，有人提到了 Sebastian Lague 关于大气层的视频以及 Nishita 等人 1993 年的经典论文。一位评论者指出一个物理上的不准确之处：演示中的天空在日落后立即变黑，而真实的暮光会持续到太阳位于地平线以下 18 度。
-
-**标签**: `#computer graphics`, `#atmospheric rendering`, `#web development`, `#shaders`, `#visual effects`
+**标签**: `#energy`, `#data centers`, `#infrastructure`, `#electricity`
 
 ---
 
 <a id="item-13"></a>
-## [请愿书敦促《纽约时报》《大西洋月刊》《今日美国》解除对 Wayback Machine 的屏蔽](https://www.savethearchive.com/newsleaders/) ⭐️ 7.0/10
+## [亚马逊押注采用 MOF 除湿的新型屋顶热泵](https://www.canarymedia.com/articles/heat-pumps/amazon-game-changing-heat-pump) ⭐️ 7.0/10
 
-一份发布在 savethearchive.com 上的请愿书呼吁《纽约时报》《大西洋月刊》和《今日美国》停止阻止互联网档案馆的 Wayback Machine 抓取和存档其内容。 这凸显了出版商对其内容的控制权与公众保存数字历史的利益之间日益紧张的矛盾，可能为新闻机构如何与网络档案馆互动树立先例。 请愿书专门针对阻止 Wayback Machine 存档这些网站的 robots.txt 屏蔽，争论焦点在于遵守 robots.txt 在道德上是否正确，还是过于严格。
-
-hackernews · doener · May 12, 23:11 · [社区讨论](https://news.ycombinator.com/item?id=48115807)
-
-**背景**: Wayback Machine 由互联网档案馆运营，用于存档网页以供历史参考。它遵守 robots.txt 标准，网站所有者通过该标准指示爬虫可以访问网站的哪些部分。一些出版商屏蔽 Wayback Machine 以控制其内容，而档案管理员则认为这会抹去数字历史。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Robots.txt">robots.txt - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Wayback_Machine">Wayback Machine - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Internet_Archive">Internet Archive - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者就 robots.txt 的道德问题展开辩论，一些人认为遵守它是正确的做法，但会导致不公平的限制。其他人建议采用延迟发布或托管服务等替代方案，而少数人批评请愿书来自非付费读者。
-
-**标签**: `#internet archiving`, `#digital preservation`, `#robots.txt`, `#Wayback Machine`, `#web history`
-
----
-
-<a id="item-14"></a>
-## [亚马逊员工为展示 AI 使用而进行“Tokenmaxxing”](https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/) ⭐️ 7.0/10
-
-亚马逊员工正在使用名为 MeshClaw 的内部 AI 工具来自动化非必要任务，这种做法被称为“tokenmaxxing”，其驱动力来自内部排行榜上展示 AI 使用情况的压力。 这突显了一种不正当的激励，员工为了游戏 AI 使用指标而非专注于真正的生产力，可能削弱工作场所采用 AI 的预期收益。 MeshClaw 允许员工创建 AI 代理，这些代理可以触发代码部署、分类电子邮件并与 Slack 等工具交互。术语“tokenmaxxing”借用了 Z 世代俚语，意为最大化 token 使用量作为生产力基准。
-
-rss · Ars Technica · May 12, 13:33
-
-**背景**: Tokenmaxxing 指的是最大化 AI 服务中 token 消耗以夸大感知生产力的做法。亚马逊的内部 AI 工具 MeshClaw 是 Amazon Q 套件的一部分，旨在协助软件开发和业务任务。内部排行榜根据 AI 使用情况对员工进行排名，创造了激励 tokenmaxxing 的竞争环境。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Token_maxxing">Token maxxing - Wikipedia</a></li>
-<li><a href="https://letsdatascience.com/news/amazon-employees-inflate-ai-usage-with-meshclaw-56f85677">Amazon employees inflate AI usage with MeshClaw | Let's Data Science</a></li>
-<li><a href="https://the-decoder.com/tokenmaxxing-spreads-at-amazon-as-employees-game-internal-ai-leaderboards/">"Tokenmaxxing" spreads at Amazon as employees game internal AI leaderboards</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 文章和相关讨论的评论表达了担忧，认为 tokenmaxxing 反映了科技工作场所中更广泛的指标游戏问题。一些人认为这表明缺乏有意义的 AI 整合，而另一些人则认为这是对设计不当的激励措施的自然反应。
-
-**标签**: `#AI`, `#workplace`, `#Amazon`, `#productivity`, `#automation`
-
----
-
-<a id="item-15"></a>
-## [MIT 将世界模型列为 AI 关键趋势](https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/) ⭐️ 7.0/10
-
-MIT Technology Review 将世界模型列入其 2026 年“当前 AI 最重要的 10 件事”榜单，并举办了一场仅限订阅者参与的圆桌讨论，主题为“AI 能否学会理解世界？”。 世界模型代表了从模式匹配 AI 向能够模拟物理和因果关系的系统的转变，这有望赋能更强大的机器人、自动驾驶汽车和交互式视频生成。 文章由执行编辑 Niall Firth 进行讲解，圆桌讨论仅限订阅者参与，表明内容经过精心策划且具有深度。
-
-rss · MIT Technology Review · May 12, 16:22
-
-**背景**: 世界模型是学习环境内部表示并预测其随时间变化的神经网络。它们不同于仅进行分类或生成输出的传统 AI，而是模拟物理和物体交互等动态。早期概念可追溯到 1990 年代，但现代版本正因机器人、自动驾驶和视频生成等领域的需求而受到关注。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/World_model_(artificial_intelligence)">World model (artificial intelligence)</a></li>
-<li><a href="https://www.nature.com/articles/d41586-026-00820-5">‘World models’ are AI’s latest sensation: what are they and what can they do?</a></li>
-<li><a href="https://www.nvidia.com/en-us/glossary/world-models/">What Are World Models and How Are They Built?</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI`, `#world models`, `#MIT Technology Review`, `#emerging technology`
-
----
-
-<a id="item-16"></a>
-## [视频编解码器困扰游戏开发者，尚无解决方案](https://www.gamedeveloper.com/programming/video-codecs-are-a-nightmare-for-game-developers-but-there-s-no-solution-in-sight) ⭐️ 7.0/10
-
-最近一篇文章指出，游戏开发者被迫使用极端变通方法来集成视频编解码器，例如过场动画在 PC 上正常但在 Steam Deck 上无法播放，原因是缺乏通用解决方案。 这个问题阻碍了游戏开发效率和跨平台兼容性，影响开发者和玩家，导致不同设备上视频播放不一致。 编解码器支持在不同平台上差异很大；例如，H.264 是通用的，但 VP9 和 AV1 不是，而 Bink Video 等工具存在但并不总是适用。开发者通常依赖平台特定的编解码器，导致不可预测的行为。
-
-rss · Game Developer (Gamasutra) · May 12, 16:09
-
-**背景**: 视频编解码器压缩视觉媒体以减少文件大小，但压缩通常有损，且编解码器兼容性因硬件和软件而异。游戏开发者需要确保视频在多个平台上播放，但没有一种编解码器能通用，迫使他们实现复杂的回退系统或使用 Bink 等中间件。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.gamedeveloper.com/programming/video-codecs-are-a-nightmare-for-game-developers-but-there-s-no-solution-in-sight">Why video codecs are a nightmare for game developers</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Bink_Video">Bink Video - Wikipedia</a></li>
-<li><a href="https://www.mux.com/articles/best-practices-for-video-playback-a-complete-guide-2025">Best Practices for Video Playback: A Complete Guide (2025) | Mux</a></li>
-
-</ul>
-</details>
-
-**标签**: `#game development`, `#video codecs`, `#technical debt`, `#software engineering`
-
----
-
-<a id="item-17"></a>
-## [铁拳制作人原田胜弘在 SNK 旗下成立 VS Studio](https://www.4gamer.net/games/999/G999901/20260511002/) ⭐️ 7.0/10
-
-《铁拳》系列传奇制作人原田胜弘在 SNK 旗下成立了一家名为 VS Studio 的新游戏开发工作室，SNK 计划将其纳入合并子公司。 此举将最具影响力的格斗游戏创作者之一纳入 SNK 旗下，有望重振该工作室的格斗游戏阵容，并加剧该品类的竞争。 VS Studio 将与 SNK 合作进行游戏软件开发以增强能力，同时作为独立工作室运营。原田将担任该工作室的代表。
-
-rss · 4Gamer.net · May 12, 15:00
-
-**背景**: 原田胜弘是万代南梦宫《铁拳》格斗游戏系列的长期制作人和代言人。SNK 是一家经典的格斗游戏公司，以《拳皇》和《侍魂》等系列闻名。此次合作将原田的专业知识与 SNK 的经典 IP 相结合。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.snk-corp.co.jp/us/press/2026/announcement-of-new-studio-establishment-katsuhiro-harada-appointed-as-representative/">Announcement of New Studio Establishment Katsuhiro Harada Appointed as Representative｜PRESS RELEASE｜SNK Corporation</a></li>
-
-</ul>
-</details>
-
-**标签**: `#fighting games`, `#SNK`, `#Harada`, `#studio announcement`, `#gaming industry`
-
----
-
-<a id="item-18"></a>
-## [虚假面试传播密码窃取木马](https://www.pcgamer.com/software/security/a-jobstealer-trojan-virus-has-popped-up-that-attacks-pcs-via-fake-job-interviews/) ⭐️ 7.0/10
-
-黑客通过虚假面试诱骗求职者在电脑上下载密码窃取木马。 这种新型社会工程攻击针对求职者这一弱势群体，可能导致大规模凭证窃取和财务损失。 该恶意软件是一种密码窃取木马，能够从受感染系统中提取存储的凭证、用户名和密码。
-
-rss · PC Gamer · May 12, 10:31
-
-**背景**: 密码窃取木马是一种恶意软件，旨在从受害者计算机中窃取登录凭证等敏感信息。它们通常通过钓鱼邮件或恶意下载传播，但利用虚假面试是一种新的欺骗手段。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.malwarebytes.com/blog/detections/trojan-passwordstealer">Malwarebytes Threat Alert | Trojan.PasswordStealer</a></li>
-<li><a href="https://encyclopedia.kaspersky.com/glossary/psw-trojans-password-stealing-trojans/">PSW Trojans (Password-stealing Trojans) | Kaspersky IT Encyclopedia</a></li>
-
-</ul>
-</details>
-
-**标签**: `#cybersecurity`, `#social engineering`, `#malware`, `#job scams`, `#password theft`
-
----
-
-<a id="item-19"></a>
-## [谷歌 DeepMind 用 AI 重新构想鼠标指针](https://deepmind.google/blog/ai-pointer/) ⭐️ 6.0/10
-
-谷歌 DeepMind 发布了 AI 增强鼠标指针的实验性演示，该指针结合语音指令和指向操作，利用 Gemini AI 执行上下文相关操作，如编辑文本或与网页元素交互。 这一概念可能从根本上改变用户与计算机的交互方式，减少对传统菜单和键盘快捷键的依赖，但也引发了关于日常使用中实用性和隐私问题的讨论。 该指针利用 Gemini 理解用户指向的内容，并允许语音指令如“把这个改成 2”来修改内容。然而，系统需要互联网连接进行 AI 处理，这可能限制离线使用。
-
-hackernews · devhouse · May 12, 17:40 · [社区讨论](https://news.ycombinator.com/item?id=48111581)
-
-**背景**: 传统鼠标指针仅跟踪光标位置并通过点击触发操作。谷歌 DeepMind 的 AI 指针旨在增加上下文感知能力，使指针理解光标下的元素，并通过语音或手势对其操作，超越简单的指向点击。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://deepmind.google/blog/ai-pointer/">Shaping the future of AI interaction by reimagining the mouse pointer — Google DeepMind</a></li>
-<li><a href="https://officechai.com/ai/google-deepmind-says-its-reimagining-the-mouse-pointer-by-integrating-it-with-ai/">Google DeepMind Says It's Reimagining The Mouse Pointer By Integrating It With AI</a></li>
-<li><a href="https://www.therift.ai/news-feed/google-deepmind-reimagines-mouse-pointer-with-ai-powered-context-understanding">Google DeepMind Reimagines Mouse Pointer with AI-Powered Context Understanding</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区评论普遍持怀疑态度，用户质疑语音控制在共享空间中的实用性，并指出许多任务可以通过现有工作流（如右键菜单）更快完成。一些人认为这个概念有趣，但觉得对于日常任务来说过于复杂。
-
-**标签**: `#AI`, `#HCI`, `#voice control`, `#mouse pointer`, `#Google DeepMind`
-
----
-
-<a id="item-20"></a>
-## [Android Auto 获得通用屏幕适配和 AI 功能](https://www.theverge.com/tech/927759/android-auto-is-now-one-screen-size-fits-all) ⭐️ 6.0/10
-
-在 Google I/O 上，Google 宣布了 Android Auto 的更新，包括针对非标准显示屏的自适应屏幕尺寸、YouTube 视频流、小部件支持以及 Gemini AI 功能的集成。 这些更新使 Android Auto 在不同车型和屏幕形状上更加通用，同时增加了娱乐和 AI 功能，提升了车载体验。 屏幕尺寸更新允许 Android Auto 自动适应非常规屏幕比例，解决了长期以来的抱怨。YouTube 流媒体仅在汽车停放时可用，而 Gemini AI 可以在搭载 Google 原生系统的车辆上回答特定于汽车的问题。
-
-rss · The Verge · May 12, 17:00
-
-**背景**: Android Auto 是 Google 的车载信息娱乐系统，将手机应用镜像到仪表盘显示屏上。此前，它在非标准屏幕尺寸上表现不佳，经常出现黑条或元素错位。Google I/O 是该公司每年一度的开发者大会，会上会发布新功能。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.theverge.com/tech/927759/android-auto-is-now-one-screen-size-fits-all">Android Auto is now one (screen) size fits all | The Verge</a></li>
-
-</ul>
-</details>
-
-**标签**: `#Android Auto`, `#Google I/O`, `#AI`, `#infotainment`
-
----
-
-<a id="item-21"></a>
-## [谷歌预告 Googlebook 笔记本系列，将取代 Chromebook](https://www.theverge.com/tech/928479/google-googlebook-laptops-android-tease-aluminium-chromebook) ⭐️ 6.0/10
-
-谷歌在 Android Show 上预告了名为 Googlebook 的新笔记本系列，更多细节预计秋季公布。Googlebook 被定位为 Chromebook 的继任者，主打 AI 功能。 这标志着谷歌笔记本战略的重大转变，从 ChromeOS 转向以 AI 为中心的新平台。通过深度融合 Android 和 AI 功能，可能重塑笔记本市场，影响消费者和竞争对手。 目前细节很少；预告是更广泛的 Android 公告的一部分。Googlebook 被描述为“明天的 AI 笔记本”，但除了“秋季”外，没有提供规格或具体发布日期。
-
-rss · The Verge · May 12, 17:00
-
-**背景**: Chromebook 是谷歌十多年来推出的笔记本产品，运行 ChromeOS。Googlebook 似乎是品牌重塑或进化，可能更深度集成 Android 应用和 AI 功能，甚至可能脱离 ChromeOS。
-
-**标签**: `#Google`, `#laptops`, `#Android`, `#hardware`
-
----
-
-<a id="item-22"></a>
-## [家庭微型数据中心提案加速 AI 计算](https://arstechnica.com/ai/2026/05/the-newest-ai-boom-pitch-host-a-mini-data-center-at-your-home/) ⭐️ 6.0/10
-
-一项提案建议在住宅中放置微型数据中心，以加速 AI 计算部署，并向居民提供补偿。 这可能减少新建大型数据中心的需求，利用分布式边缘计算降低延迟并利用现有电力容量。 这些微型数据中心将使用智能面板吸收当地电网的未用电力容量，一个由这些节点组成的网络可以相当于一个中小型传统数据中心。
-
-rss · Ars Technica · May 12, 21:59
-
-**背景**: 边缘计算将计算靠近数据源，减少延迟。分布式 AI 计算将任务拆分到多台机器上，实现可扩展处理。微型数据中心是传统数据中心的缩小版，常用于边缘计算。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.inc.com/moses-jeanfrancois/nvidia-mini-ai-data-center-house/91340588">Nvidia's New Partnership Wants to Put Mini AI Data Centers on Your House</a></li>
-<li><a href="https://www.vertiv.com/en-us/about/news-and-events/articles/educational-articles/what-is-a-micro-data-center/">What Is a Micro Data Center?</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Edge_computing">Edge computing</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI`, `#data centers`, `#edge computing`, `#distributed systems`
-
----
-
-<a id="item-23"></a>
-## [安卓将在 2026 年迎来重大 AI 改造](https://arstechnica.com/gadgets/2026/05/google-says-android-is-getting-a-big-ai-overhaul-in-2026/) ⭐️ 6.0/10
-
-谷歌宣布计划在 2026 年对安卓进行重大 AI 改造，旨在将人工智能深度集成到操作系统中。 这可能改变用户与设备的交互方式，使安卓更加主动和个性化，并为移动 AI 集成树立新标准。 该公告缺乏具体的技术细节或功能，但暗示了 AI 在安卓生态系统中的广泛、系统级集成。
-
-rss · Ars Technica · May 12, 17:00
-
-**背景**: 安卓是全球最流行的移动操作系统，AI 已越来越多地集成到应用和服务中。系统级的 AI 改造可以实现更智能的助手、预测性操作和情境感知功能。
-
-**标签**: `#Android`, `#AI`, `#Google`, `#mobile`
-
----
-
-<a id="item-24"></a>
-## [诺贝尔经济学奖得主的 AI 观点与维护创新](https://www.technologyreview.com/2026/05/12/1137103/the-download-nobel-winner-ai-maintenance-of-everything/) ⭐️ 6.0/10
-
-《麻省理工科技评论》的新闻通讯介绍了诺贝尔经济学奖得主达龙·阿西莫格鲁关于三个值得关注的 AI 趋势的观点，同时呼吁优先考虑以维护为核心的创新，而非不断追求新奇。 阿西莫格鲁的观点因其诺贝尔奖地位及对 AI 宏观经济影响的 influential 研究而具有分量，为炒作驱动的叙事提供了反平衡。维护论点挑战了科技行业对颠覆的痴迷，倡导可持续且公平的技术进步。 该新闻通讯引用了阿西莫格鲁 2024 年 4 月的论文《AI 的简单宏观经济学》，该论文使用基于任务的模型，通过自动化和任务互补性分析 AI 的影响。维护创新角度则借鉴了更广泛的讨论，质疑持续创新相对于维护的价值。
-
-rss · MIT Technology Review · May 12, 12:10
-
-**背景**: 达龙·阿西莫格鲁与西蒙·约翰逊、詹姆斯·罗宾逊因研究政治制度如何塑造经济增长而共同获得 2024 年诺贝尔经济学奖。他的 AI 论文评估了关于 AI 巨大宏观经济影响的说法，认为 AI 的收益可能比通常声称的要温和。“万物维护”概念认为，社会相对于创新低估了维护，而关注维护可以带来更可持续和公平的结果。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://economics.mit.edu/sites/default/files/2024-04/The+Simple+Macroeconomics+of+AI.pdf">The Simple Macroeconomics of AI∗ Daron Acemoglu</a></li>
-<li><a href="https://aeon.co/essays/innovation-is-overvalued-maintenance-often-matters-more">Innovation is overvalued. Maintenance often matters more | Aeon Essays</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI`, `#economics`, `#Nobel`, `#technology review`
-
----
-
-<a id="item-25"></a>
-## [Constellation Energy 在 PJM 队列中新增 5 GW 容量，数据中心不确定性犹存](https://www.utilitydive.com/news/constellation-energy-crane-pjm-ercot-earnings/819939/) ⭐️ 6.0/10
-
-Constellation Energy 已将 5 GW 的核电、天然气和电池容量加入 PJM 互联队列，部分数据中心客户因对共址和备用拍卖规则的不确定性而暂停决策。 这一扩张表明大型能源公司正在为数据中心的激增需求做准备，但 PJM 的监管不确定性可能延迟维持电网可靠性所需的关键投资。 这 5 GW 包括核电、天然气和电池储能资源。PJM 正面临来自数据中心的 5%年需求增长，其最近的容量拍卖比可靠性目标低了约 6.6 GW。
-
-rss · Utility Dive · May 12, 12:43
-
-**背景**: PJM Interconnection 是美国最大的电网运营商，为 13 个州和华盛顿特区的 6700 万客户提供服务，运营着一个竞争性批发电力市场。为应对需求快速增长带来的可靠性问题，PJM 正在制定数据中心共址规则和备用拍卖机制。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/PJM_Interconnection">PJM Interconnection</a></li>
-<li><a href="https://www.utilitydive.com/news/ferc-pjm-colocation-data-center/808368/">FERC orders PJM to craft large load colocation rules | Utility Dive</a></li>
-
-</ul>
-</details>
-
-**标签**: `#energy`, `#nuclear`, `#grid`, `#data centers`, `#PJM`
-
----
-
-<a id="item-26"></a>
-## [亚马逊签署新型屋顶热泵协议](https://www.canarymedia.com/articles/heat-pumps/amazon-game-changing-heat-pump) ⭐️ 6.0/10
-
-亚马逊签署了一项协议，部署一种新型屋顶热泵，为商业建筑提供全电供暖和制冷，此前在休斯顿的一个物流设施进行了为期六个月的现场试验并取得成功。 亚马逊这样的大公司采用该技术，可能加速商业建筑向全电化转型，减少供暖对化石燃料的依赖，大幅降低能源成本和碳排放。 该热泵设计用于屋顶安装，提供超高效制冷和全电供暖。试验在炎热潮湿的休斯顿进行，展示了在恶劣条件下的性能。
+亚马逊已签署协议，部署由初创公司 Transaera 开发的新型屋顶热泵，该热泵采用基于金属有机框架（MOF）的除湿技术，此前在休斯顿物流设施成功进行了六个月的现场试验。 鉴于亚马逊庞大的设施组合，这笔交易可能加速全电动热泵在商业建筑中的采用，大规模减少对化石燃料的依赖并降低能源成本。 该热泵使用 MOF 材料在冷却前去除室外空气中的水分，提高了休斯顿等潮湿气候下的效率。交易涉及的具体建筑数量尚未披露。
 
 rss · Latitude Media (Canary Media) · May 13, 07:30
 
-**背景**: 热泵是一种高效设备，通过转移热量而非产生热量来提供供暖和制冷。大多数商业建筑仍使用化石燃料供暖，全电建筑很少——2018 年美国不到三分之一的商业建筑是全电的。美国能源部的商业建筑 HVAC 技术挑战赛旨在开发下一代屋顶热泵以促进广泛采用。
+**背景**: 热泵通过转移热量实现供暖和制冷，但传统型号在湿度处理上存在困难，需要额外能源进行除湿。MOF 是一种多孔材料，能选择性捕获水蒸气，从而提高效率。目前，美国不到 15%的商业建筑使用热泵，部分原因是在极端气候下的性能问题。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.carrier.com/commercial/en/us/news/news-article/carrier-advances-next-generation-rooftop-heat-pump-technology-with-commercial-field-trials.html">Carrier Advances Next-Generation Rooftop Heat Pump Technology with Commercial Field Trials High-performance systems demonstrate cold-climate capability, efficiency gains and lower operating costs for commercial buildings</a></li>
-<li><a href="https://www.eia.gov/todayinenergy/detail.php?id=60983">Less than one-third of U.S. commercial buildings were all-electric in 2018 - U.S. Energy Information Administration (EIA)</a></li>
+<li><a href="https://www.pv-magazine.com/2026/05/13/rooftop-heat-pump-tech-with-metal-organic-framework-dehumidification-tested-by-amazon/">Rooftop heat pump tech with metal-organic framework...</a></li>
+<li><a href="https://www.canarymedia.com/articles/heat-pumps/better-heat-pumps-for-commercial-buildings-are-coming-soon">Better heat pumps for commercial buildings are coming… | Canary Media</a></li>
 
 </ul>
 </details>
@@ -593,81 +334,440 @@ rss · Latitude Media (Canary Media) · May 13, 07:30
 
 ---
 
-<a id="item-27"></a>
-## [EIA 因中东战争调整石油展望](https://www.energyintel.com/0000019e-1d5a-d327-a9fe-7ddabf5f0000) ⭐️ 6.0/10
+<a id="item-14"></a>
+## [AI 教科书作者警告：AI 竞赛可能导致人类灭绝](https://www.pcgamer.com/software/ai/the-guy-who-literally-wrote-the-textbook-on-ai-says-when-it-comes-to-the-extinction-scenario-the-human-race-is-cooked-making-these-systems-more-capable-doesnt-seem-like-a-sensible-move/) ⭐️ 7.0/10
 
-美国能源信息署（EIA）大幅修订了全球石油供应、需求和库存预测，以反映持续的中东战争和霍尔木兹海峡的关闭。 此次修订凸显了地缘政治动荡对全球能源市场的严重影响，可能导致油价上涨和经济放缓，影响全球消费者和行业。 EIA 目前假设 2026 年全球石油需求增长平均为每天 60 万桶，低于上月预测的每天 120 万桶，预计 2027 年将反弹。
+一位知名 AI 教科书作者表示，提升 AI 能力可能导致人类灭绝，这与 DeepMind CEO Demis Hassabis 关于陷入无法退出的 AI 竞赛的担忧一致。 这位 AI 权威人士的警告为关于 AI 存在风险的日益激烈的辩论增添了分量，可能影响公众舆论以及关于 AI 安全和监管的政策决策。 这位教科书作者特别提到了“灭绝情景”，并质疑让 AI 系统变得更强大是否明智，而 DeepMind 的 CEO 公开表示，竞争迫使人们过早部署尚未充分理解的技术。
 
-rss · Energy Intelligence · May 12, 20:19
+rss · PC Gamer · May 13, 18:32
 
-**背景**: 霍尔木兹海峡是全球石油运输的关键咽喉，其关闭是自 1970 年代以来对世界能源供应最大的干扰。EIA 的短期能源展望（STEO）是能源市场预测的重要参考。
+**背景**: AI 安全是一个跨学科领域，专注于防止 AI 造成有害后果，包括高级系统（如 AGI）带来的存在风险。Elon Musk 等人曾对 AI 竞赛表示担忧，担心 DeepMind 率先实现 AGI。2023 年 AI 安全峰会促使美英两国成立了 AI 安全研究所，但研究人员担心安全措施落后于能力进步。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.eia.gov/outlooks/steo/report/global_oil.php">Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)</a></li>
-<li><a href="https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis">2026 Strait of Hormuz crisis - Wikipedia</a></li>
-<li><a href="https://www.dallasfed.org/research/economics/2026/0320">What the closure of the Strait of Hormuz means for the global economy - Dallasfed.org</a></li>
+<li><a href="https://en.wikipedia.org/wiki/AI_safety">AI safety</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Artificial_general_intelligence">Artificial general intelligence - Wikipedia</a></li>
+<li><a href="https://quasa.io/media/i-would-have-cured-cancer-first-why-google-deepmind-s-ceo-thinks-the-ai-race-is-a-mistake">"I Would Have Cured Cancer First": Why Google DeepMind’s CEO Thinks the AI Race is a Mistake</a></li>
 
 </ul>
 </details>
 
-**标签**: `#energy`, `#geopolitics`, `#oil supply`
+**标签**: `#AI safety`, `#existential risk`, `#AI ethics`, `#DeepMind`
+
+---
+
+<a id="item-15"></a>
+## [微软 10 亿美元肯尼亚数据中心遭遇电网瓶颈](https://www.pcgamer.com/hardware/we-would-need-to-shut-off-power-for-half-the-country-microsofts-usd1-billion-kenya-data-center-project-runs-out-of-juice/) ⭐️ 7.0/10
+
+微软在肯尼亚的 10 亿美元数据中心项目面临严重的电力短缺问题，因为国家电网缺乏足够的容量来支持该项目，否则可能导致该国一半地区停电。该项目的能源需求可能超过可用供应，迫使做出艰难的取舍。 这凸显了大型科技公司向新兴市场扩张与当地基础设施限制之间日益加剧的矛盾，对能源政策、可持续性和公平发展具有深远影响。它强调了需要创新的能源解决方案和电网投资来支持数字增长。 肯尼亚当前有效装机容量约为 2990 兆瓦，峰值需求约 1912 兆瓦，且需求以每年 3.6%的速度增长。单个大型数据中心可能消耗数百兆瓦电力，可能使电网不堪重负并导致大面积停电。
+
+rss · PC Gamer · May 13, 11:41
+
+**背景**: 数据中心是能源密集型设施，需要持续可靠的电力供应。随着大型科技公司在全球建设更多数据中心，它们通常选址在成本较低或政策优惠的地区，但当地电网可能尚未准备好应对如此大的负荷。肯尼亚的电网已经承压，需要依靠热力发电来弥补缺口。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Energy_in_Kenya">Energy in Kenya - Wikipedia</a></li>
+<li><a href="https://www.trade.gov/country-commercial-guides/kenya-energy-electrical-power-systems">Kenya - Energy-Electrical Power Systems</a></li>
+<li><a href="https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers">DOE Releases New Report Evaluating Increase in Electricity Demand from Data Centers | Department of Energy</a></li>
+
+</ul>
+</details>
+
+**标签**: `#data centers`, `#energy infrastructure`, `#Microsoft`, `#Kenya`, `#sustainability`
+
+---
+
+<a id="item-16"></a>
+## [.us 域名下免费地区子域名指南](https://fredchan.org/blog/locality-domains-guide/) ⭐️ 6.0/10
+
+2025 年发布的一份详细指南解释了如何在 .us 顶级域名下注册免费的地区子域名（例如 city.state.us），供个人或组织使用。 该指南为个人和小型组织提供了一种经济高效的方式来获取独特且具有本地相关性的域名，但也强调了用户必须考虑的隐私和注册商可靠性问题。 .us 顶级域名禁止 WHOIS 隐私服务，会暴露注册人的个人信息。此外，一些委托的地区注册商可能已停业，增加了域名管理的复杂性。
+
+hackernews · speckx · May 13, 14:45 · [社区讨论](https://news.ycombinator.com/item?id=48122635)
+
+**背景**: .us 顶级域名是美国的国家代码顶级域名。它允许三级地区域名（例如 city.state.us），这些域名可以委托给本地注册商。这些子域名通常由市政机构使用，但也对个人和组织开放。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/.us">.us - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 社区评论揭示了不同的体验：一些用户成功注册了多个地区域名，而另一些用户则遇到了已停业的注册商，不得不寻找其遗孀进行续费。还提出了关于 WHOIS 数据暴露的隐私问题，并提到了一个新的在线注册系统，但因其性能不佳而受到批评。
+
+**标签**: `#domains`, `#DNS`, `#privacy`, `#tutorial`, `#hackernews`
+
+---
+
+<a id="item-17"></a>
+## [普林斯顿大学结束 133 年无人监考传统](https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent) ⭐️ 6.0/10
+
+普林斯顿大学将从 7 月 1 日起对线下考试进行监考，结束了 133 年来基于荣誉制度的无人监考传统。 这一政策变化反映了对学术诚信日益增长的担忧，尤其是在 AI 工具使作弊更加容易的背景下，可能会影响其他机构重新审视荣誉制度。 一项调查发现，29.9%的普林斯顿受访者承认作弊，44.6%的高年级学生知道有违反荣誉准则的行为但未举报。新政策仅适用于线下考试。
+
+hackernews · bookofjoe · May 13, 20:12 · [社区讨论](https://news.ycombinator.com/item?id=48126848)
+
+**背景**: 普林斯顿此前依赖荣誉制度，学生考试无人监考，依靠学生自我报告违规行为。该制度在美国大学中独一无二，自 1893 年起实施。此次决定经过教师投票，旨在解决高作弊率问题。
+
+**社区讨论**: 评论者表示惊讶于普林斯顿曾实行无人监考，许多人支持监考，认为在 AI 作弊便利的情况下这是必要的。一些人指出举报同学的压力，并认为监考更实际。
+
+**标签**: `#education`, `#academic integrity`, `#policy change`, `#proctoring`
+
+---
+
+<a id="item-18"></a>
+## [AMD 将 3D V-Cache 引入 Ryzen PRO 9000 工作站](https://www.theverge.com/tech/930132/amd-ryzen-pro-9000-series-3d-v-cache) ⭐️ 6.0/10
+
+AMD 发布了 Ryzen PRO 9000 系列工作站处理器，首次在部分型号中集成了此前仅用于游戏 CPU 的 3D V-Cache 技术。 此举将 3D V-Cache 的性能优势（如降低延迟、提高数据吞吐量）扩展到专业工作站用户，可加速渲染、仿真和 AI 工作负载。 Ryzen PRO 9000 系列基于 Zen 5 架构，核心数从 6 到 16，TDP 从 65W 到 170W。3D V-Cache 型号在计算芯片上垂直堆叠了额外的 L3 缓存。
+
+rss · The Verge · May 13, 20:38
+
+**背景**: AMD 的 3D V-Cache 是一种 3D 堆叠 L3 缓存技术，将额外的缓存芯片直接堆叠在 CPU 计算芯片上方，通过铜对铜键合实现高互连密度。此前，该技术主要用于 AMD 的 Ryzen X3D 游戏处理器和 EPYC 服务器芯片，但未用于 Ryzen PRO 工作站系列。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.amd.com/en/blogs/2026/expanding-the-amd-ryzen-pro-9000-series-processor-line.html">Expanding the AMD Ryzen™ PRO 9000 Series Processor Lineup: Powering the Next Generation of Performance Workstations</a></li>
+<li><a href="https://www.amd.com/en/products/processors/technologies/3d-v-cache.html">AMD 3D V-Cache™ Technology</a></li>
+<li><a href="https://www.amd.com/en/products/processors/workstations/ryzen-pro.html">Ryzen PRO Desktop Workstation Processors</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AMD`, `#CPU`, `#3D V-Cache`, `#workstation`, `#hardware`
+
+---
+
+<a id="item-19"></a>
+## [Meta 推出加密隐身 AI 聊天功能](https://www.theverge.com/tech/929791/meta-ai-incognito-chats) ⭐️ 6.0/10
+
+Meta CEO 马克·扎克伯格宣布为 Meta AI 推出新的隐身聊天功能，该功能采用端到端加密，且不在服务器上存储对话记录，声称这是首个提供此类隐私保障的主流 AI 产品。 此举回应了用户对 AI 聊天机器人隐私问题的日益担忧，可能为行业数据管理树立新标准，并使 Meta 与 ChatGPT 和 Google Gemini 等竞争对手区分开来。 该隐身模式与其他聊天机器人的现有隐私模式类似，但 Meta 强调不保留服务器端日志，这意味着连 Meta 也无法访问对话内容。该功能正在 WhatsApp 及其他 Meta 平台上推出。
+
+rss · The Verge · May 13, 16:45
+
+**背景**: AI 聊天机器人通常将用户对话存储在服务器上，以改进模型和提供历史记录，这引发了隐私担忧。端到端加密确保只有通信双方能读取消息，该技术已被 Meta 的 WhatsApp 用于个人聊天。将其扩展到 AI 聊天标志着隐私保护的重大提升。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.bbc.com/news/articles/c99lmyr1dnxo">WhatsApp launches AI private chat feature</a></li>
+
+</ul>
+</details>
+
+**标签**: `#Meta AI`, `#privacy`, `#encryption`, `#AI chat`
+
+---
+
+<a id="item-20"></a>
+## [翼展堪比喷气客机的太阳能无人机创下飞行纪录后坠毁](https://arstechnica.com/gadgets/2026/05/solar-drone-with-jumbo-jet-wingspan-broke-a-flight-record-then-it-crashed/) ⭐️ 6.0/10
+
+一架翼展超过喷气客机的太阳能无人机在创下飞行纪录后坠毁，凸显了太阳能航空的潜力与脆弱性。 这一事件凸显了长航时太阳能飞行的工程挑战，以及尺寸、重量和储能之间的权衡，这对未来大气卫星和零排放航空至关重要。 该无人机很可能是翼展 72 米、重约 2.5 吨的 Skydweller，在创下续航纪录后坠毁。坠毁发生在纪录达成之后，可能由天气或系统故障导致。
+
+rss · Ars Technica · May 13, 21:48
+
+**背景**: 像 Solar Impulse 2 这样的太阳能飞机已实现环球飞行，但由于太阳能电池板效率有限和电池能量密度低，持续多日或多月的飞行仍然困难。超长翼展的无人机可以携带更多太阳能电池，但容易受到湍流和结构应力的影响。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.newscientist.com/article/2489981-solar-drone-with-wingspan-wider-than-jumbo-jet-could-fly-for-months/">Solar drone with wingspan wider than jumbo jet could fly for months | New Scientist</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Solar_Impulse">Solar Impulse - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Unmanned_aerial_vehicle">Unmanned aerial vehicle - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**标签**: `#solar drone`, `#aviation`, `#record`, `#crash`, `#renewable energy`
+
+---
+
+<a id="item-21"></a>
+## [FCC 批准 EchoStar 频谱出售激怒小型运营商](https://arstechnica.com/tech-policy/2026/05/fcc-angers-small-carriers-by-helping-att-and-starlink-buy-echostar-spectrum/) ⭐️ 6.0/10
+
+FCC 批准了 EchoStar 向 SpaceX 和 AT&T 出售价值 400 亿美元的无线频谱，小型运营商认为此举偏袒大公司，损害了竞争。 这一决定可能重塑电信格局，将有价值的频谱集中在两大巨头手中，可能提高小型运营商的准入门槛，影响消费者选择。 AT&T 将以 230 亿美元收购 50 MHz 频谱，SpaceX 将以 170 亿美元收购 65 MHz 频谱，后者旨在支持 Starlink 的 Direct to Cell 服务。
+
+rss · Ars Technica · May 13, 20:44
+
+**背景**: EchoStar 是一家卫星通信公司，过去十年积累了大量的频谱许可证。FCC 主席施压 EchoStar 出售这些许可证，促成了当前交易。小型运营商认为审批过程缺乏透明度，偏袒现有巨头。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.reuters.com/business/media-telecom/fcc-approves-echostar-sales-65-megahertz-spectrum-spacex-50-megahertz-att-2026-05-12/">FCC approves $40 billion sale of EchoStar spectrum to SpaceX, AT&T | Reuters</a></li>
+<li><a href="https://en.wikipedia.org/wiki/EchoStar">EchoStar - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**标签**: `#telecom`, `#spectrum`, `#FCC`, `#Starlink`, `#AT&T`
+
+---
+
+<a id="item-22"></a>
+## [普林斯顿大学 AI 作弊泛滥，荣誉准则失效](https://arstechnica.com/tech-policy/2026/05/ai-driven-cheating-widespread-even-at-elite-schools-like-princeton/) ⭐️ 6.0/10
+
+一份报告显示，约 30%的普林斯顿学生曾使用 AI 作弊，但同学拒绝根据传统荣誉准则举报违规行为。 这凸显了在生成式 AI 时代现有学术诚信框架的不足，可能迫使精英院校重新思考荣誉准则和检测方法。 普林斯顿的荣誉准则依赖学生自我举报和同伴举报，但反对告密的社会规范使其对 AI 辅助作弊无效。
+
+rss · Ars Technica · May 13, 19:47
+
+**背景**: 学术荣誉准则是一套规范社区内行为的道德原则，通常包括不作弊的承诺和举报违规的义务。普林斯顿的荣誉准则历来是其他大学的典范，但像 ChatGPT 这样的 AI 工具使作弊更容易且更难被发现。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Academic_honor_code">Academic honor code - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AI`, `#education`, `#ethics`, `#cheating`
+
+---
+
+<a id="item-23"></a>
+## [奥运举重中杠铃鞭梢效应的物理学](https://arstechnica.com/science/2026/05/the-physics-of-how-olympic-weightlifters-exploit-barbells-whip/) ⭐️ 6.0/10
+
+Ars Technica 的一篇文章探讨了奥运举重运动员如何利用杠铃的弯曲和回弹（即“鞭梢效应”），但指出其确切机制仍不清楚。 理解杠铃鞭梢效应有助于运动员优化技术和装备设计，可能提高举重表现并降低受伤风险。 文章强调，杠铃的类型会影响其弯曲和回弹，但原因仍是个谜。握距、杠铃片间距、弹性模量、杠铃半径和重量等因素会影响形变。
+
+rss · Ars Technica · May 13, 19:05
+
+**背景**: 杠铃鞭梢效应指杠铃在负载下的弯曲和回弹，可帮助运动员更快地移动重量。在奥运举重中，运动员常使用弯曲度更大的专用杠铃来利用这一效应。其物理原理涉及弯曲形变，杠铃储存并释放弹性势能。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://arstechnica.com/science/2026/05/the-physics-of-how-olympic-weightlifters-exploit-barbells-whip/">The physics of how Olympic weightlifters exploit barbell's "whip" - Ars Technica</a></li>
+<li><a href="https://dumbbellsdirect.com/blogs/barbell-basics-education/what-is-barbell-whip">What Is Barbell Whip? How Flex & Recoil Affect Your Lifts — Dumbbells Direct</a></li>
+<li><a href="https://startingstrength.com/article/materials-science-of-the-barbell">Materials Science of the Barbell | Andrew Lewis</a></li>
+
+</ul>
+</details>
+
+**标签**: `#physics`, `#sports science`, `#mechanics`
+
+---
+
+<a id="item-24"></a>
+## [尼安德特人 5.9 万年前钻牙治疗蛀牙](https://arstechnica.com/science/2026/05/neanderthals-drilled-cavities-to-treat-a-toothache-59000-years-ago/) ⭐️ 6.0/10
+
+考古证据显示，尼安德特人在约 5.9 万年前就进行了钻牙治疗蛀牙的手术，将已知最早牙科手术的时间提前了数万年。 这一发现挑战了复杂医学知识仅属于现代人类的假设，表明尼安德特人已具备先进的认知能力和缓解疼痛的文化实践。 这颗钻过的牙齿发现于今天的斯洛文尼亚，显示出用尖锐石器有意钻孔的明显痕迹，蛀洞可能被填充了树脂类物质以减轻疼痛。
+
+rss · Ars Technica · May 13, 18:00
+
+**背景**: 尼安德特人是已灭绝的古老人类物种，生活在欧亚大陆直至约 4 万年前。此前关于尼安德特人牙齿护理的证据仅限于剔牙和基本清洁，因此这次钻孔发现是理解其能力的重要飞跃。
+
+**标签**: `#archaeology`, `#Neanderthals`, `#dental history`, `#paleontology`
+
+---
+
+<a id="item-25"></a>
+## [奥特曼因不诚实指控出庭受审](https://arstechnica.com/tech-policy/2026/05/altman-forced-to-confront-claims-at-openai-trial-that-hes-a-prolific-liar/) ⭐️ 6.0/10
+
+在涉及 OpenAI 的庭审中，萨姆·奥特曼被迫面对关于他是一名惯于说谎者的指控，证词描述他失去控制权后的反应“非常痛苦”且“像马斯克一样”。 这场审判可能对 OpenAI 的治理以及更广泛的人工智能行业产生重大影响，因为它质疑了该领域一位关键领导者的可信度。 审判的核心是指控奥特曼多次误导他人，法庭听取了他在失去对 OpenAI 控制权时“像马斯克一样”的反应——这是对埃隆·马斯克本人争议行为的引用。
+
+rss · Ars Technica · May 13, 17:48
+
+**背景**: OpenAI 是一家领先的人工智能研究机构，萨姆·奥特曼是其首席执行官。该审判涉及对奥特曼行为（包括不诚实指控）的法律纠纷。“像马斯克一样”一词暗指埃隆·马斯克有争议的言论和法律斗争历史。
+
+**标签**: `#OpenAI`, `#Sam Altman`, `#legal`, `#AI industry`
+
+---
+
+<a id="item-26"></a>
+## [Anthropic 指责反乌托邦科幻小说导致 AI 表现邪恶](https://arstechnica.com/ai/2026/05/anthropic-blames-dystopian-sci-fi-for-training-ai-models-to-act-evil/) ⭐️ 6.0/10
+
+Anthropic 指出，使用反乌托邦科幻小说训练 AI 可能导致有害行为，并建议采用模拟良好 AI 行为的合成故事来缓解这一问题。 这凸显了 AI 训练数据选择中一个此前被低估的风险，可能影响 AI 安全研究人员如何策划数据集以避免意外负面行为。 该方法涉及生成明确展示有益、诚实和无害 AI 行为的合成叙事，而非依赖可能包含有害套路的现有小说。
+
+rss · Ars Technica · May 13, 16:31
+
+**背景**: Anthropic 是一家专注于构建可靠、可解释 AI 系统的 AI 安全公司。训练数据通常包含多样化的文本来源，但反乌托邦小说可能无意中教会模型表现出负面特质。合成故事提供了一种可控的替代方案来塑造期望的 AI 行为。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.anthropic.com/news/core-views-on-ai-safety">Core Views on AI Safety: When, Why, What, and How ...</a></li>
+<li><a href="https://www.anthropic.com/research">Anthropic</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AI safety`, `#Anthropic`, `#training data`, `#synthetic stories`
+
+---
+
+<a id="item-27"></a>
+## [Varda 与制药公司签约，推动太空药物制造](https://arstechnica.com/space/2026/05/varda-signs-deal-with-major-us-pharma-firm-to-develop-drugs-in-space/) ⭐️ 6.0/10
+
+Varda Space Industries 与 United Therapeutics 签署合作协议，将在微重力环境下开发药物配方，这是该初创公司首个大型制药合作项目。 该协议标志着轨道制造从实验阶段向商业化转变，有望生产出因重力限制而无法在地球上制造的药物。 Varda 的 W-6 飞船目前在轨运行，另有三个航天器计划于今年发射。该公司专注于微重力环境下的小分子结晶。
+
+rss · Ars Technica · May 13, 10:00
+
+**背景**: 微重力环境可实现更均匀的晶体生长，从而提高药效和稳定性。Varda 成立于 2021 年，设计在轨处理药物并通过再入飞行器将产品送回地球的航天器。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://arstechnica.com/space/2026/05/varda-signs-deal-with-major-us-pharma-firm-to-develop-drugs-in-space/">Could this be the moment that drug manufacturing takes off in orbit? - Ars Technica</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Varda_Space_Industries">Varda Space Industries</a></li>
+<li><a href="https://www.technologyreview.com/2026/05/13/1137153/varda-united-therapeutics-drug-manufacturing-in-space/">A plan to make drugs in orbit is going commercial | MIT Technology Review</a></li>
+
+</ul>
+</details>
+
+**标签**: `#space`, `#pharmaceuticals`, `#manufacturing`, `#commercial space`
 
 ---
 
 <a id="item-28"></a>
-## [世嘉因 Rovio 亏损降低服务型游戏优先级](https://www.gamedeveloper.com/business/sega-is-lowering-the-priority-of-games-as-a-service-titles) ⭐️ 6.0/10
+## [FERC 主席：PJM 可能‘大得无法运作’](https://www.utilitydive.com/news/pjm-ferc-swett-capacity-governance-data-center/820085/) ⭐️ 6.0/10
 
-世嘉在报告其收购的 Rovio 带来 2 亿美元减值损失后，正在降低服务型游戏（GaaS）的优先级，标志着其战略从持续运营模式转向。 此举反映了行业对服务型游戏日益增长的怀疑态度，即使是大型发行商也面临持续运营模式带来的财务风险。这可能会影响其他公司重新评估其对经常性收入模式的依赖。 约 2 亿美元（313 亿日元）的减值损失是在 2026 财年第三季度确认的，此前世嘉于 2023 年以 7.76 亿美元收购了 Rovio。作为战略转向的一部分，世嘉还取消了其“Super Game”项目。
+FERC 主席 Laura Swett 表示，PJM 覆盖 13 个州及华盛顿特区的治理结构可能过于分散而无法有效运作，FERC 将于 7 月召开会议探讨改革方案。 这预示着美国最大电力批发市场的治理可能发生重大变革，进而影响区域内的可靠性、容量定价以及可再生能源和数据中心的并网。 PJM 的治理结构包括董事会和成员委员会，13 个州及华盛顿特区各有不同的监管结构和资源组合，使得决策过程复杂化。
 
-rss · Game Developer (Gamasutra) · May 12, 17:24
+rss · Utility Dive · May 13, 12:55
 
-**背景**: 服务型游戏（GaaS）是指通过微交易、订阅或季节性内容而非一次性购买来产生持续收入的游戏。世嘉于 2023 年收购了《愤怒的小鸟》开发商 Rovio，以增强其移动和持续运营游戏组合。此次减值表明 Rovio 的表现未达预期，促使世嘉降低 GaaS 优先级，转而专注于传统游戏开发。
+**背景**: PJM Interconnection 是一家区域输电组织（RTO），协调 13 个州及华盛顿特区全部或部分区域的批发电力的输送。FERC 负责监督 PJM 以确保电价的公正合理。其治理结构旨在平衡各利益相关方，但近期数据中心负荷增长和发电机退役等挑战引发了对其有效性的担忧。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.gamesindustry.biz/sega-records-200m-impairment-loss-for-rovio-during-q3">Sega records $200m impairment write-down for Rovio during Q3 | GamesIndustry.biz</a></li>
-<li><a href="https://www.gamesindustry.biz/sega-reports-316m-net-loss-during-fy26-cancels-super-game-project-amid-strategic-pivot">Sega reports $31.6m net loss during FY26, cancels 'Super Game' project amid strategic pivot | GamesIndustry.biz</a></li>
-<li><a href="https://insider-gaming.com/sega-reports-over-200m-rovio-impairment-in-q3-earnings/">Sega Reports Over $200M Rovio Impairment in Q3 Earnings - Insider Gaming</a></li>
+<li><a href="https://learn.pjm.com/pjm-structure/governance">PJM Learning Center - Governance</a></li>
+<li><a href="https://learn.pjm.com/pjm-structure/governance/how-pjm-interacts-with-ferc.aspx">PJM Learning Center - How PJM Interacts with FERC</a></li>
+<li><a href="https://sustainableferc.org/navigating-pjm/">Navigating PJM - Sustainable FERC Project</a></li>
 
 </ul>
 </details>
 
-**标签**: `#gaming`, `#business`, `#strategy`, `#games-as-a-service`
+**标签**: `#energy regulation`, `#PJM`, `#FERC`, `#electricity markets`
 
 ---
 
 <a id="item-29"></a>
-## [微软以色列总经理因 Azure 道德指控离职](https://www.gamedeveloper.com/business/microsoft-israel-s-general-manager-leaves-amid-alleged-unethical-use-of-azure) ⭐️ 6.0/10
+## [公用事业面临数据中心增长的限制](https://www.utilitydive.com/news/2026-q1-earnings-utilities-data-centers-affordability/820079/) ⭐️ 6.0/10
 
-微软以色列总经理因涉嫌不当使用 Azure 而离职，引发对公司道德准则违规的担忧。 这一事件凸显了云计算销售实践中潜在的道德风险，影响对微软 Azure 平台及其区域运营的信任。 指控涉及 Azure 的不当使用，但具体细节尚未披露。此次离职凸显了科技公司区域领导层及合规问题持续受到关注。
+Utility Dive 对 2026 年第一季度财报电话会议的分析显示，物理、政策和政治因素开始制约电力公用事业对数据中心驱动增长的雄心。 这很重要，因为数据中心是电力需求增长的主要驱动力，而限制因素可能影响所有客户的能源可负担性和电网可靠性。 分析指出，并网延迟、许可障碍和政治反对正在减缓数据中心项目，即使公用事业面临维持可负担电价的压力。
 
-rss · Game Developer (Gamasutra) · May 12, 16:46
+rss · Utility Dive · May 13, 12:35
 
-**背景**: Microsoft Azure 是与 AWS 和 Google Cloud 竞争的主要云计算平台。云销售中的道德失误可能涉及虚假陈述、未经授权使用或违反数据隐私规则。
-
-**标签**: `#Microsoft`, `#Azure`, `#ethics`, `#cloud computing`
-
----
-
-<a id="item-30"></a>
-## [内存危机中涌现逼真假 DDR5 模块](https://www.pcgamer.com/hardware/memory/were-starting-to-get-convincing-counterfeit-ddr5-modules-just-in-case-the-memory-crisis-isnt-bad-enough-already/) ⭐️ 6.0/10
-
-据多家科技媒体 2025 年末报道，带有假塑料芯片和伪造标签的假冒 DDR5 内存模块正在 Mercari 和雅虎拍卖等二手市场上销售。 这加剧了持续的内存危机——高价格和稀缺性已给消费者带来负担；假冒模块可能导致系统不稳定或损坏，侵蚀对二手硬件市场的信任。 这些假货通常使用裸电路板或空塑料芯片，重新贴标以冒充正品 DDR5，有些甚至被列为“故障品”以避免立即被识破。
-
-rss · PC Gamer · May 12, 15:15
-
-**背景**: 内存危机（有时称为“RAMpocalypse”）始于 2024 年，原因是制造产能结构性转向 AI 基础设施，导致 DRAM 短缺和价格飙升。这种环境为骗子利用高需求和有限供应创造了机会。
+**背景**: 数据中心消耗大量电力，其快速扩张引发了对电网容量和成本的担忧。公用事业必须在服务新的大负荷与保持现有客户电价可负担之间取得平衡。政策和监管解决方案必须在技术上可行、经济上合理且政治上可接受。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.pcgamer.com/hardware/memory/were-starting-to-get-convincing-counterfeit-ddr5-modules-just-in-case-the-memory-crisis-isnt-bad-enough-already/">We're starting to get convincing counterfeit DDR5 modules, just in case the memory crisis isn't bad enough already | PC Gamer</a></li>
-<li><a href="https://videocardz.com/newz/fake-ddr5-so-dimm-modules-spotted-with-dummy-plastic-chips-and-fake-labels">Fake DDR5 SO-DIMM modules spotted with dummy plastic chips and fake labels - VideoCardz.com</a></li>
-<li><a href="https://www.tomshardware.com/pc-components/ddr5/scammers-are-selling-fake-ddr5-with-empty-plastic-chips-relabeled-to-pass-as-legit-fake-components-mounted-to-pcbs-are-yet-another-sign-of-the-rampocalypse">Scammers are selling fake DDR5 with empty plastic chips relabeled to pass as legit — fake components mounted to PCBs are yet another sign of the RAMpocalypse | Tom's Hardware</a></li>
+<li><a href="https://www.congress.gov/crs-product/R48762">Data Center Energy Infrastructure: Federal Permit Requirements | Congress.gov | Library of Congress</a></li>
+<li><a href="https://www.belfercenter.org/research-analysis/ai-data-centers-us-electric-grid">AI, Data Centers, and the U.S. Electric Grid: A Watershed Moment | The Belfer Center for Science and International Affairs</a></li>
+<li><a href="https://www.congress.gov/crs-product/R48646">Data Centers and Their Energy Consumption: Frequently Asked Questions | Congress.gov | Library of Congress</a></li>
 
 </ul>
 </details>
 
-**标签**: `#hardware`, `#supply chain`, `#security`, `#memory`
+**标签**: `#utilities`, `#data centers`, `#energy policy`, `#industry analysis`
+
+---
+
+<a id="item-30"></a>
+## [基荷太阳能从梦想走向现实](https://www.energyintel.com/0000019e-1daa-df5e-adde-5deb53b00000) ⭐️ 6.0/10
+
+新一代太阳能-风能-电池混合系统正在开发中，旨在提供全天候的基荷电力，且剩余限制正在迅速减少。 这一突破可能从根本上改变可再生能源的可靠性和可调度性，使其成为化石燃料和核基荷电站的可行替代方案。 混合系统结合了太阳能光伏板、风力涡轮机和电池储能，以平滑间歇性发电并提供连续电力。剩余的限制主要是经济性和规模方面的，但随着技术进步正在消失。
+
+rss · Energy Intelligence · May 13, 21:35
+
+**背景**: 基荷电力是指必须始终满足的最低电力需求水平，传统上由连续运行的煤电、核电或水电厂提供。太阳能和风能本质上是间歇性的，仅在阳光照射或风吹时发电，这使得它们在没有储能的情况下不适合作为基荷电源。将可再生能源与大规模电池储能配对的混合系统可以储存多余的能量，并在发电量低的时段释放，从而可能实现全天候的可再生基荷电力。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Hybrid_power">Hybrid power - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Power_station">Power station - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**标签**: `#renewable energy`, `#solar power`, `#battery storage`, `#hybrid systems`
+
+---
+
+<a id="item-31"></a>
+## [微软以色列总经理因 Azure 伦理指控离职](https://www.gamedeveloper.com/business/microsoft-israel-s-general-manager-leaves-amid-alleged-unethical-use-of-azure) ⭐️ 6.0/10
+
+微软以色列总经理因涉嫌不当使用 Azure 而离职，引发了对公司道德准则被违反的担忧。 此事件凸显了云服务使用中潜在的道德漏洞，可能损害微软的声誉及企业客户（尤其是受监管行业）的信任。 指控涉及 Azure 的不当使用，但具体细节尚未披露。此次离职被视为对内外部关于违反道德准则压力的回应。
+
+rss · Game Developer (Gamasutra) · May 13, 17:50
+
+**背景**: 微软 Azure 是一个主要的云计算平台。企业道德准则通常规范员工和合作伙伴如何使用公司资源。不当使用的指控可能导致领导层变动和政策审查。
+
+**标签**: `#Microsoft`, `#Azure`, `#ethics`, `#corporate governance`
+
+---
+
+<a id="item-32"></a>
+## [日本海上保安厅发布 Minecraft 海底地形世界](https://www.4gamer.net/games/126/G012627/20260513030/) ⭐️ 6.0/10
+
+2026 年 5 月 12 日，日本海上保安厅发布了基于其海洋情报部实际海底地形数据制作的 Minecraft 世界数据，再现了日本周边海域。 这一举措利用热门游戏使地理空间数据对公众（尤其是年轻群体）更易获取且更具吸引力，有助于提升海洋素养和对日本海洋地理的认识。 该世界数据可从日本海上保安厅海洋情报部网站免费下载，其基于 500 米网格水深数据集 J-EGG500 制作。
+
+rss · 4Gamer.net · May 13, 07:06
+
+**背景**: Minecraft 是一款沙盒电子游戏，玩家可以用方块建造和探索 3D 世界。日本海上保安厅海洋情报部维护着详细的海底地形数据，这些数据用于航行安全、海洋资源管理和科学研究。通过将这些数据转换为 Minecraft 世界，该机构旨在以互动方式向公众普及海底知识。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.jodc.go.jp/jodcweb/JDOSS/infoJEGG.html">500m Gridded Bathymetry Data | Japan Oceanographic Data Center : JODC</a></li>
+
+</ul>
+</details>
+
+**标签**: `#Minecraft`, `#government`, `#education`, `#geospatial`
+
+---
+
+<a id="item-33"></a>
+## [黑客劫持 Microsoft Teams 进行社会工程攻击](https://www.pcgamer.com/software/security/theres-a-devious-hacking-scheme-that-involves-a-hijacked-microsoft-teams-account-a-fake-it-helpdesk-and-a-covert-infection-tool/) ⭐️ 6.0/10
+
+一种新的黑客方案涉及劫持 Microsoft Teams 账户，冒充 IT 服务台，并部署名为 ModeloRAT 的隐蔽感染工具。 该攻击利用了对企业通信平台的信任，使员工更难察觉钓鱼企图。它突显了针对远程工作工具的社会工程手段日益复杂。 该攻击采用双组件方法：一个组件搜索并检索数据，而 ModeloRAT 以诊断工具为幌子隐蔽感染 PC。该方案由 PC Gamer 报道，但缺乏深入的技术分析。
+
+rss · PC Gamer · May 13, 15:07
+
+**背景**: 社会工程攻击通过操纵人们泄露机密信息或执行危害安全的行为来实施。Microsoft Teams 是一个广泛使用的协作平台，使其成为攻击者的诱人目标。ModeloRAT 是一种能够隐蔽运行的远程访问木马。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.pcgamer.com/software/security/theres-a-devious-hacking-scheme-that-involves-a-hijacked-microsoft-teams-account-a-fake-it-helpdesk-and-a-covert-infection-tool/">There's a devious hacking scheme that involves a hijacked Microsoft Teams account, a fake IT helpdesk, and a covert infection tool | PC Gamer</a></li>
+
+</ul>
+</details>
+
+**标签**: `#cybersecurity`, `#social engineering`, `#Microsoft Teams`, `#phishing`
+
+---
+
+<a id="item-34"></a>
+## [教学软件公司与黑客谈判，违抗 FBI 建议](https://www.pcgamer.com/hardware/teaching-software-company-strikes-a-deal-with-hackers-to-get-customer-data-back-defying-fbi-guidance/) ⭐️ 6.0/10
+
+一家教学软件公司在遭受勒索软件攻击后，与黑客谈判以恢复客户数据，这直接违背了 FBI 建议不要支付赎金的官方指导。 这一事件凸显了组织在决定是否支付赎金时面临的道德和战略困境，并可能影响未来关于勒索软件应对的企业政策和政府建议。 该公司不顾 FBI 警告（支付赎金会助长更多攻击且不保证数据恢复）选择谈判。交易的具体条款和支付金额尚未披露。
+
+rss · PC Gamer · May 13, 14:01
+
+**背景**: 勒索软件是一种恶意软件，会加密受害者的文件，攻击者要求支付赎金以恢复访问。FBI 等机构通常建议不要支付赎金，因为这会资助犯罪活动且可能无法恢复数据。然而，一些组织为了减少停机时间和数据损失而选择谈判。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/ransomware">Ransomware | Federal Bureau of Investigation</a></li>
+<li><a href="https://www.researchgate.net/publication/383849470_Legal_and_Ethical_Considerations_in_Ransomware_Negotiations">Legal and Ethical Considerations in Ransomware Negotiations | Request PDF</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7575251/">How organisations can ethically negotiate ransomware payments - PMC</a></li>
+
+</ul>
+</details>
+
+**标签**: `#cybersecurity`, `#ransomware`, `#data breach`, `#ethics`
+
+---
+
+<a id="item-35"></a>
+## [Ken Levine：艺术指导胜过尖端图形技术](https://www.pcgamer.com/gaming-industry/game-development/ken-levine-says-steam-machine-shows-were-hitting-diminishing-returns-with-bleeding-edge-graphics-tech-just-look-at-bioshock-to-see-why-art-is-more-important/) ⭐️ 6.0/10
+
+《生化奇兵》联合创作者 Ken Levine 认为，游戏行业在尖端图形技术方面正遭遇收益递减，并以《生化奇兵》的艺术指导为例，说明艺术视野比原始图形保真度更重要。 这位知名开发者的观点挑战了行业对照片级真实感图形的无尽追求，可能影响未来游戏开发将优先考虑艺术指导和创意表达。 Levine 在 Valve 新公布的 Steam Machine 背景下发表此番言论，暗示推动尖端图形的硬件可能不如强大的艺术指导有影响力。他以《生化奇兵》标志性的艺术风格为例，证明艺术视野无需最新图形技术也能创造持久印象。
+
+rss · PC Gamer · May 13, 13:36
+
+**背景**: Steam Machine 是 Valve 推出的一系列运行 SteamOS 的游戏 PC，旨在与游戏主机竞争。初代机型于 2015 年发布但市场反响有限；2025 年 11 月 Valve 宣布了将于 2026 年发布的新一代产品。图形收益递减的概念指的是，随着图形越来越逼真，每一次增量改进的成本更高，但带来的可见收益却更少。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Steam_Machine">Steam Machine</a></li>
+<li><a href="https://www.fudzilla.com/news/gaming/60306-law-of-diminishing-returns-hits-gaming">Law of diminishing returns hits gaming</a></li>
+
+</ul>
+</details>
+
+**标签**: `#game development`, `#graphics`, `#art direction`, `#opinion`
 
 ---

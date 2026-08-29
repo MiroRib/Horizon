@@ -5,502 +5,264 @@ date: 2026-08-29
 lang: zh
 ---
 
-> From 150 items, 21 important content pieces were selected
+> From 55 items, 11 important content pieces were selected
 
 ---
 
-1. [通过 Apple 的 Virtualization.framework 启动虚拟 iPhone](#item-1) ⭐️ 8.0/10
-2. [GUI 应完全支持键盘驱动以提升无障碍与效率](#item-2) ⭐️ 8.0/10
-3. [Htmx 4.0 发布：重大重写与新特性](#item-3) ⭐️ 8.0/10
-4. [OpenAI 在 SpaceX 收购后限制 Cursor 访问](#item-4) ⭐️ 8.0/10
-5. [美国将隐私托管服务商 Autistici/Inventati 列为恐怖分子并实施制裁](#item-5) ⭐️ 8.0/10
-6. [AI 驱动的漏洞利用发现使开源维护者陷入困境](#item-6) ⭐️ 8.0/10
-7. [开源游戏 Luanti 因无根据的 AI 版权声明被 Google Play 下架](#item-7) ⭐️ 8.0/10
-8. [GLM-5.3 开源权重模型发布，编码性能强劲](#item-8) ⭐️ 8.0/10
-9. [《盗梦空间》风格弯曲地图用于逐向导航](#item-9) ⭐️ 7.0/10
-10. [EasyEffects：提升 Linux 笔记本音质的必备工具](#item-10) ⭐️ 7.0/10
-11. [谷歌自动展开 AI 概览，将链接推至更下方](#item-11) ⭐️ 7.0/10
-12. [EPA 提议取消数据中心空气许可证的公众通知](#item-12) ⭐️ 7.0/10
-13. [DLSS 5 泄露，模组制作者将英伟达 AI 超分辨率应用于游戏](#item-13) ⭐️ 7.0/10
-14. [联邦法官裁定特朗普将 Anthropic 列入黑名单属非法](#item-14) ⭐️ 7.0/10
-15. [两名涉嫌 TeamPCP 成员因供应链攻击被捕](#item-15) ⭐️ 7.0/10
-16. [八月城市终止 Flock 合同速度创纪录](#item-16) ⭐️ 6.0/10
-17. [美国能源转型：半杯满还是半杯空？](#item-17) ⭐️ 6.0/10
-18. [AI 驱动的美国天然气电厂扩张威胁气候目标](#item-18) ⭐️ 6.0/10
-19. [gamescom 2026 公布《巫师 3》新 DLC《追忆的调》](#item-19) ⭐️ 6.0/10
-20. [NVIDIA DLSS 4.5 光线重建：画质与性能实测](#item-20) ⭐️ 6.0/10
-21. [Wrong Organ 合作恐怖坦克模拟游戏《Carcass Clad》在 gamescom 首次亮相](#item-21) ⭐️ 6.0/10
+1. [腾讯开源 Hy4 预览版，具备递归自我改进能力](#item-1) ⭐️ 8.0/10
+2. [DHS 利用鲜为人知的法律秘密获取记者记录](#item-2) ⭐️ 8.0/10
+3. [GrapheneOS 批评 Pixel 11 放弃 MTE 且升级有限](#item-3) ⭐️ 8.0/10
+4. [索尼音乐和华纳查普尔起诉 Anthropic 侵犯版权](#item-4) ⭐️ 8.0/10
+5. [良好文化是最大的生产力秘诀，而非 AI](#item-5) ⭐️ 7.0/10
+6. [三星存内计算面临采用障碍](#item-6) ⭐️ 7.0/10
+7. [数据隐私测试：100 家公司未能妥善处理请求](#item-7) ⭐️ 7.0/10
+8. [StemDeck：免费、开源、本地 AI 分轨工具](#item-8) ⭐️ 6.0/10
+9. [音乐人变身侦探，揭露 AI 音乐骗局](#item-9) ⭐️ 6.0/10
+10. [《Kitten Space Agency》在 gamescom 2026 亮相，原 KSP 创作者参与](#item-10) ⭐️ 6.0/10
+11. [gamescom 2026 现场体验：《Project Hail Mary: Journey Among the Stars》VR 游戏](#item-11) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [通过 Apple 的 Virtualization.framework 启动虚拟 iPhone](https://github.com/Lakr233/vphone-cli) ⭐️ 8.0/10
+## [腾讯开源 Hy4 预览版，具备递归自我改进能力](https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/) ⭐️ 8.0/10
 
-一个新的命令行工具 vphone-cli 已发布，它利用 Apple 的 Virtualization.framework 在 Apple Silicon Mac 上启动虚拟 iPhone。它使开发者能够运行完整的 iOS 环境，用于测试和逆向工程。 该工具通过提供可通过 CLI 自动化和控制的虚拟 iPhone 环境，为 iOS 测试和逆向工程开辟了新的可能性。它可能显著简化安全研究人员和应用开发者的工作流程，减少对物理设备的需求。 该工具需要禁用或部分禁用 SIP（系统完整性保护）以及可能还需要禁用 AMFI，因为它使用了私有 API。建议用户在 iOS 设置过程中不要选择日本或欧盟作为地区，因为虚拟机无法满足额外的监管检查。
+腾讯已发布并开源了 Hy4 预览版，这是一款下一代大语言模型，总参数量 770B，激活参数量 49B，上下文窗口达 1M tokens。该模型还具备早期递归自我改进循环，它参与了自身训练方法、数据策略、评估框架和底层算子的优化。 此次开源意义重大，因为它让 AI 社区能够使用一个强大的模型，该模型在 OpenRouter 上几天内处理了数万亿 tokens，显示出强劲的早期采用势头。递归自我改进循环代表了向更自主 AI 开发迈进的一步，可能加速软件工程、办公工作和科学研究的进展。 Hy4 预览版是一个总参数量 770B、激活参数量 49B、上下文窗口 1M tokens 的模型，适合长时程任务。它在 OpenRouter 上的价格相对便宜，缓存成本为 5%，而通常为 10-20%，这可能使其更具吸引力。
 
-hackernews · hentrep · Aug 28, 23:02 · [社区讨论](https://news.ycombinator.com/item?id=49485267)
+hackernews · shenli3514 · Aug 29, 19:33 · [社区讨论](https://news.ycombinator.com/item?id=49492632)
 
-**背景**: Apple 的 Virtualization.framework 允许开发者在 Apple silicon Mac 上运行虚拟机，主要用于 macOS 客户机。然而，启动 iOS 并未得到官方支持，因此该项目利用了私有 API 和变通方法。类似的项目如 UTM 和 Tart 使用该框架运行其他操作系统，但 vphone-cli 专门针对 iOS。
+**背景**: 递归自我改进（RSI）指的是 AI 系统能够改进自身能力，通常通过修改其代码或训练过程来实现。这一概念是 AI 研究的关键领域，近期努力集中在自动化 AI 开发流程的部分环节，如编码、实验和评估。腾讯的 Hy4 预览版是模型参与自身优化的一个例子，标志着向 RSI 迈出了实际一步。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://developer.apple.com/documentation/virtualization/virtualize-macos-on-a-mac">Virtualize macOS on a Mac | Apple Developer Documentation</a></li>
-<li><a href="https://github.com/utmapp/UTM">GitHub - utmapp/UTM: Virtual machines for iOS and macOS · GitHub</a></li>
-<li><a href="https://mjtsai.com/blog/2024/10/11/virtualizing-ios-on-apple-silicon/">Michael Tsai - Blog - Virtualizing iOS on Apple Silicon</a></li>
+<li><a href="https://hy.tencent.ai/research/hy4-preview?langVersion=en">Introducing Hy4 preview - hy.tencent.ai</a></li>
+<li><a href="https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/">Tencent Releases and Open-Sources Tencent Hy4 preview</a></li>
+<li><a href="https://spectrum.ieee.org/recursive-self-improvement">Recursive Self-Improvement Edges Closer In AI Labs - IEEE Spectrum</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区表现出高度兴趣，评论中质疑了某些地区的监管检查、与 iOS 模拟器的区别以及是否可能在 PC 上运行。一些人指出需要禁用 SIP 是一个缺点，而另一些人则认为如果它能正常工作，将为测试和逆向工程带来巨大潜力。
+**社区讨论**: 社区评论强调了 Hy4 在 OpenRouter 上的惊人采用率，几天内处理了数万亿 tokens，超过了 GLM 5.3 一周的使用量。一些用户指出其低缓存成本（5%）是吸引人的因素，而其他人则对发布中的图表呈现表示担忧。一位用户分享了使用前代 Hy3 的积极体验，指出在测试中仅被 deepseek4-flash 击败。
 
-**标签**: `#iOS`, `#Virtualization`, `#Reverse Engineering`, `#Apple`, `#Developer Tools`
+**标签**: `#AI`, `#Open Source`, `#Tencent`, `#LLM`, `#Self-improvement`
 
 ---
 
 <a id="item-2"></a>
-## [GUI 应完全支持键盘驱动以提升无障碍与效率](https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html) ⭐️ 8.0/10
+## [DHS 利用鲜为人知的法律秘密获取记者记录](https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits) ⭐️ 8.0/10
 
-一篇博客文章主张 GUI 应完全支持键盘驱动，在 Hacker News 上引发讨论，获得 653 分和 322 条评论。文章强调了对无障碍和高级用户的益处，社区讨论则突出了实现挑战和权衡。 这很重要，因为键盘驱动的 GUI 能显著改善残障用户的无障碍体验，并提高高级用户的效率。讨论反映了行业向包容性设计发展的趋势，以及软件中更好键盘支持的需求。 文章认为键盘快捷键应在不同应用间保持一致，某些命令应由操作系统而非单个程序处理。社区评论指出，流行的 UI 框架往往使键盘无障碍变得困难，且高级用户体验与一般用户体验不同。
+特朗普政府的国土安全部（DHS）一直在利用一项鲜为人知的法律条款，即 1509 传票，在未经司法监督的情况下秘密获取记者、非营利组织和工会的私人记录。在一个案例中，DHS 从 T-Mobile 获取了明尼阿波利斯记者 Georgia Fort 六个月的电话记录，包括超过 10,000 通电话和短信，直到 7 月中旬才通知她。 这引发了严重的公民自由担忧，因为政府绕过传统的司法监督来获取记者和倡导组织的敏感信息，可能对新闻自由和异议产生寒蝉效应。这种做法可能为政府在没有制衡的情况下进行监控树立危险的先例。 在多个案例中，DHS 在法庭上受到挑战后撤回了 1509 传票，可能是为了避免法院对其合法性作出裁决。值得注意的是，T-Mobile 遵守了要求，而 Google 则进行了抵制，如果公司拒绝，DHS 必须上法庭强制执行。
 
-hackernews · ckardaris · Aug 28, 15:17 · [社区讨论](https://news.ycombinator.com/item?id=49479837)
+hackernews · firefax · Aug 29, 18:44 · [社区讨论](https://news.ycombinator.com/item?id=49492219)
 
-**背景**: 键盘驱动的 GUI 允许用户无需鼠标即可导航和操作软件，使用 Tab、方向键和快捷键等按键。这对无障碍至关重要，因为许多运动障碍用户依赖键盘，同时也有利于偏好速度的高级用户。然而，在跨平台和框架中实现一致的键盘支持仍然是一个挑战。
+**背景**: 1509 传票是 DHS 可以在未经法官批准的情况下发出的一种行政传票，强制公司提供记录。与搜查令不同，它不需要合理根据或司法监督，使其成为强大的监控工具。该法律因缺乏透明度和问责制而受到批评，因为目标通常直到记录被获取后才被通知。
 
-**社区讨论**: 社区讨论总体支持但观点细致。一位评论者强调键盘无障碍对残障人士的重要性，并指出一个标签错位就可能破坏体验。另一位指出，像 Cocoa/AppKit 这样的旧框架更容易实现键盘支持，而现代框架常常忽视这一点。也有反对声音认为，不必强迫所有用户使用键盘驱动的 GUI，因为大多数人更喜欢鼠标界面，且学习曲线陡峭。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits">Trump’s DHS is using an obscure law to secretly snoop on journalists, non-profits and unions: ‘It’s outrageous’ | Trump administration | The Guardian</a></li>
+<li><a href="https://news.ycombinator.com/item?id=49492219">DHS is using obscure law to snoop on journalists, non-profits, unions | Hacker News</a></li>
+<li><a href="https://politomix.com/the-guardian/2392609/trumps-dhs-obscure-law-to-secretly-snoop-journalists/">Trump’s DHS is using an obscure law to secretly snoop on journalists ...</a></li>
 
-**标签**: `#accessibility`, `#keyboard-driven UI`, `#UX`, `#software engineering`
+</ul>
+</details>
+
+**社区讨论**: 评论者对 DHS 的策略表示愤怒，一些人指出像 T-Mobile 这样的公司应该抵制合规，因为 DHS 必须上法庭才能执行 1509 传票。其他人建议使用像 tmailplus 这样的去中心化平台来避免集中监控，而一位评论者则讽刺地评论了政府的政治虚伪。
+
+**标签**: `#surveillance`, `#privacy`, `#law`, `#journalism`, `#civil liberties`
 
 ---
 
 <a id="item-3"></a>
-## [Htmx 4.0 发布：重大重写与新特性](https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released) ⭐️ 8.0/10
+## [GrapheneOS 批评 Pixel 11 放弃 MTE 且升级有限](https://bsky.app/profile/grapheneos.org/post/3mua32q4ds22e) ⭐️ 8.0/10
 
-Htmx 4.0.0 已正式发布，其实现基于 fetch() API 进行了彻底重写，并引入了两个重要的新特性。此外，新版本将默认请求超时时间设置为 60 秒，改变了之前无超时的行为。 Htmx 是一个广泛使用的面向超媒体的 JavaScript 库，通过 HTML 属性简化 AJAX，对现代 Web 开发产生了深远影响。此次重大发布可能影响众多依赖 htmx 的项目和开发者，有望提升性能和可维护性，并进一步促进生态系统的成长。 Htmx 4.0 引入了更简洁的扩展 API，这对生态系统的成长至关重要，并包含一个 hx-alpine-compat 扩展以解决与 Alpine.js 的兼容性问题。基于 fetch() API 的重写可能会改变请求处理和错误语义，开发者应查阅升级指南以了解迁移步骤。
+GrapheneOS 报告称 Pixel 11 将不支持硬件内存标记（MTE）这一安全功能，并批评该设备 CPU 升级有限、GPU 性能不足、Pro 基础型号 RAM 减少且价格更高。 这很重要，因为 MTE 是一种有前景的硬件安全功能，有助于检测内存安全违规，而旗舰设备移除该功能代表硬件安全方面的倒退。来自注重安全的 GrapheneOS 的批评可能会影响注重安全的消费者和更广泛的 Android 生态系统。 GrapheneOS 还指出，Pixel 11 系列价格更高，CPU 仅小幅提升，GPU 性能不足，Pro 基础型号 RAM 减少。他们表示该设备终于赶上了上一代高通蜂窝无线电，但总体升级并不令人印象深刻。
 
-hackernews · rmsaksida · Aug 28, 13:28 · [社区讨论](https://news.ycombinator.com/item?id=49478178)
+hackernews · 400thecat · Aug 29, 15:26 · [社区讨论](https://news.ycombinator.com/item?id=49490702)
 
-**背景**: Htmx 是一个 JavaScript 库，通过自定义属性扩展 HTML，使开发者无需编写复杂的 JavaScript 即可实现动态行为，符合 REST 和 HATEOAS 的超媒体原则。它作为轻量级替代方案而广受欢迎，倡导服务端渲染和简洁性。Htmx 4.0 的发布标志着其发展的重要里程碑，重点是现代化和改进可扩展性。
+**背景**: GrapheneOS 是一个基于 Android 的开源、注重安全的移动操作系统，适用于 Google Pixel 和未来的 Motorola 设备。内存标记扩展（MTE）是 ARM 硬件功能，旨在检测内存安全违规（如缓冲区溢出和释放后使用），提高安全性和可靠性。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released">htmx 4 . 0 .0 has been released! ~ htmx</a></li>
-<li><a href="https://four.htmx.org/whats-new-in-htmx-4/">htmx ~ Changes in htmx 4 . 0</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Htmx">htmx - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GrapheneOS">GrapheneOS - Wikipedia</a></li>
+<li><a href="https://grapheneos.org/">GrapheneOS: the private and secure mobile OS</a></li>
+<li><a href="https://newsroom.arm.com/blog/memory-safety-arm-memory-tagging-extension">Memory Safety: How Arm Memory Tagging Extension Addresses this Industry-wide Security Challenge - Arm Newsroom</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反应总体积极，用户对 htmx 的简洁性和开发乐趣表示热情和赞赏。然而，也存在一些相反观点，例如一位 .NET/Angular 开发者认为 htmx 因将表现层与业务逻辑混合而更加困难，另一位用户则指出 Alpine.js 的 alpine-ajax 更小且满足其需求。总体而言，讨论既有支持也有建设性批评。
+**社区讨论**: 社区成员表达了强烈的失望和担忧。一位用户认为他们的 Pixel 9 Pro 购买时机很好，而其他人则批评谷歌的决定，称失去 MTE 是“令人震惊的”和“可怕的发展”。一些人建议等待摩托罗拉手机。
 
-**标签**: `#htmx`, `#web development`, `#hypermedia`, `#JavaScript`, `#release`
+**标签**: `#GrapheneOS`, `#Pixel 11`, `#MTE`, `#hardware security`, `#smartphone`
 
 ---
 
 <a id="item-4"></a>
-## [OpenAI 在 SpaceX 收购后限制 Cursor 访问](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/) ⭐️ 8.0/10
+## [索尼音乐和华纳查普尔起诉 Anthropic 侵犯版权](https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright) ⭐️ 8.0/10
 
-在 Cursor 被 SpaceX 收购后，OpenAI 决定限制 Cursor 对其模型的访问，理由是违反其服务条款和竞争担忧。此举实际上切断了 Cursor 在其 AI 编码助手中使用 OpenAI 模型的能力。 这一决定凸显了 AI 行业日益紧张的局势，主要模型提供商正寻求保护其竞争地位。它影响了依赖 OpenAI 模型的 Cursor 用户，可能促使他们转向 Anthropic 等替代提供商，并标志着在整合浪潮中模型访问限制的更广泛趋势。 根据社区评论，此前 Anthropic 因类似的 ToS 违规行为禁止了 xAI，此次限制紧随其后。Cursor 现为 SpaceXAI 的子公司，一直转售 OpenAI 模型的访问权限，而 OpenAI 现在认为这不符合其条款和竞争利益。
+索尼音乐和华纳查普尔已在美国加州北区地方法院对 Anthropic 提起诉讼，指控其在 AI 训练中使用数万件受版权保护的作品构成侵权。他们要求每件作品最高赔偿 15 万美元，并对每次剥离版权管理信息的行为额外索赔 2.5 万美元。 这起诉讼意义重大，因为主要音乐唱片公司对领先的 AI 公司采取法律行动，可能为 AI 训练使用受版权保护材料的行为树立先例。结果可能影响 AI 行业的数据获取方式以及内容创作者的权利。 该诉讼要求对每件被侵权作品最高 15 万美元的法定赔偿，并对每次违反《数字千年版权法》（DMCA）中关于剥离版权管理信息的行为索赔最高 2.5 万美元。案件已在加州北区法院提起，该法院是处理科技和知识产权纠纷的重要司法管辖区。
 
-hackernews · meetpateltech · Aug 29, 01:47 · [社区讨论](https://news.ycombinator.com/item?id=49486172)
+rss · The Verge · Aug 29, 18:19
 
-**背景**: Cursor 是一款 AI 驱动的代码编辑器，集成了包括 OpenAI 在内的多个大语言模型，以帮助开发者。它于 2026 年 6 月被 SpaceXAI 收购，使其成为 OpenAI 在 AI 助手领域的竞争对手。OpenAI 的服务条款禁止利用其输出训练竞争模型或以损害其业务的方式转售访问权限。
+**背景**: 像 Anthropic 这样的 AI 公司使用包含大量受版权保护作品的数据集来训练模型，通常未经明确许可。版权持有者认为这构成侵权，而一些法院最近裁定此类训练可能属于合理使用，例如 2025 年 6 月一项有利于 Anthropic 的裁决。然而，根据 DMCA，移除版权管理信息（CMI）是一个单独的法律问题，可能带来额外处罚。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Cursor_(code_editor)">Cursor (code editor)</a></li>
-<li><a href="https://openai.com/policies/service-terms/">Service terms | OpenAI</a></li>
-<li><a href="https://openai.com/policies/usage-policies/">Usage policies | OpenAI</a></li>
+<li><a href="https://www.theguardian.com/technology/2025/jun/25/anthropic-did-not-breach-copyright-when-training-ai-on-books-without-permission-court-rules">Anthropic did not breach copyright when training AI ... | The Guardian</a></li>
+<li><a href="https://www.law.cornell.edu/uscode/text/17/1202">17 U.S. Code § 1202 - Integrity of copyright management ...</a></li>
+<li><a href="https://www.ilnipinsider.com/2025/01/is-there-liability-for-removing-or-altering-copyright-management-information-from-a-copyrighted-work/">Is There Liability for Removing or Altering Copyright ...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区评论普遍支持 OpenAI 的决定，指出 Cursor 转售 API 的商业模式不可持续。一些用户表示将转向 Anthropic 模型，而另一些用户则对在 Cursor 中使用 Grok 或 Composer 感到满意。还有猜测认为，鉴于 Anthropic 与马斯克的数据中心交易，它是否会将对 xAI 的禁令扩展到 Cursor。
-
-**标签**: `#AI`, `#OpenAI`, `#Cursor`, `#SpaceX`, `#competition`
+**标签**: `#AI`, `#copyright`, `#legal`, `#Anthropic`, `#music`
 
 ---
 
 <a id="item-5"></a>
-## [美国将隐私托管服务商 Autistici/Inventati 列为恐怖分子并实施制裁](https://www.inventati.org/) ⭐️ 8.0/10
+## [良好文化是最大的生产力秘诀，而非 AI](https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity) ⭐️ 7.0/10
 
-美国政府已将意大利注重隐私的托管服务商 Autistici/Inventati 列为全球恐怖分子实体，冻结其资产并禁止美国与其进行交易。此举史无前例地针对基础设施提供商，而非个人或武装组织。 这一制裁决定开创了危险先例，将基础设施提供商视为恐怖分子，可能对 I2P、Tor 和加密邮件等隐私工具的开发和使用产生寒蝉效应。它可能对依赖此类服务进行安全通信的活动人士、记者和普通用户造成威慑，并可能鼓励其他政府效仿针对技术基础设施。 制裁由美国国务院宣布，指控该集体为美国国内恐怖组织提供在线基础设施。Autistici/Inventati 否认支持恐怖主义，其服务（包括 noblogs.org 和 autistici.org）在指定后出现部分中断。
+文章认为，强大的公司文化比 AI 更能有效提升生产力，并在 Hacker News 上引发了讨论。文章强调，文化而非技术才是团队绩效的主要驱动力。 这一观点挑战了当前围绕 AI 作为生产力灵丹妙药的热潮，提醒领导者文化等人为因素才是基础。这很重要，因为许多组织可能在大力投资 AI 工具的同时忽视了文化问题，可能导致次优结果。 文章和讨论强调，AI 可以放大现有的文化优势或弱点，正如评论中所指出的。一位评论者指出，AI 的采用应该是自下而上的，并且需要一种鼓励主动性的文化，而另一位则指出，部署 AI 比创造良好文化更容易。
 
-hackernews · exiguus · Aug 28, 12:58 · [社区讨论](https://news.ycombinator.com/item?id=49477854)
+hackernews · gpi · Aug 29, 17:19 · [社区讨论](https://news.ycombinator.com/item?id=49491568)
 
-**背景**: Autistici/Inventati 是一个意大利集体，自 2001 年以来一直为活动人士和草根运动提供免费电子邮件、网页托管等服务。它以强大的隐私保护著称，并与全球正义运动（包括 2001 年热那亚八国集团抗议活动）有历史联系。此次指定是美国制裁被指控支持恐怖主义的外国实体的更广泛趋势的一部分，但这是首次针对纯粹的技术基础设施提供商。
+**背景**: 公司文化是指塑造员工互动和工作方式的共同价值观、信念和行为。工程团队的生产力既受技术工具的影响，也受人为因素的影响，而文化往往决定了工具的使用效率。关于 AI 在生产力中作用的争论仍在继续，一些人认为仅靠技术无法解决根本的文化问题。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://cryptobriefing.com/us-sanctions-autistici-inventati-terrorism/">United States sanctions Autistici/Inventati for supporting far-left...</a></li>
-<li><a href="https://www.lucianne.com/2026/08/26/us_sanctions_foreign_tech_group_for_providing_infrastructure_for_left-wing_domestic_terror_171053.html">US Sanctions Foreign Tech Group For Providing Infrastructure ...</a></li>
-<li><a href="https://news.ycombinator.com/item?id=49451343">US sanctions Italian hosting provider Autistici Inventati | Hacker News</a></li>
+**社区讨论**: 社区讨论大体上同意文章的前提，评论者分享了个人经验。一位评论者指出，一个关系良好、流动率低的团队是他们见过的最具生产力的团队，而另一位则警告说，如果文化不佳，AI 会加速功能失调。还有一种观点认为，AI 的采用应该是自下而上的，并且创造良好文化比部署 AI 更难。
 
-</ul>
-</details>
-
-**社区讨论**: 评论者普遍对针对基础设施提供商的先例表示担忧，一些人将其与对 I2P、Monero 和 Signal 的潜在影响相提并论。其他人质疑将 Autistici/Inventati 与 PKK 联系起来的证据，指出缺乏可验证的来源，而一些人则批评该集体的不透明性和过时的宣言。
-
-**标签**: `#sanctions`, `#privacy`, `#infrastructure`, `#legal`, `#activism`
+**标签**: `#company culture`, `#productivity`, `#AI`, `#engineering management`, `#leadership`
 
 ---
 
 <a id="item-6"></a>
-## [AI 驱动的漏洞利用发现使开源维护者陷入困境](https://anil.recoil.org/notes/rumour-is-the-exploit) ⭐️ 8.0/10
+## [三星存内计算面临采用障碍](https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing) ⭐️ 7.0/10
 
-文章指出，如今即使是关于漏洞的谣言也足以引发利用尝试，社区评论显示开源项目的安全披露数量急剧增加，例如 rclone 在一个月内收到超过 40 份披露，而前 10 年总共才约 20 份。 这一趋势凸显了开源维护者面临的更大压力，他们必须以前所未有的速度分类和修复漏洞，同时也强调了 AI 在扩大漏洞发现方面的作用日益增强，如果管理不当，可能导致更频繁和广泛的利用。 社区评论指出，AI 工具既被用于发现和修复漏洞，也被用于自动化利用开发，降低了对低价值目标进行大规模利用的门槛。一位评论者提到构建了一个工具，使用 GPT-5.5 级别的模型监控提交以检测静默修复。
+三星在 Hot Chips 2026 上展示了其存内计算（PIM）技术，旨在通过将计算集成到内存中来减少数据移动。该展示强调了在 AI 和数据密集型工作负载方面的潜在优势，但也引发了关于实际限制和历史采用挑战的质疑。 该技术有望解决冯·诺依曼瓶颈，即 CPU 与内存之间数据传输导致的性能限制。如果成功，它可能显著提升 AI 和大数据应用的能效和速度，并可能重塑计算架构。 PIM 可以在不同层级实现，例如在存储单元内、在感测放大器处，或使用靠近存储库的简单核心。可以使用 DRAM、HBM 和 ReRAM 等不同存储技术，每种技术都会增加设计复杂性。
 
-hackernews · avsm · Aug 28, 15:58 · [社区讨论](https://news.ycombinator.com/item?id=49480466)
+hackernews · ingve · Aug 29, 06:06 · [社区讨论](https://news.ycombinator.com/item?id=49487341)
 
-**背景**: 开源维护者长期以来因无偿或资金不足的工作而面临倦怠，而最近 AI 辅助漏洞发现的激增加剧了这一问题。AI 工具可以扫描代码和提交信息以识别潜在漏洞，使攻击者更容易发现和利用弱点，而维护者则难以跟上报告涌入的步伐。
+**背景**: 冯·诺依曼架构将内存和处理分开，导致数据在两者之间传输时出现瓶颈。非冯·诺依曼架构，包括存内计算，旨在通过在执行计算的地方存储数据来克服这一瓶颈。PIM 已被探索数十年，但由于编程挑战和专用硬件限制，商业采用有限。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.vulncheck.com/blog/ai-assisted-vulnerability-discovery">The First CVE Wave: Signs That AI-Assisted Vulnerability Discovery Is Reshaping Disclosure Volumes | Blog | VulnCheck</a></li>
-<li><a href="https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access">Adversaries Leverage AI for Vulnerability Exploitation, Augmented Operations, and Initial Access | Google Cloud Blog</a></li>
-<li><a href="https://cset.georgetown.edu/article/ai-and-the-software-vulnerability-lifecycle/">AI and the Software Vulnerability Lifecycle | Center for Security and Emerging Technology</a></li>
+<li><a href="https://en.wikipedia.org/wiki/In-memory_processing">In-memory processing - Wikipedia</a></li>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S2773064622000160">A survey on processing-in-memory techniques: Advances and challenges - ScienceDirect</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Non-Von_Neumann_architecture">Non-Von Neumann architecture</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区评论反映了沮丧和担忧的情绪。像 nickcw 这样的维护者描述了安全披露数量激增带来的压力，而 godelski 则感叹尽管 AI 能快速发现漏洞，但缺乏修复的意愿。其他人指出 AI 使利用开发民主化，导致对低价值目标的大规模利用，并强调了部署挑战和供应链风险。
+**社区讨论**: 评论者对 PIM 的实用性表示怀疑，指出它需要预先知道数据位置，并且对通用应用具有限制性。一些人回忆起几十年前的类似概念，并警告许多奇特的加速器从未获得关注。其他人承认 PIM 在 AI 等特定工作负载上的潜力，但质疑这种实现的效率。
 
-**标签**: `#security`, `#AI`, `#open-source`, `#exploits`, `#vulnerability`
+**标签**: `#hardware`, `#AI`, `#memory`, `#non-von-Neumann`, `#processing-in-memory`
 
 ---
 
 <a id="item-7"></a>
-## [开源游戏 Luanti 因无根据的 AI 版权声明被 Google Play 下架](https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/) ⭐️ 8.0/10
+## [数据隐私测试：100 家公司未能妥善处理请求](https://arstechnica.com/tech-policy/2026/08/i-asked-100-companies-for-my-data-some-deleted-it-instead/) ⭐️ 7.0/10
 
-开源体素游戏引擎 Luanti 因 Tracer AI 提出的 DMCA 下架通知而被 Google Play 移除，该通知声称存在版权侵权。该通知似乎是无根据且由 AI 生成的，Luanti 曾在 2023 年成功申诉过来自同一公司的类似通知。 这一事件凸显了 DMCA 滥用的日益严重问题，尤其是 AI 生成的声明可能毫无根据地针对开源项目。它强调了进行改革以防止轻率下架损害开发者及整个生态系统的必要性。 该 DMCA 通知由 Tracer AI 提交，该公司今年还对一款名为 Allumeria 的独立游戏提出了类似通知。Luanti 的博客文章清晰说明了情况，社区成员指出了重复侵权模式，并对通知中的司法管辖权声明提出质疑。
+一名记者向 100 家公司提交数据隐私请求进行测试，发现许多公司回应混乱或直接删除数据，而非妥善处理请求。调查揭示了 GDPR 和 CCPA 法规普遍未得到遵守的情况。 这项调查凸显了数据隐私合规方面的系统性失败，表明消费者的合法权利常常被忽视或处理不当。它强调了加强执法和改善企业实践以保护个人数据的必要性。 测试涉及向 100 家公司提交数据主体访问请求（DSAR），一些公司删除了请求者的数据，而非按要求提供数据。文章指出，GDPR 和 CCPA 赋予个人访问和删除其数据的权利，但许多公司缺乏适当的程序。
 
-hackernews · miniBill · Aug 28, 06:33 · [社区讨论](https://news.ycombinator.com/item?id=49475079)
+rss · Ars Technica · Aug 29, 10:50
 
-**背景**: Luanti，前身为 Minetest，是一个开源体素游戏引擎，允许用户创建和游玩各种游戏。DMCA（数字千年版权法）下架通知是要求移除涉嫌侵犯版权内容的合法请求，但可能被滥用。AI 生成的版权声明是一个新问题，因为它们可能是自动化的，缺乏人工审核，导致虚假指控。
+**背景**: 根据 GDPR（第 17 条）和 CCPA，个人有权请求访问或删除其个人数据。公司有法律义务在规定时间内回应此类请求，但由于缺乏意识或流程不足，许多公司未能做到。这项调查展示了法律要求与实际操作之间的差距。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Minetest">Minetest - Wikipedia</a></li>
-<li><a href="https://www.luanti.org/">Luanti | Open source voxel game engine - Luanti</a></li>
-<li><a href="https://www.skadden.com/insights/publications/2024/12/recent-decisions-on-whether-ai-training-violates-the-digital-millennium-copyright-act">Digital Millennium Copyright Act Claims in AI-Training Cases – Recent Developments | Insights | Skadden, Arps, Slate, Meagher & Flom LLP</a></li>
+<li><a href="https://gdpr-info.eu/art-17-gdpr/">Art. 17 GDPR – Right to erasure (‘right to be forgotten’) - General Data Protection Regulation (GDPR)</a></li>
+<li><a href="https://gdpr.eu/right-to-be-forgotten/">Everything you need to know about the "Right to be forgotten" - GDPR.eu</a></li>
+<li><a href="https://www.dataprotection.ie/en/individuals/know-your-rights/right-erasure-articles-17-19-gdpr">The right to erasure (Articles 17 & 19 of the GDPR) | Data Protection Commission</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区评论表达了对 DMCA 滥用的不满，并提出了解决方案，例如要求提交下架通知时提供保证金，以及对轻率索赔进行处罚。一些用户还质疑 Tracer AI 通知中的司法管辖权声明，并建议拥有 Minecraft 的微软应对其律师的行为负责。
-
-**标签**: `#DMCA`, `#open-source`, `#AI`, `#copyright`, `#Google Play`
+**标签**: `#data privacy`, `#GDPR`, `#CCPA`, `#consumer rights`, `#compliance`
 
 ---
 
 <a id="item-8"></a>
-## [GLM-5.3 开源权重模型发布，编码性能强劲](https://huggingface.co/zai-org/GLM-5.3) ⭐️ 8.0/10
+## [StemDeck：免费、开源、本地 AI 分轨工具](https://github.com/stemdeckapp/stemdeck) ⭐️ 6.0/10
 
-Z.ai 于 2026 年 8 月 14 日发布了开源权重模型 GLM-5.3，该模型完全基于 GLM-5.2 的同一基础模型，通过规模化后训练构建。它在 Z.ai 内部 Code Bench 上比 GLM-5.2 提升了 50%，并在 Terminal Bench 3.0 和 Agents' Last Exam 上创下开源 SOTA。 GLM-5.3 的发布增强了开源权重模型生态，为 GPT 和 Claude 等专有模型提供了有竞争力的替代方案。其改进的编码和智能体能力，加上更好的 token 效率，可能降低成本，并扩大开发者和研究人员对高性能 AI 的获取。 GLM-5.3 支持 1M token 的上下文窗口，与 GLM-5.2 相比，在性能和 token 效率上均有提升，在各级努力水平下都能提供更强的智能体编码结果，同时消耗更少的输出 token。它可在 Hugging Face 和 Z.ai 的 API 上获取。
+StemDeck 已发布，这是一款免费、开源、本地的 AI 分轨工具，它封装了 htdemucs 等现有模型，为用户提供便捷的音频分轨功能，可分离人声、鼓、贝斯等音轨。 该工具通过提供免费、本地的解决方案，使 AI 分轨技术更加普及，这对重视数据隐私和控制的音乐人、DJ 和音频爱好者具有重要意义。同时，它也反映了利用先进模型的开源音频处理工具生态系统的不断壮大。 StemDeck 本质上是现有模型（尤其是 htdemucs）的封装，而非新模型。该项目托管在 GitHub 上，其命名可能与 Stream Deck 或 Steam Deck 等产品混淆。
 
-hackernews · jeudesprits · Aug 28, 15:20 · [社区讨论](https://news.ycombinator.com/item?id=49479878)
+hackernews · thclpr · Aug 29, 01:24 · [社区讨论](https://news.ycombinator.com/item?id=49486081)
 
-**背景**: GLM 是 Z.ai 开发的一系列大语言模型，以在编码和推理任务中的强劲表现而闻名。开源权重模型允许开发者下载和微调，从而促进创新并减少对专有 API 的依赖。GLM-5.3 是最新版本，专注于复杂软件工程和长时程智能体任务。
+**背景**: AI 分轨技术利用深度神经网络从混合音频中分离出单独的乐器或人声。像 Demucs（htdemucs）这样的模型在大量多轨录音数据集上训练，学习如何分离音源。StemDeck 提供了友好的用户界面，让用户可以在本地运行这些模型，避免使用可能涉及隐私或成本的云服务。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://huggingface.co/zai-org/GLM-5.3">zai-org/ GLM - 5 . 3 · Hugging Face</a></li>
-<li><a href="https://docs.z.ai/guides/llm/glm-5.3">GLM - 5 . 3 - Overview - Z.AI DEVELOPER DOCUMENT</a></li>
-<li><a href="https://kie.ai/blog/what-is-glm-5-3">What Is GLM - 5 . 3 ? Z.ai's Next Open - Weight Model</a></li>
+<li><a href="https://beatstorapon.com/blog/demucs-a-deep-dive-into-the-ultimate-audio-source-separation-model/">Demucs: A Deep Dive into the Ultimate Audio Source Separation Model</a></li>
+<li><a href="https://www.aimodels.fyi/models/replicate/demucs-cjwbw">demucs: Audio-to-Audio model — overview, use cases, alternatives</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区成员普遍持积极态度，称赞 GLM-5.3 的性能和效率。一些人指出它比 Kimi 更易运行，且比美国模型限制更少；另一些人则强调它在难题上的直觉强于 DS4Flash。少数人讨论了 token 效率，指出它克服了其他中国模型常见的过度思考问题。
+**社区讨论**: 社区评论指出 StemDeck 是 htdemucs 的封装，而非新模型；一些用户推荐替代工具，如用于 DJ 的 Nuo Stems 或搭配 OpenVINO 插件的 Audacity。还有用户幽默地提到其命名与 Stream Deck 和 Steam Deck 相似。
 
-**标签**: `#AI`, `#open-source`, `#LLM`, `#GLM`, `#machine-learning`
+**标签**: `#AI`, `#open-source`, `#audio processing`, `#stem separation`, `#music`
 
 ---
 
 <a id="item-9"></a>
-## [《盗梦空间》风格弯曲地图用于逐向导航](https://www.orbify.eu/demo/) ⭐️ 7.0/10
+## [音乐人变身侦探，揭露 AI 音乐骗局](https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai) ⭐️ 6.0/10
 
-Orbify 发布了一个《盗梦空间》风格的弯曲地图演示，用于逐向导航，该演示将 3D 地图模型扭曲到曲面上，结合了俯视图和透视图。该演示在 Hacker News 上引起了广泛关注，获得了 441 分和 146 条评论。 这种新颖的 UI 概念可以通过同时提供广阔概览和前方道路的详细视图来改善导航体验，可能减少认知负荷。它代表了地图设计中的一项创新实验，可能影响未来的导航界面。 该演示使用了一项正在申请专利的图像处理系统，将 3D 地图模型扭曲到曲面上，从而同时显示俯视图和透视图。然而，一些用户指出，在转弯前，视图在转弯完成前不提供前方路线的任何信息，这可能会使连续转弯难以导航。
+随着音频生成工具日益复杂，音乐人越来越多地扮演侦探角色，识别并公开揭露那些未经披露、模仿人类艺术家的 AI 生成音乐。文章重点报道了这一民间检测行动，背景是网络上未披露的 AI 音乐日益泛滥。 此事意义重大，因为未披露的 AI 生成音乐可能欺骗听众，并损害人类艺术家的生计和创作权益。随着生成式 AI 日益普及，它还引发了音乐行业关于透明度和真实性的伦理与法律问题。 文章聚焦于音乐人利用训练有素的耳朵和分析能力来识别 AI 生成的曲目，通常能发现痕迹或风格不一致之处。同时，也出现了可扫描 Suno、Udio 和 Riffusion 等模型 AI 模式的检测工具，但其可靠性参差不齐。
 
-hackernews · smoser · Aug 28, 12:29 · [社区讨论](https://news.ycombinator.com/item?id=49477564)
+rss · The Verge · Aug 29, 12:00
 
-**背景**: 《盗梦空间》风格地图的概念至少可以追溯到 2009 年，当时伦敦设计公司 BERG 创作了“Here & There”地图，该地图向上弯曲，以平面视图显示城市的远处部分。Orbify 的演示探索了这种视觉技巧在汽车导航中的实际用途，基于早期地图设计的实验。
+**背景**: Suno 和 Udio 等生成式 AI 音乐工具能够创作出高度模仿人类艺术家风格和声音的歌曲，这些工具通常基于现有作品进行训练。这导致流媒体平台上 AI 生成曲目增多，其中一些未标注为 AI，引发了关于欺骗和版权侵权的担忧。检测工作既包括人工聆听，也包括分析音频模式的自动化软件。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://news.ycombinator.com/item?id=49477564">Inception-style curved map for turn-by-turn directions | Hacker News</a></li>
-<li><a href="https://googlemapsmania.blogspot.com/2020/04/inception-folding-city-maps.html">Inception Folding City Maps</a></li>
-<li><a href="https://leaflet.org/">Leaflet.org | Online Mapping Library</a></li>
+<li><a href="https://beatstorapon.com/ai-music-detector">Free AI Music Detector Online | Check If a Song Is AI Generated</a></li>
+<li><a href="https://jackrighteous.com/de/blogs/ai-music-distribution-guide/can-ai-music-be-detected-suno-udio-treblo">Can AI Music Be Detected ? Suno, Udio & Treblo – Jack Righteous</a></li>
+<li><a href="https://cyanite.ai/blog/best-ai-music-detection-tools-2026/">Best AI Music Detection Tools (2026): A Platform Buyer’s Guide</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反应不一：一些人称赞这个概念“酷毙了”，是一个很好的概念验证，而另一些人则批评其可用性，指出转弯前的视图缺乏前方路线的信息，并且投影可能分散注意力或引起恶心。一位评论者开玩笑地提出了一个新的商业类别：“恶心即服务”。
-
-**标签**: `#UI/UX`, `#Maps`, `#Navigation`, `#Web Development`, `#Design`
+**标签**: `#AI-generated music`, `#music detection`, `#generative AI`, `#ethics`
 
 ---
 
 <a id="item-10"></a>
-## [EasyEffects：提升 Linux 笔记本音质的必备工具](https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality/) ⭐️ 7.0/10
+## [《Kitten Space Agency》在 gamescom 2026 亮相，原 KSP 创作者参与](https://www.4gamer.net/games/024/G102445/20260829029/) ⭐️ 6.0/10
 
-OSNews 上的一篇文章认为，基于 PipeWire 的音频效果工具 EasyEffects 应集成到所有 Linux 发行版和桌面环境中，以大幅提升笔记本扬声器的音质。社区成员证实了显著的改善，有些人使用 Room EQ Wizard 创建自定义扬声器校正。 这很重要，因为笔记本扬声器通常调校不佳，而 EasyEffects 提供了一个免费的开源解决方案，能为数百万 Linux 用户带来显著改善。将其集成到默认设置中可以提升 Linux 音频体验，使其与专有操作系统更具竞争力。 EasyEffects 支持 1 到 32 频段的参数均衡、低音增强、降噪和压缩，并与 PipeWire 配合使用。社区成员建议使用 Room EQ Wizard 测量扬声器脉冲响应以进行精确校正，还有人建议将响度补偿与系统音量控制集成。
+在 gamescom 2026 上，新作宇宙开发模拟游戏《Kitten Space Agency》展示了试玩版和最新情报，并且《Kerbal Space Program》的原创作者 Felipe Falanghe 也在展台现身。 这一公告对太空模拟社区意义重大，因为《Kitten Space Agency》被定位为《Kerbal Space Program》的精神续作，原创作者的参与增加了可信度和期待感。它可能吸引 KSP 老玩家和新玩家。 该游戏由新西兰工作室 RocketWerkz 开发，目前处于 pre-alpha 阶段，玩家可以探索全尺寸太阳系并使用天体动力学进行导航。它还获得了 2026 年新西兰高科技奖的 NZX 最具创新高科技创意技术解决方案奖。
 
-hackernews · birdculture · Aug 28, 15:23 · [社区讨论](https://news.ycombinator.com/item?id=49479924)
+rss · 4Gamer.net · Aug 29, 08:54
 
-**背景**: EasyEffects 是 PulseEffects 的继任者，专为 PipeWire 音频服务器设计，PipeWire 正在许多 Linux 系统上取代 PulseAudio。它提供了图形界面，可应用均衡、压缩等音频效果来改善音质。笔记本扬声器通常体积小且位置不佳，导致频率响应不均匀，而均衡可以帮助校正这一点。
+**背景**: 《Kerbal Space Program》(KSP)是一款 2015 年的太空飞行模拟游戏，玩家指挥一种名为 Kerbals 的绿色类人外星物种的太空计划。Felipe Falanghe，网名 HarvesteR，于 2011 年创造了 KSP，后来成立了 Floating Origin Interactive。《Kitten Space Agency》旨在继承这一遗产，提供更真实、更广阔的模拟体验。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://easyeffects.org/">EasyEffects – Linux Audio Equalizer & Effects Tool</a></li>
-<li><a href="https://www.zdnet.com/article/how-to-vastly-improve-sound-on-linux-with-easyeffects/">How to vastly improve sound on Linux with EasyEffects | ZDNET</a></li>
-<li><a href="https://wwmm.github.io/easyeffects/plugins/equalizer.html">Equalizer - Easy Effects Manual</a></li>
+<li><a href="https://kittenspaceagency.wiki.gg/">Kitten Space Agency Wiki</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Kerbal_Space_Program">Kerbal Space Program - Wikipedia</a></li>
+<li><a href="https://ahwoo.com/store/KPbAA1Au/kitten-space-agency">Kitten Space Agency | Ahwoo</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区成员普遍认为 EasyEffects 显著改善了笔记本音频，一位用户称在 Framework 笔记本上效果“天壤之别”。一些人建议进一步改进，如通过麦克风自动调音或将响度与音量控制集成，而一位用户则认为扬声器应该是平坦的，均衡并非主观，批评了文章关于主观性的提醒。
-
-**标签**: `#Linux`, `#audio`, `#EasyEffects`, `#sound quality`, `#open source`
+**标签**: `#space simulation`, `#gamescom`, `#Kerbal Space Program`, `#game development`, `#announcement`
 
 ---
 
 <a id="item-11"></a>
-## [谷歌自动展开 AI 概览，将链接推至更下方](https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand) ⭐️ 7.0/10
+## [gamescom 2026 现场体验：《Project Hail Mary: Journey Among the Stars》VR 游戏](https://www.4gamer.net/games/997/G099744/20260829025/) ⭐️ 6.0/10
 
-据 Search Engine Roundtable 报道，谷歌已开始在某些搜索中自动展开搜索结果顶部的 AI 概览。这一变化将传统的自然链接列表推到了页面更靠下的位置。 这一转变可能显著降低自然搜索结果的点击率，影响网站流量和 SEO 策略。它凸显了谷歌对 AI 生成答案的日益重视，而非传统链接列表，可能重塑用户与搜索的互动方式。 自动展开功能似乎是逐步推出的，可能不会影响所有搜索。据谷歌称，AI 概览已被超过 10 亿人使用，该功能目前在美国的英语搜索中可用。
+在 gamescom 2026 上，MazeTheory 展示了其 VR/MR 游戏《Project Hail Mary: Journey Among the Stars》的可玩演示，该游戏基于安迪·威尔（Andy Weir）的畅销小说及其电影改编。演示重点展示了与外星角色“洛基”（Rocky）的沉浸式互动，洛基通过振动和音符进行交流。 该改编将广受欢迎的科幻宇宙扩展至互动媒介，为粉丝提供了参与故事的新方式。同时，它也展示了将热门 IP 转化为 VR 体验的日益增长趋势，可能吸引更广泛的受众进入 VR 游戏领域。 该游戏包含由安迪·威尔（Andy Weir）撰写的新原创故事，设定在“万福玛丽号”（Hail Mary）任务宇宙中。游戏计划于 2026 年底发布，gamescom 上的演示允许玩家在 VR 中用手解决硬核科学谜题，洛基提供空间音频和触觉反馈。
 
-rss · The Verge · Aug 28, 22:48
+rss · 4Gamer.net · Aug 29, 07:21
 
-**背景**: 谷歌在 2023 年 5 月的 Google I/O 上推出了 AI 概览，作为搜索生成体验（SGE）的一部分。这些 AI 生成的摘要出现在搜索结果顶部，提供直接答案并附有来源链接。自动展开是继早前“AI 模式”实验之后，将 AI 整合到搜索中的又一步。
+**背景**: 《Project Hail Mary》是安迪·威尔（Andy Weir）于 2021 年创作的科幻小说，并于 2026 年改编成由瑞恩·高斯林（Ryan Gosling）主演的电影。故事讲述一名宇航员在飞船中失忆醒来，必须与外星人洛基合作拯救地球。MazeTheory 是一家专注于沉浸式 VR/MR 体验的工作室，这款游戏是他们的最新项目。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Google_Search">Google Search - Wikipedia</a></li>
-<li><a href="https://blog.google/products-and-platforms/products/search/ai-mode-search/">AI Mode is a new generative AI experiment in Google Search .</a></li>
-<li><a href="https://www.seroundtable.com/">Search Engine Roundtable ::: The Pulse Of The Search Marketing...</a></li>
+<li><a href="https://www.maze-theory.com/our-games/projecthailmaryvr">Project Hail Mary: Journey Among the Stars — MAZE THEORY</a></li>
+<li><a href="https://www.ign.com/articles/this-is-the-first-step-outside-of-what-happens-in-the-book-and-movie-project-hail-mary-video-game-has-a-new-original-story-from-andy-weir">First Look at VR Video Game Project Hail Mary: Journey Among ...</a></li>
+<li><a href="https://dotesports.com/indies/news/project-hail-mary-video-game-vr">Project Hail Mary VR game to launch in late 2026 - Dot Esports</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Google Search`, `#AI Overviews`, `#SEO`, `#Search`
-
----
-
-<a id="item-12"></a>
-## [EPA 提议取消数据中心空气许可证的公众通知](https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit) ⭐️ 7.0/10
-
-美国环境保护署（EPA）计划取消一项联邦规则，该规则要求某些工业空气污染许可证（包括数据中心）必须进行公众通知和评论。这一变化将减少社区监督，而数据中心正面临越来越多的反对。 这一政策转变可能大幅减少社区对数据中心污染的参与，影响当地居民和环保组织。这与特朗普政府推动加速 AI 基础设施建设的努力一致，可能导致空气污染和公共健康风险增加。 EPA 的提案特别针对次要源空气许可证，但并未废除 Title V 单独的公众参与程序。该规则变更是为数据中心放宽监管的更广泛努力的一部分，而数据中心因 AI 需求而蓬勃发展。
-
-rss · The Verge · Aug 28, 16:28
-
-**背景**: 数据中心为 AI 和云计算提供动力，通常依赖柴油发电机和其他排放空气污染物的设备。根据《清洁空气法》，某些设施必须获得包括公众通知和评论期在内的许可证，允许社区对潜在污染发表意见。EPA 的拟议规则变更将取消对某些数据中心的这一要求，使附近居民更难了解和反对新的污染源。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://sherafy.com/epa-data-center-public-notice-air-pollution-permits/">Can Data Centers Get Air - Pollution Permits Without Public Notice ?</a></li>
-<li><a href="https://techstrong.it/ai/epa-moves-to-scrap-public-notice-rules-for-data-center-air-pollution-permits/">EPA Moves to Scrap Public Notice Rules for Data Center Air ...</a></li>
-<li><a href="https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit">Trump’s EPA wants to let data centers hide their air pollution</a></li>
-
-</ul>
-</details>
-
-**标签**: `#EPA`, `#data centers`, `#air pollution`, `#policy`, `#AI infrastructure`
-
----
-
-<a id="item-13"></a>
-## [DLSS 5 泄露，模组制作者将英伟达 AI 超分辨率应用于游戏](https://www.theverge.com/games/986197/nvidia-dlss-5-leak-ai) ⭐️ 7.0/10
-
-模组制作者从《NBA 2K27》的抢先体验版本中提取了非官方的 DLSS 5，并在《天际》、《赛博朋克 2077》和《GTA V》等游戏上进行测试。英伟达可能将该技术重新品牌为 DLSS Neural Rendering。 此次泄露表明对 AI 超分辨率的需求日益增长，且该技术有望在没有官方支持的情况下广泛应用于各类游戏。这也暗示了英伟达未来在 DLSS 上的发展方向，可能重塑图形技术格局。 DLSS 5 代码在《NBA 2K27》的抢先体验版本中被发现，并由 Discord 上 RenoDX 模组频道的成员提取。非官方版本正通过模组工具应用于游戏，英伟达可能将 DLSS 5 重新品牌为 DLSS Neural Rendering。
-
-rss · The Verge · Aug 28, 16:22
-
-**背景**: DLSS（深度学习超级采样）是英伟达的 AI 驱动超分辨率技术，利用 Tensor Core 提升帧率同时保持图像质量。它已从简单的空间超分辨率发展到包含帧生成和光线重建。RenoDX 是一个模组工具集，允许用户修改 DirectX 游戏，包括着色器替换和缓冲区注入。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://developer.nvidia.com/rtx/dlss">NVIDIA DLSS | NVIDIA Developer</a></li>
-<li><a href="https://www.nvidia.com/en-us/geforce/technologies/dlss/">DLSS Technology | NVIDIA</a></li>
-<li><a href="https://github.com/clshortfuse/renodx">GitHub - clshortfuse/ renodx : Renovation Engine for DirectX Games</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 模组社区对此次泄露感到兴奋，许多人称赞 DLSS 5 可能增强老游戏的潜力。一些人对稳定性和兼容性表示担忧，另一些人则猜测英伟达的官方计划。
-
-**标签**: `#AI upscaling`, `#Nvidia DLSS`, `#gaming`, `#modding`, `#graphics`
-
----
-
-<a id="item-14"></a>
-## [联邦法官裁定特朗普将 Anthropic 列入黑名单属非法](https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/) ⭐️ 7.0/10
-
-一名联邦法官裁定，特朗普政府因 Anthropic 拒绝支持致命自主武器和大规模监控而将其列入黑名单的行为是非法的。该裁决推翻了政府对这家 AI 公司的行动。 该裁决开创了法律先例，保护 AI 公司的道德立场免受政府报复，可能影响未来的政府合同和 AI 伦理政策。它凸显了国家安全需求与 AI 行业企业道德承诺之间日益紧张的局势。 法官认定，将 Anthropic 列入黑名单违反了法律程序和宪法保护。Anthropic 因拒绝支持致命自主武器和大规模监控而遭到政府惩罚性行动。
-
-rss · Ars Technica · Aug 28, 18:07
-
-**背景**: Anthropic 是一家专注于 AI 安全的公司，以开发 Claude 模型而闻名，并公开承诺避免有害应用，如自主武器和大规模监控。致命自主武器是能够在无人干预的情况下识别并攻击目标的军事系统，引发了重大的伦理担忧。此案凸显了当 AI 公司的价值观与政府政策发生冲突时可能出现的法律和伦理矛盾。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Lethal_autonomous_weapon">Lethal autonomous weapon - Wikipedia</a></li>
-<li><a href="https://www.ebsco.com/research-starters/social-sciences-and-humanities/lethal-autonomous-weapons-laws">Lethal autonomous weapons (LAWs) | Social... | EBSCO Research</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI ethics`, `#Anthropic`, `#legal`, `#government contracts`, `#surveillance`
-
----
-
-<a id="item-15"></a>
-## [两名涉嫌 TeamPCP 成员因供应链攻击被捕](https://arstechnica.com/security/2026/08/authorities-arrest-2-alleged-members-of-prolific-hacking-group-teampcp/) ⭐️ 7.0/10
-
-当局逮捕了两名涉嫌黑客组织 TeamPCP 的成员，该组织在供应链攻击活动中感染了超过 1000 家组织。此次逮捕标志着针对该组织的重大执法行动。 此次逮捕对网络安全意义重大，因为它针对的是一个造成广泛供应链攻击的猖獗黑客组织，可能对类似犯罪活动起到威慑作用。它凸显了供应链攻击日益增长的威胁以及执法合作在打击网络犯罪中的重要性。 TeamPCP 被谷歌威胁情报追踪为 UNC6780，已被关联到入侵约 4000 个 GitHub 仓库并污染开源软件。此次逮捕是针对该组织活动的持续调查的一部分，该活动已影响超过 1000 家组织。
-
-rss · Ars Technica · Aug 28, 11:15
-
-**背景**: 供应链攻击是一种针对供应链中较不安全环节（如软件供应商或开源组件）的网络攻击，以危害下游用户。TeamPCP 以污染开源工具和勒索受害者而闻名，此类攻击尤其危险，因为通过一个被攻陷的组件就可能影响许多组织。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://indianexpress.com/article/technology/tech-news-technology/who-is-teampcp-hacker-group-open-source-software-ai-10707205/">Who is TeamPCP , the rising hacker group ... - The Indian Express</a></li>
-<li><a href="https://www.wired.com/story/teampcp-software-supply-chain-attack-spree-github/">A Hacker Group Is Poisoning Open Source Code at an... | WIRED</a></li>
-<li><a href="https://shattered.io/github-teampcp-breach-3800-repos-2026/">GitHub Data Breach 2026: TeamPCP Steals 3,800 Repos</a></li>
-
-</ul>
-</details>
-
-**标签**: `#cybersecurity`, `#hacking`, `#supply-chain attack`, `#arrests`, `#TeamPCP`
-
----
-
-<a id="item-16"></a>
-## [八月城市终止 Flock 合同速度创纪录](https://arstechnica.com/tech-policy/2026/08/cities-terminate-flock-contracts-at-record-pace-in-august/) ⭐️ 6.0/10
-
-据 Ars Technica 报道，8 月份，城市以创纪录的速度终止了与监控技术公司 Flock 的合同。取消速度加快，表明对该公司自动车牌读取器的反对情绪日益高涨。 这一趋势标志着地方政府对监控技术态度的重大转变，可能影响 Flock 的商业模式及整个行业。它反映了日益增长的隐私担忧以及对更高问责性和数据治理的需求。 文章指出取消速度加快，但未详细说明具体原因。然而，相关报道强调了诸如未经授权与联邦机构共享数据、对市政当局提起诉讼以及提前终止相关成本等问题。
-
-rss · Ars Technica · Aug 28, 21:33
-
-**背景**: Flock Safety 是一家向执法机构提供自动车牌识别（ALPR）摄像头的公司，通常以公共安全工具为卖点。批评者认为，这些系统引发隐私担忧，可能导致大规模监控，且数据有时会超出预期的本地用途进行共享。近期事件促使城市重新考虑其合同，导致终止速度创纪录。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://factually.co/product-reviews/automotive/flock-safety-lawsuit-against-evanston-67ae7a">What Happened Between Flock Safety and Evanston? | Factually</a></li>
-<li><a href="https://guerrilla.news/23-cities-said-no-to-flock-safety-then-the-state-made-it-illegal-to-ask-what-the-cameras-captured/">23 Cities Said No to Flock Safety . Then the State Made It Illegal to Ask...</a></li>
-<li><a href="https://www.govtech.com/public-safety/flock-safety-suspension-costs-oregon-city-7-000">Flock Safety Suspension Costs Oregon City $7,000</a></li>
-
-</ul>
-</details>
-
-**标签**: `#surveillance`, `#technology policy`, `#local government`, `#privacy`
-
----
-
-<a id="item-17"></a>
-## [美国能源转型：半杯满还是半杯空？](https://www.canarymedia.com/articles/clean-energy/taking-stock-of-the-messy-us-energy-transition) ⭐️ 6.0/10
-
-Canary Media 的每周通讯分析了特朗普政策下美国能源转型的现状，权衡进展与挫折。分析强调了具体事件，如能源部紧急命令阻止密歇根州一座燃煤电厂退役，导致业主在五周内损失 2900 万美元。 这一分析意义重大，因为它提供了政治变革下美国能源转型的平衡视角，帮助利益相关者理解政策决策的真实影响。它影响政策制定者、清洁能源投资者以及依赖化石燃料电厂的社区。 该文章是 Canary Media 每周通讯的一部分，通常包含新闻综述和分析。密歇根州燃煤电厂的例子说明了紧急命令与清洁能源进展之间的紧张关系，并具有重大的财务影响。
-
-rss · Latitude Media (Canary Media) · Aug 28, 13:35
-
-**背景**: 能源转型是指从化石燃料向更清洁能源的转变，以减少对环境的影响。在美国，这一转型受到联邦政策、市场力量和技术进步的影响。特朗普政府采取了支持化石燃料的措施，给可再生能源的采用带来了挑战。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.canarymedia.com/">Canary Media | Covering the clean energy transition</a></li>
-<li><a href="https://www.yahoo.com/news/articles/incoherence-trump-energy-emergency-170200120.html">The incoherence of Trump’s ‘energy emergency’</a></li>
-
-</ul>
-</details>
-
-**标签**: `#energy transition`, `#US policy`, `#clean energy`, `#politics`
-
----
-
-<a id="item-18"></a>
-## [AI 驱动的美国天然气电厂扩张威胁气候目标](https://www.canarymedia.com/articles/fossil-fuels/us-gas-plant-construction-uncertain-ai) ⭐️ 6.0/10
-
-开发商正计划大规模扩建美国天然气发电厂，主要受 AI 热潮带来的电力需求激增推动。这一扩张可能导致电力部门二氧化碳排放量再次与交通运输部门相当。 这一天然气扩建对美国脱碳努力构成严重威胁，可能使化石燃料基础设施锁定数十年。这也凸显了 AI 日益增长的能源需求与气候承诺之间的紧张关系，影响公用事业、政策制定者和科技行业。 文章指出，由于大量天然气开发仍存在不确定性，实际结果可能有所不同。对排放上升的潜在反弹可能会削减与 AI 相关的天然气需求，进一步增加这一热潮的不确定性。
-
-rss · Latitude Media (Canary Media) · Aug 28, 07:30
-
-**背景**: 天然气发电厂燃烧天然气发电，提供可调度电力以补充太阳能和风能等可变可再生能源。AI 热潮大幅增加了数据中心的电力需求，促使公用事业规划新的天然气产能。然而，燃烧天然气会排放大量温室气体，且多数分析师怀疑涡轮机能否转换为氢能，存在资产搁浅风险。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Natural_gas-fired_power_plant">Natural gas-fired power plant</a></li>
-<li><a href="https://www.seasonax.com/ai-boom-energy-stocks-seasonal-patterns/">The AI Boom Needs Energy . But Who's Actually Supplying... - seasonax</a></li>
-
-</ul>
-</details>
-
-**标签**: `#energy`, `#AI`, `#climate`, `#natural gas`, `#infrastructure`
-
----
-
-<a id="item-19"></a>
-## [gamescom 2026 公布《巫师 3》新 DLC《追忆的调》](https://www.4gamer.net/games/202/G020288/20260829009/) ⭐️ 6.0/10
-
-在 gamescom 2026 上，CD Projekt Red 展示了《巫师 3》新 DLC《追忆的调》的 45 分钟实机演示，该 DLC 的故事始于丹德里恩的故乡。 这款 DLC 以杰洛特与丹德里恩的友谊为核心，扩展了备受喜爱的《巫师 3》世界，为粉丝提供了新的叙事体验。同时，它伴随游戏的重制版推出，可能吸引新老玩家。 该 DLC 以丹德里恩的故乡莱顿为背景，是《巫师 3》的第三个扩展包。演示展示了实机内容，但提供的内容中未包含社区讨论。
-
-rss · 4Gamer.net · Aug 29, 03:18
-
-**背景**: 《巫师 3：狂猎》是 CD Projekt Red 于 2015 年发行的广受好评的动作角色扮演游戏，已有两个大型扩展包《石之心》和《血与酒》。新 DLC《追忆的调》是重制版的一部分，重制版对基础游戏拥有者免费，并包含之前的扩展包。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.pcgamesn.com/the-witcher-3-wild-hunt/songs-of-the-past-story-dandelion">The Witcher 3 Songs of the Past will give Geralt's best friend the...</a></li>
-<li><a href="https://www.gamespot.com/articles/the-witcher-3-songs-of-the-past-is-a-mystery-centered-on-dandelion/">The Witcher 3 : Songs Of The Past Is A Mystery Centered On Dandelion</a></li>
-<li><a href="https://dotesports.com/the-witcher/news/the-witcher-3-remaster-songs-of-the-past-dlc">The Witcher 3 Remastered and Songs of the Past DLC revealed at...</a></li>
-
-</ul>
-</details>
-
-**标签**: `#gaming`, `#DLC`, `#Witcher 3`, `#gamescom`
-
----
-
-<a id="item-20"></a>
-## [NVIDIA DLSS 4.5 光线重建：画质与性能实测](https://www.4gamer.net/games/022/G002210/20260828054/) ⭐️ 6.0/10
-
-NVIDIA 发布了 DLSS 4.5 光线重建，这是其光线追踪降噪与超分辨率技术的更新版本。本文在游戏中测试了其画质和性能影响，显示光线追踪场景的清晰度和稳定性有所提升。 此更新在保持性能的同时提升了光线追踪游戏的视觉保真度，惠及使用 RTX GPU 的玩家。它还扩大了 DLSS 在更多游戏中的应用，巩固了 NVIDIA 在实时光线追踪技术上的领先地位。 DLSS 4.5 光线重建将超分辨率和降噪整合到单一 AI 模型中，改善了阴影和光照质量。它现已支持超过 30 款游戏，包括《心灵杀手 2》和《赛博朋克 2077》，并作为降噪器集成到 Blender Cycles 中。
-
-rss · 4Gamer.net · Aug 28, 11:00
-
-**背景**: 光线追踪通过模拟光线行为实现逼真图形，但计算量巨大。DLSS（深度学习超采样）利用 AI 将低分辨率图像放大，而光线重建则专门对光线追踪图像进行降噪，以生成干净、高质量的视觉效果。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.nvidia.com/en-us/geforce/news/dlss-4-5-ray-reconstruction-1000-rtx-games-apps-out-now/">DLSS 4 . 5 Ray Reconstruction + 1000 RTX Games | NVIDIA</a></li>
-<li><a href="https://www.techspot.com/article/3164-nvidia-dlss-45-ray-reconstruction/">The Best DLSS 4.5 Update Yet: Ray Reconstruction | TechSpot</a></li>
-<li><a href="https://www.nvidia.com/en-us/geforce/news/gamescom-2026-nvidia-geforce-rtx-dlss-4-5-announcements/">GeForce at Gamescom 2026: DLSS 4.5 Ray Reconstruction ... | NVIDIA</a></li>
-
-</ul>
-</details>
-
-**标签**: `#DLSS`, `#NVIDIA`, `#ray tracing`, `#gaming`, `#graphics`
-
----
-
-<a id="item-21"></a>
-## [Wrong Organ 合作恐怖坦克模拟游戏《Carcass Clad》在 gamescom 首次亮相](https://www.4gamer.net/games/037/G103708/20260828025/) ⭐️ 6.0/10
-
-在 2026 年 gamescom 上，热门独立游戏《Mouthwashing》的开发商 Wrong Organ 首次公开了新作《Carcass Clad》的可玩演示。这是一款仅限合作模式的恐怖坦克模拟游戏，三名乘员——车长、驾驶员和炮手——各自拥有不同的职责和视角，共同操控一辆名为“Yksiö”的坦克穿越一座废墟城市。 这一公告意义重大，因为 Wrong Organ 凭借《Mouthwashing》积累了众多粉丝，而《Carcass Clad》则大胆转向合作恐怖题材，并采用了新颖的坦克玩法。这可能吸引该工作室的粉丝以及对非对称合作玩法感兴趣的玩家，从而扩展独立恐怖游戏类型。 该游戏专为三名玩家设计，每位玩家拥有独特的视角和角色，强调高压下的沟通与协作。gamescom 2026 上展示的演示以废墟城市为背景，据 PC Gamer 报道，名为“Yksiö”的坦克似乎带有“令人作呕的转折”。
-
-rss · 4Gamer.net · Aug 28, 06:50
-
-**背景**: Wrong Organ 是一家位于斯德哥尔摩的独立工作室，以 2024 年恐怖冒险游戏《Mouthwashing》而闻名，该游戏讲述了一艘失事飞船船员的故事。《Carcass Clad》是他们的下一个项目，从单人叙事恐怖转向合作多人体验，这是该工作室的一次显著转变。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.pcgamer.com/games/sim/from-the-creators-of-mouthwashing-comes-a-co-op-tank-game-with-a-disgusting-twist/">From the creators of Mouthwashing comes a co-op tank ... | PC Gamer</a></li>
-<li><a href="https://www.theguardian.com/games/2026/aug/12/carcass-clad-tank-combat-game-wrong-organ">Carcass Clad : stifling tank combat promises tension... | The Guardian</a></li>
-<li><a href="https://store.steampowered.com/app/3327430/Carcass_Clad/">Carcass Clad on Steam</a></li>
-
-</ul>
-</details>
-
-**标签**: `#gaming`, `#co-op`, `#horror`, `#indie`, `#gamescom`
+**标签**: `#VR`, `#MR`, `#gamescom`, `#Project Hail Mary`, `#MazeTheory`
 
 ---
